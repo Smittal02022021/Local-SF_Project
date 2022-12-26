@@ -1,0 +1,980 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Test Execution Report</title>
+  <link rel="apple-touch-icon" href="https://cdn.rawgit.com/extent-framework/extent-github-cdn/d74480e/commons/img/logo.png">
+  <link rel="shortcut icon" href="https://cdn.rawgit.com/extent-framework/extent-github-cdn/d74480e/commons/img/logo.png">
+  <link href="https://cdn.rawgit.com/extent-framework/extent-github-cdn/cd00a5e/spark/css/style.css" rel="stylesheet" />
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <style> </style>
+</head>
+<script src="https://cdn.rawgit.com/extent-framework/extent-github-cdn/7cc78ce/spark/js/jsontree.js"></script>
+
+
+
+<body class="test-view  standard">
+    <div class="app header-dark side-nav-folded">
+        <div class="layout">
+            <div class="header navbar">
+    <div class="header-container">
+        <div class="nav-logo">
+          <a href="index.html">
+            <div class="logo logo-dark" style="background-image: url('https://cdn.rawgit.com/extent-framework/extent-github-cdn/d74480e/commons/img/logo.png')"></div>
+            <div class="logo logo-white" style="background-image: url('https://cdn.rawgit.com/extent-framework/extent-github-cdn/d74480e/commons/img/logo.png')"></div>
+          </a>
+        </div>
+        <ul class="nav-left">
+          <li>
+            <a class="sidenav-fold-toggler" href="javascript:void(0);">
+              <i class="fa fa-bars"></i>
+            </a>
+            <a class="sidenav-expand-toggler" href="javascript:void(0);">
+              <i class="fa fa-bars"></i>
+            </a>
+          </li>
+          <li class="search-box">
+            <a class="search-toggle" href="javascript:void(0);">
+              <i class="search-icon fa fa-search"></i>
+              <i class="search-icon-close fa fa-close"></i>
+            </a>
+          </li>
+          <li class="search-input">
+            <input id="search-tests" class="form-control" type="text" placeholder="Type to search...">
+          </li>
+        </ul>
+        <ul class="nav-right">
+          <li class="m-r-10">
+            <a href="#">
+              <span class="badge badge-primary">Extent Framework</span>
+            </a>
+          </li>
+            <li class="m-r-10">
+                <a href="#">
+                    <span class="badge badge-primary">9/22/2022 3:37:50 PM</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>
+            <div class="side-nav side-nav-folded">
+  <div class="side-nav-inner">
+    <ul class="side-nav-menu scrollable">
+      <li class="nav-item dropdown">
+        <a id="nav-test" class="dropdown-toggle" href="index.html">
+          <span class="icon-holder">
+            <i class="fa fa-align-left"></i>
+          </span>
+          <span class="title">Tests</span>
+        </a>
+      </li>
+            <li class="nav-item dropdown">
+        <a id="nav-dashboard" class="dropdown-toggle" href="dashboard.html">
+          <span class="icon-holder">
+            <i class="fa fa-bar-chart"></i>
+          </span>
+          <span class="title">Dashboard</span>
+        </a>
+      </li>
+    </ul>
+  </div>
+  <div class="side-nav-controls">
+    <ul>
+      <li>
+        <a href="#" class="lightsout" style="color:#8a8a8a;">
+          <i class="fa fa-desktop"></i>"</a>
+      </li>
+    </ul>
+  </div>
+</div>
+
+            <div class="page-container">
+                <div class="main-content">
+                    <div class="test-wrapper row">
+                        <div class="test-list">
+                            <div class="test-list-tools">
+                                <ul class="tools pull-left">
+                                    <li>
+                                        <a href="">
+                                            <span class="font-size-14">Tests</span>
+                                        </a>
+                                    </li> 
+                                </ul>
+                                <ul class="tools text-right">
+									<li class="user-profile dropdown dropdown-animated scale-left">
+										<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+											<i class="fa fa-exclamation-circle"></i>
+										</a>
+										<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a status="pass" class="dropdown-item" href="#"><span>Pass</span><span class="status success pull-right"></span></a>											<a status="fail" class="dropdown-item" href="#"><span>Fail</span><span class="status danger pull-right"></span></a>																																																							<div class="dropdown-divider"></div>
+											<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+										</ul>
+									</li>
+																		                                </ul>
+                            </div>
+                            <div class="test-list-wrapper scrollable">
+                                <ul class="test-list-item">
+										<li class="test-item" status="fail" author="" device="" tag=""> 
+											<div class="status-avatar fail-bg">
+												<i class="fa fa-times text-white"></i>
+											</div>
+											<div class="open-test">
+												<div class="test-detail"> 
+													<p class="name">T1063_Contacts_AddMultipleContactsToAnExistingCompanyAndValidateSaveAndNewButton</p> 
+													<p class="duration text-sm">0h:13m:38s+038ms</p> 
+													<span class="datetime">15:37:50 PM</span>
+												</div>
+											</div>
+											<div class="test-contents d-none">
+												<div class="detail-head">
+													<div class="p-v-10 d-inline-block">	
+														<div class="info">
+															<h5 class="test-status text-fail">T1063_Contacts_AddMultipleContactsToAnExistingCompanyAndValidateSaveAndNewButton</h5>
+															<span class='badge badge-success'>9/22/2022 3:37:50 PM</span>
+															<span class='badge badge-danger'>9/22/2022 3:51:28 PM</span>
+															<span class='badge badge-default'>0h:13m:38s+038ms</span>
+														</div>
+																											</div>
+												</div>
+<div class="detail-body mt-4">												
+	
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>15:37:51</td>
+				<td>
+Login | Salesforce is displayed Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>15:38:02</td>
+				<td>
+User Vijay Kumar is able to login Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>15:38:08</td>
+				<td>
+Contact Page Heading: Contacts is displayed on click of Contacts tabPass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>15:38:09</td>
+				<td>
+user navigate to select contact record type page upon click of add contact button Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>15:38:14</td>
+				<td>
+user navigate to create contact page upon click of continue button Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>15:38:31</td>
+				<td>
+Page with heading: Contact Detail is displayed upon creation of a contact Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>15:38:33</td>
+				<td>
+External Contact record is created Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>15:38:52</td>
+				<td>
+user reaches to select contact record type page upon editing contact details and click on Save and New button Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>15:38:56</td>
+				<td>
+user navigate to create contact page upon click of continue button Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>15:39:13</td>
+				<td>
+Page with heading: Contact Detail is displayed upon creation of a contact Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>15:39:13</td>
+				<td>
+External Contact record is created Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>15:39:32</td>
+				<td>
+user reaches to select contact record type page upon editing contact details and click on Save and New button Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>15:39:36</td>
+				<td>
+user navigate to create contact page upon click of continue button Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>15:39:53</td>
+				<td>
+Page with heading: Contact Detail is displayed upon creation of a contact Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>15:39:55</td>
+				<td>
+Houlihan Employee record is created Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>15:40:27</td>
+				<td>
+user reaches to select contact record type page upon editing contact details and click on Save and New button Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>15:40:31</td>
+				<td>
+user navigate to create contact page upon click of continue button Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>15:40:48</td>
+				<td>
+Page with heading: Contact Detail is displayed upon creation of a contact Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>15:40:48</td>
+				<td>
+Houlihan Employee record is created Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>15:41:18</td>
+				<td>
+user reaches to select contact record type page upon editing contact details and click on Save and New button Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>15:41:22</td>
+				<td>
+user navigate to create contact page upon click of continue button Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>15:41:39</td>
+				<td>
+Page with heading: Contact Detail is displayed upon creation of a contact Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>15:41:40</td>
+				<td>
+Distribution Lists record is created Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>15:42:05</td>
+				<td>
+user reaches to select contact record type page upon editing contact details and click on Save and New button Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>15:42:09</td>
+				<td>
+user navigate to create contact page upon click of continue button Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>15:42:26</td>
+				<td>
+Page with heading: Contact Detail is displayed upon creation of a contact Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>15:42:26</td>
+				<td>
+Distribution Lists record is created Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>15:42:51</td>
+				<td>
+user reaches to select contact record type page upon editing contact details and click on Save and New button Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>15:43:17</td>
+				<td>
+Page with heading: Contact Detail is displayed upon search for a contact Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>15:43:19</td>
+				<td>
+Company Name: StandardTestCompany in add contact page matches on contact details pagePass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>15:43:27</td>
+				<td>
+First Name,Middle Name and Last Name: Test CK Summer in add contact page matches on contact details pagePass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>15:43:35</td>
+				<td>
+Contact address: Street 1
+Kansas, Missouri 66212
+United States including street,city and country in edit contact page matches on contact details page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>15:44:01</td>
+				<td>
+Deletion of Created Contact Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>15:44:24</td>
+				<td>
+Page with heading: Contact Detail is displayed upon search for a contact Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>15:44:27</td>
+				<td>
+Company Name: StandardTestCompany in add contact page matches on contact details pagePass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>15:44:35</td>
+				<td>
+First Name,Middle Name and Last Name: Testing PS Winter in add contact page matches on contact details pagePass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>15:44:46</td>
+				<td>
+Contact address: Test Street 1
+Denver, Colorado 66212
+United States including street,city and country in edit contact page matches on contact details page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>15:45:16</td>
+				<td>
+Deletion of Created Contact Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>15:45:39</td>
+				<td>
+Page with heading: Contact Detail is displayed upon search for a contact Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>15:45:41</td>
+				<td>
+Company Name: StandardTestCompany in add contact page matches on contact details pagePass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>15:45:49</td>
+				<td>
+First Name,Middle Name and Last Name: Test LP Bingo in add contact page matches on contact details pagePass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>15:45:57</td>
+				<td>
+Contact address: Street 2
+New York, New York 66212
+United States including street,city and country in edit contact page matches on contact details page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>15:46:02</td>
+				<td>
+Contact status: Active in edit contact page matches on contact details page of HL contact Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>15:46:04</td>
+				<td>
+Contact office: LA in edit contact page matches on contact details page of HL contact Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>15:46:06</td>
+				<td>
+Contact physical office: DC in edit contact page matches on contact details page of HL contact Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>15:46:08</td>
+				<td>
+Contact Title: Associate in edit contact page matches on contact details page of HL contact Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>15:46:10</td>
+				<td>
+Contact Department: FVA in edit contact page matches on contact details page of HL contact Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>15:46:36</td>
+				<td>
+Deletion of Created Contact Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>15:47:05</td>
+				<td>
+Page with heading: Contact Detail is displayed upon search for a contact Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>15:47:06</td>
+				<td>
+Company Name: StandardTestCompany in add contact page matches on contact details pagePass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>15:47:13</td>
+				<td>
+First Name,Middle Name and Last Name: Testing TS Jammer in add contact page matches on contact details pagePass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>15:47:20</td>
+				<td>
+Contact address: Test Street 2
+Mississippi, Mississippi 66212
+United States including street,city and country in edit contact page matches on contact details page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>15:47:25</td>
+				<td>
+Contact status: Active in edit contact page matches on contact details page of HL contact Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>15:47:27</td>
+				<td>
+Contact office: LA in edit contact page matches on contact details page of HL contact Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>15:47:29</td>
+				<td>
+Contact physical office: DC in edit contact page matches on contact details page of HL contact Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>15:47:31</td>
+				<td>
+Contact Title: Associate in edit contact page matches on contact details page of HL contact Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>15:47:33</td>
+				<td>
+Contact Department: FVA in edit contact page matches on contact details page of HL contact Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>15:48:00</td>
+				<td>
+Deletion of Created Contact Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>15:48:26</td>
+				<td>
+Page with heading: Contact Detail is displayed upon search for a contact Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>15:48:28</td>
+				<td>
+Company Name: StandardTestCompany in add contact page matches on contact details pagePass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>15:48:35</td>
+				<td>
+First Name,Middle Name and Last Name: Test PU Sample in add contact page matches on contact details pagePass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>15:48:42</td>
+				<td>
+Contact address: Street 3
+Washington, Washington 66212
+United States including street,city and country in edit contact page matches on contact details page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>15:49:13</td>
+				<td>
+Deletion of Created Contact Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>15:49:39</td>
+				<td>
+Page with heading: Contact Detail is displayed upon search for a contact Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>15:49:41</td>
+				<td>
+Company Name: StandardTestCompany in add contact page matches on contact details pagePass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>15:49:49</td>
+				<td>
+First Name,Middle Name and Last Name: Testing NP Super in add contact page matches on contact details pagePass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>15:49:56</td>
+				<td>
+Contact address: Test Street 3
+Florida, Florida 66212
+United States including street,city and country in edit contact page matches on contact details page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>15:50:29</td>
+				<td>
+Deletion of Created Contact Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>15:50:49</td>
+				<td>
+User Jennie Baker details are displayed Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>15:51:03</td>
+				<td>
+HR User: Jennie Baker is able to login Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>15:51:04</td>
+				<td>
+Contact Page Heading: Contacts is displayed on click of Contacts tabPass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>15:51:05</td>
+				<td>
+user navigate to select contact record type page upon click of add contact button Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>15:51:10</td>
+				<td>
+user navigate to create contact page upon click of continue button Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-times text-fail"></i></td>
+				<td>15:51:28</td>
+				<td>
+Fail-  Expected string length 14 but was 17. Strings differ at index 0.
+  Expected: "Contact Detail"
+  But was:  "Duplicate Records"
+  -----------^									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-times text-fail"></i></td>
+				<td>15:51:28</td>
+				<td>
+SnapShot below: AventStack.ExtentReports.ExtentTest									</td>
+			</tr>
+	</tbody>
+</table>
+
+</div>    
+<div class="detail-foot">
+	<ul class="attachments">
+		<li>
+			<a href="C:\Users\vkumar0427\source\repos\SalesForce_Project\\Defects_Screenshots\AddMultipleContactsToAnExistingCompanyAndValidateSaveAndNewButton.png" data-featherlight="image">
+				<div class="file-icon">
+					<i class="fa fa-file-image-o"></i> 
+				</div>
+				<div class="file-info">
+		                <span class="file-name">AddMultipleContactsToAnExistingCompanyAndValidateSaveAndNewButton.png</span>
+		                <span class="file-size"> 74641Kb</span>
+				</div>
+			</a>
+		</li>
+	</ul>
+</div>
+											</div>
+										</li>
+										<li class="test-item" status="pass" author="" device="" tag=""> 
+											<div class="status-avatar pass-bg">
+												<i class="fa fa-check text-white"></i>
+											</div>
+											<div class="open-test">
+												<div class="test-detail"> 
+													<p class="name">T1109_Contact_SelectionAndDeselectionOfSubscriptionPreferencesForExternalContact</p> 
+													<p class="duration text-sm">0h:2m:6s+883ms</p> 
+													<span class="datetime">15:51:38 PM</span>
+												</div>
+											</div>
+											<div class="test-contents d-none">
+												<div class="detail-head">
+													<div class="p-v-10 d-inline-block">	
+														<div class="info">
+															<h5 class="test-status text-pass">T1109_Contact_SelectionAndDeselectionOfSubscriptionPreferencesForExternalContact</h5>
+															<span class='badge badge-success'>9/22/2022 3:51:38 PM</span>
+															<span class='badge badge-danger'>9/22/2022 3:53:45 PM</span>
+															<span class='badge badge-default'>0h:2m:6s+883ms</span>
+														</div>
+																											</div>
+												</div>
+<div class="detail-body mt-4">												
+	
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>15:51:38</td>
+				<td>
+Login | Salesforce is displayed Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>15:51:49</td>
+				<td>
+User Vijay Kumar is able to login Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>15:52:07</td>
+				<td>
+User Drew Koecher details are displayed Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>15:52:21</td>
+				<td>
+Standard User: Drew Koecher is able to login Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>15:52:22</td>
+				<td>
+Salesforce - Unlimited Edition is displayed Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>15:52:24</td>
+				<td>
+User navigate to add contact page. Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>15:52:46</td>
+				<td>
+New external contact is created. Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>15:52:46</td>
+				<td>
+Both DoNotSolicit & Manual Opt Out fields are not selected. Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>15:53:12</td>
+				<td>
+Contact: Test ExternalContact ~ Salesforce - Unlimited Edition is displayed Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>15:53:15</td>
+				<td>
+User has navigated to the external contact edit page. Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>15:53:25</td>
+				<td>
+Both DoNotSolicit & Manual Opt Out fields are selected. Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>15:53:45</td>
+				<td>
+External contact is deleted. Pass									</td>
+			</tr>
+	</tbody>
+</table>
+
+</div>    
+											</div>
+										</li>
+										<li class="test-item" status="pass" author="" device="" tag=""> 
+											<div class="status-avatar pass-bg">
+												<i class="fa fa-check text-white"></i>
+											</div>
+											<div class="open-test">
+												<div class="test-detail"> 
+													<p class="name">T2144_CreateNewContactWithRecordTypeAsExternalContact_WorkFlow_DoNotEmailAndDoNotSolicit</p> 
+													<p class="duration text-sm">0h:3m:55s+758ms</p> 
+													<span class="datetime">15:53:50 PM</span>
+												</div>
+											</div>
+											<div class="test-contents d-none">
+												<div class="detail-head">
+													<div class="p-v-10 d-inline-block">	
+														<div class="info">
+															<h5 class="test-status text-pass">T2144_CreateNewContactWithRecordTypeAsExternalContact_WorkFlow_DoNotEmailAndDoNotSolicit</h5>
+															<span class='badge badge-success'>9/22/2022 3:53:50 PM</span>
+															<span class='badge badge-danger'>9/22/2022 3:57:46 PM</span>
+															<span class='badge badge-default'>0h:3m:55s+758ms</span>
+														</div>
+																											</div>
+												</div>
+<div class="detail-body mt-4">												
+	
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>15:53:50</td>
+				<td>
+Login | Salesforce is displayed Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>15:54:01</td>
+				<td>
+User Vijay Kumar is able to login Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>15:54:20</td>
+				<td>
+User Drew Koecher details are displayed Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>15:54:33</td>
+				<td>
+Standard User: Drew Koecher is able to login Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>15:54:35</td>
+				<td>
+Salesforce - Unlimited Edition is displayed Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>15:54:36</td>
+				<td>
+User navigate to add contact page. Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>15:54:57</td>
+				<td>
+New external contact is created. Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>15:54:57</td>
+				<td>
+Both DoNotSolicitChangeDate & DoNotEmailChangeDate fields are empty upon contact creation. Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>15:57:46</td>
+				<td>
+Timed out after 150 secondsPass									</td>
+			</tr>
+	</tbody>
+</table>
+
+</div>    
+											</div>
+										</li>
+										<li class="test-item" status="pass" author="" device="" tag=""> 
+											<div class="status-avatar pass-bg">
+												<i class="fa fa-check text-white"></i>
+											</div>
+											<div class="open-test">
+												<div class="test-detail"> 
+													<p class="name">TMTT0014212_TMTT0014213_TMTT0014215_Contact_VerifyTheUserIsAbleToAddNewSectorOnTheContactPage</p> 
+													<p class="duration text-sm">0h:5m:43s+031ms</p> 
+													<span class="datetime">16:00:10 PM</span>
+												</div>
+											</div>
+											<div class="test-contents d-none">
+												<div class="detail-head">
+													<div class="p-v-10 d-inline-block">	
+														<div class="info">
+															<h5 class="test-status text-pass">TMTT0014212_TMTT0014213_TMTT0014215_Contact_VerifyTheUserIsAbleToAddNewSectorOnTheContactPage</h5>
+															<span class='badge badge-success'>9/22/2022 4:00:10 PM</span>
+															<span class='badge badge-danger'>9/22/2022 4:05:53 PM</span>
+															<span class='badge badge-default'>0h:5m:43s+031ms</span>
+														</div>
+																											</div>
+												</div>
+<div class="detail-body mt-4">												
+	
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>16:00:10</td>
+				<td>
+Login | Salesforce is displayed Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>16:00:31</td>
+				<td>
+User Vijay Kumar is able to login Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>16:00:38</td>
+				<td>
+Coverage Sector Dependencies: Home ~ Salesforce - Unlimited Edition page is displayed Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>16:00:40</td>
+				<td>
+Coverage Sector Dependency Edit: New Coverage Sector Dependency ~ Salesforce - Unlimited Edition page is displayed Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>16:00:52</td>
+				<td>
+Coverage Sector Dependency Name is: CSDN-0000003818 Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>16:01:08</td>
+				<td>
+User Oscar Aarts details are displayed Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>16:01:24</td>
+				<td>
+Standard User: Oscar Aarts is able to login Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>16:01:36</td>
+				<td>
+Salesforce - Unlimited Edition is displayed Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>16:01:37</td>
+				<td>
+User navigate to add contact page. Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>16:03:25</td>
+				<td>
+New external contact is created. Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>16:03:30</td>
+				<td>
+Contact Sector Quick Link is displayed on contact details page. Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>16:03:33</td>
+				<td>
+Contact Sector Edit: New Contact Sector ~ Salesforce - Unlimited Edition is displayed. Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>16:05:53</td>
+				<td>
+Timed out after 120 secondsPass									</td>
+			</tr>
+	</tbody>
+</table>
+
+</div>    
+											</div>
+										</li>
+                                </ul>    
+                            </div>
+                        </div>
+                        <div class="test-content scrollable">
+                            <div class="test-content-tools">
+                                <ul>
+                                    <li>
+                                        <a class="back-to-test" href="javascript:void(0)">
+                                            <i class="fa fa-arrow-left"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="test-content-detail">
+                                <div class="detail-body"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+	<script type='text/javascript'>
+	
+</script>
+<script src="https://cdn.rawgit.com/extent-framework/extent-github-cdn/f97b667/spark/js/script.js"></script>
+
+</body>
+
+</html>

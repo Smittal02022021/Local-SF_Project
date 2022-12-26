@@ -1,0 +1,12 @@
+2022/06/16-18:07:02.354 54d4 Reusing MANIFEST C:\HL\SalesForce_Project\SalesForce_Project\TestData\Default\IndexedDB\https_hl--test.lightning.force.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/06/16-18:07:02.354 54d4 Recovering log #154
+2022/06/16-18:07:02.357 54d4 Reusing old log C:\HL\SalesForce_Project\SalesForce_Project\TestData\Default\IndexedDB\https_hl--test.lightning.force.com_0.indexeddb.leveldb/000154.log 
+2022/06/16-18:07:06.042 5694 Compacting 1@1 + 1@2 files
+2022/06/16-18:07:06.050 5694 Generated table #157@1: 861 keys, 638789 bytes
+2022/06/16-18:07:06.050 5694 Compacted 1@1 + 1@2 files => 638789 bytes
+2022/06/16-18:07:06.051 5694 compacted to: files[ 0 0 1 0 0 0 0 ]
+2022/06/16-18:07:06.051 5694 Delete type=2 #152
+2022/06/16-18:07:06.051 5694 Delete type=2 #155
+2022/06/16-18:07:30.843 5694 Level-0 table #159: started
+2022/06/16-18:07:30.859 5694 Level-0 table #159: 2026166 bytes OK
+2022/06/16-18:07:30.860 5694 Delete type=0 #154

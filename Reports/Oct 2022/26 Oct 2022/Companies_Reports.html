@@ -1,0 +1,5535 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Test Execution Report</title>
+  <link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@3da944e596e81f10ac6c1042c792af8a5a741023/commons/img/logo.png">
+  <link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@3da944e596e81f10ac6c1042c792af8a5a741023/commons/img/logo.png">
+  <link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@8539670db814bf19a0ddbe9a6d19058aea0cf981/spark/css/spark-style.css" rel="stylesheet" />
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <style> </style>
+</head>
+<script src="https://cdn.rawgit.com/extent-framework/extent-github-cdn/7cc78ce/spark/js/jsontree.js"></script>
+<body class="spa ">
+    <div class="app header-dark side-nav-folded">
+        <div class="layout">
+            <div class="header navbar">
+    <div class="header-container">
+        <div class="nav-logo">
+          <a href="index.html">
+            <div class="logo logo-dark" style="background-image: url('https://cdn.rawgit.com/extent-framework/extent-github-cdn/d74480e/commons/img/logo.png')"></div>
+            <div class="logo logo-white" style="background-image: url('https://cdn.rawgit.com/extent-framework/extent-github-cdn/d74480e/commons/img/logo.png')"></div>
+          </a>
+        </div>
+        <ul class="nav-left">
+          <li>
+            <a class="sidenav-fold-toggler" href="javascript:void(0);">
+              <i class="fa fa-bars"></i>
+            </a>
+            <a class="sidenav-expand-toggler" href="javascript:void(0);">
+              <i class="fa fa-bars"></i>
+            </a>
+          </li>
+          <li class="search-box">
+            <a class="search-toggle" href="javascript:void(0);">
+              <i class="search-icon fa fa-search"></i>
+              <i class="search-icon-close fa fa-close"></i>
+            </a>
+          </li>
+          <li class="search-input">
+            <input id="search-tests" class="form-control" type="text" placeholder="Type to search...">
+          </li>
+        </ul>
+        <ul class="nav-right">
+          <li class="m-r-10">
+            <a href="#">
+              <span class="badge badge-primary"></span>
+            </a>
+          </li>
+            <li class="m-r-10">
+                <a href="#">
+                    <span class="badge badge-primary">10/26/2022 10:12:16 AM</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>
+            <div class="side-nav side-nav-folded">
+  <div class="side-nav-inner">
+    <ul class="side-nav-menu scrollable">
+      <li class="nav-item dropdown" onclick="toggleView('test-view')">
+        <a id="nav-test" class="dropdown-toggle" href="index.html">
+          <span class="icon-holder">
+            <i class="fa fa-align-left"></i>
+          </span>
+          <span class="title">Tests</span>
+        </a>
+      </li>
+            <li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+        <a id="nav-dashboard" class="dropdown-toggle" href="dashboard.html">
+          <span class="icon-holder">
+            <i class="fa fa-bar-chart"></i>
+          </span>
+          <span class="title">Dashboard</span>
+        </a>
+      </li>
+    </ul>
+  </div>
+  <div class="side-nav-controls">
+    <ul>
+      <li>
+        <a href="#" class="lightsout" style="color:#8a8a8a;">
+          <i class="fa fa-desktop"></i>"</a>
+      </li>
+    </ul>
+  </div>
+</div>
+
+            <div class="page-container">
+                <div class="main-content">
+                    <div class="test-wrapper row test-view">
+    <div class="test-list">
+        <div class="test-list-tools">
+            <ul class="tools pull-left">
+                <li>
+                    <a href="">
+                        <span class="font-size-14">Tests</span>
+                    </a>
+                </li> 
+            </ul>
+            <ul class="tools text-right">
+				<li class="user-profile dropdown dropdown-animated scale-left">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+						<i class="fa fa-exclamation-circle"></i>
+					</a>
+					<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a status="pass" class="dropdown-item" href="#"><span>Pass</span><span class="status success pull-right"></span></a>																																				<div class="dropdown-divider"></div>
+						<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+					</ul>
+				</li>
+								            </ul>
+        </div>
+        <div class="test-list-wrapper scrollable">
+            <ul class="test-list-item">
+					<li class="test-item" status="pass" author="" device="" tag="" test-id="1"> 
+						<div class="status-avatar pass-bg">
+							<i class="fa fa-check text-white"></i>
+						</div>
+						<div class="open-test">
+							<div class="test-detail"> 
+								<p class="name">T1140_T1141_T1151_T1144_T1146_Companies_AddNewCompanyWithRecordTypeForCapitalProviderAndOperatingCompany</p> 
+								<p class="duration text-sm">0h:7m:6s+461ms</p> 
+								<span class="datetime">10:12:16 AM</span>
+							</div>
+						</div>
+						<div class="test-contents d-none">
+							<div class="detail-head">
+								<div class="p-v-10 d-inline-block">	
+									<div class="info">
+										<h5 class="test-status text-pass">T1140_T1141_T1151_T1144_T1146_Companies_AddNewCompanyWithRecordTypeForCapitalProviderAndOperatingCompany</h5>
+										<span class='badge badge-success'>10/26/2022 10:12:16 AM</span>
+										<span class='badge badge-danger'>10/26/2022 10:19:23 AM</span>
+										<span class='badge badge-default'>0h:7m:6s+461ms</span>
+									</div>
+																	</div>
+							</div>
+<div class="detail-body mt-4">												
+	
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:12:17</td>
+				<td>
+Login | Salesforce is displayed Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:12:37</td>
+				<td>
+User Sahil Mittal is able to login Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:13:18</td>
+				<td>
+Verified company record types and description on company record pagePass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:13:18</td>
+				<td>
+Verified continue and cancel button on company record pagePass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:13:43</td>
+				<td>
+User Nicole Bicho details are displayed Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:13:59</td>
+				<td>
+Standard User: Nicole Bicho is able to login Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:14:03</td>
+				<td>
+Page with heading: Select Company Record Type is displayed upon click add company button Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:14:09</td>
+				<td>
+Page with heading: Company Create is displayed upon selecting company record type Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:14:09</td>
+				<td>
+Selected company type: Capital Provider choosen on select company record type page is matching on Company create page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:14:11</td>
+				<td>
+Error message:Error: You must enter a valueis displaying for blank input data for company record typePass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:14:40</td>
+				<td>
+Page with heading: Company Detail is displayed upon adding company Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:14:42</td>
+				<td>
+Company name: TestCapitalProvider in add company page matches on company details page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:14:49</td>
+				<td>
+Company Location: test city, Kansas including city and state in add company page matches on company details page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:14:52</td>
+				<td>
+Company Type: Capital Provider in add company page matches on company details page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:14:58</td>
+				<td>
+Page with heading: Company Edit is displayed upon click edit button Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:15:24</td>
+				<td>
+Required field values are entered into edit company details page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:15:30</td>
+				<td>
+Company sub type: Asset Manager is displayed on company details page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:15:33</td>
+				<td>
+Ownership: ESOP is displayed on company details page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:15:33</td>
+				<td>
+Industry Focus: Alternative Energies is displayed on company details page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:15:33</td>
+				<td>
+Company's Geographical focus: Asia is displayed on company details page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:15:33</td>
+				<td>
+Deal Preference: Credit - Corporate is displayed on company details page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:15:36</td>
+				<td>
+Company description: Test Description is displayed on company details page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:15:39</td>
+				<td>
+Standard user is logged out Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:16:29</td>
+				<td>
+Created company is deleted successfully Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:16:51</td>
+				<td>
+User Nicole Bicho details are displayed Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:17:07</td>
+				<td>
+Standard User: Nicole Bicho is able to login Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:17:11</td>
+				<td>
+Page with heading: Select Company Record Type is displayed upon click add company button Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:17:17</td>
+				<td>
+Page with heading: Company Create is displayed upon selecting company record type Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:17:17</td>
+				<td>
+Selected company type: Operating Company choosen on select company record type page is matching on Company create page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:17:18</td>
+				<td>
+Error message:Error: You must enter a valueis displaying for blank input data for company record typePass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:17:47</td>
+				<td>
+Page with heading: Company Detail is displayed upon adding company Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:17:50</td>
+				<td>
+Company name: TestOperatingCompany in add company page matches on company details page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:17:55</td>
+				<td>
+Company Location: test city, Kansas including city and state in add company page matches on company details page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:17:59</td>
+				<td>
+Company Type: Operating Company in add company page matches on company details page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:18:04</td>
+				<td>
+Page with heading: Company Edit is displayed upon click edit button Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:18:20</td>
+				<td>
+Required field values are entered into edit company details page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:18:26</td>
+				<td>
+Company description: Test Description is displayed on company details page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:18:28</td>
+				<td>
+Standard user is logged out Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:19:23</td>
+				<td>
+Created company is deleted successfully Pass									</td>
+			</tr>
+	</tbody>
+</table>
+
+</div>    
+						</div>
+					</li>
+					<li class="test-item" status="pass" author="" device="" tag="" test-id="2"> 
+						<div class="status-avatar pass-bg">
+							<i class="fa fa-check text-white"></i>
+						</div>
+						<div class="open-test">
+							<div class="test-detail"> 
+								<p class="name">T1144_T1146_Companies_AddNewCompanyWithRecordTypeForCapitalProviderAndOperatingCompany</p> 
+								<p class="duration text-sm">0h:6m:44s+139ms</p> 
+								<span class="datetime">10:19:37 AM</span>
+							</div>
+						</div>
+						<div class="test-contents d-none">
+							<div class="detail-head">
+								<div class="p-v-10 d-inline-block">	
+									<div class="info">
+										<h5 class="test-status text-pass">T1144_T1146_Companies_AddNewCompanyWithRecordTypeForCapitalProviderAndOperatingCompany</h5>
+										<span class='badge badge-success'>10/26/2022 10:19:37 AM</span>
+										<span class='badge badge-danger'>10/26/2022 10:26:21 AM</span>
+										<span class='badge badge-default'>0h:6m:44s+139ms</span>
+									</div>
+																	</div>
+							</div>
+<div class="detail-body mt-4">												
+	
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:19:37</td>
+				<td>
+Login | Salesforce is displayed Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:19:57</td>
+				<td>
+User Sahil Mittal is able to login Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:20:38</td>
+				<td>
+Verified company record types and description on company record pagePass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:20:38</td>
+				<td>
+Verified continue and cancel button on company record pagePass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:21:04</td>
+				<td>
+User Nicole Bicho details are displayed Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:21:20</td>
+				<td>
+Standard User: Nicole Bicho is able to login Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:21:24</td>
+				<td>
+Page with heading: Select Company Record Type is displayed upon click add company button Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:21:29</td>
+				<td>
+Page with heading: Company Create is displayed upon selecting company record type Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:21:29</td>
+				<td>
+Selected company type: Capital Provider choosen on select company record type page is matching on Company create page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:21:30</td>
+				<td>
+Error message:Error: You must enter a valueis displaying for blank input data for company record typePass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:21:56</td>
+				<td>
+Page with heading: Company Detail is displayed upon adding company Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:21:59</td>
+				<td>
+Company name: TestCapitalProvider in add company page matches on company details page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:22:04</td>
+				<td>
+Company Location: test city, Kansas including city and state in add company page matches on company details page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:22:07</td>
+				<td>
+Company Type: Capital Provider in add company page matches on company details page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:22:14</td>
+				<td>
+Page with heading: Company Edit is displayed upon click edit button Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:22:34</td>
+				<td>
+Required field values are entered into edit company details page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:22:40</td>
+				<td>
+Company sub type: Asset Manager is displayed on company details page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:22:43</td>
+				<td>
+Ownership: ESOP is displayed on company details page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:22:43</td>
+				<td>
+Industry Focus: Alternative Energies is displayed on company details page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:22:44</td>
+				<td>
+Company's Geographical focus: Asia is displayed on company details page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:22:44</td>
+				<td>
+Deal Preference: Credit - Corporate is displayed on company details page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:22:46</td>
+				<td>
+Company description: Test Description is displayed on company details page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:22:49</td>
+				<td>
+Standard user is logged out Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:23:34</td>
+				<td>
+Created company is deleted successfully Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:23:55</td>
+				<td>
+User Nicole Bicho details are displayed Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:24:12</td>
+				<td>
+Standard User: Nicole Bicho is able to login Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:24:15</td>
+				<td>
+Page with heading: Select Company Record Type is displayed upon click add company button Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:24:20</td>
+				<td>
+Page with heading: Company Create is displayed upon selecting company record type Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:24:21</td>
+				<td>
+Selected company type: Operating Company choosen on select company record type page is matching on Company create page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:24:22</td>
+				<td>
+Error message:Error: You must enter a valueis displaying for blank input data for company record typePass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:24:47</td>
+				<td>
+Page with heading: Company Detail is displayed upon adding company Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:24:50</td>
+				<td>
+Company name: TestOperatingCompany in add company page matches on company details page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:24:55</td>
+				<td>
+Company Location: test city, Kansas including city and state in add company page matches on company details page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:24:58</td>
+				<td>
+Company Type: Operating Company in add company page matches on company details page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:25:03</td>
+				<td>
+Page with heading: Company Edit is displayed upon click edit button Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:25:19</td>
+				<td>
+Required field values are entered into edit company details page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:25:27</td>
+				<td>
+Company description: Test Description is displayed on company details page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:25:29</td>
+				<td>
+Standard user is logged out Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:26:21</td>
+				<td>
+Created company is deleted successfully Pass									</td>
+			</tr>
+	</tbody>
+</table>
+
+</div>    
+						</div>
+					</li>
+					<li class="test-item" status="pass" author="" device="" tag="" test-id="3"> 
+						<div class="status-avatar pass-bg">
+							<i class="fa fa-check text-white"></i>
+						</div>
+						<div class="open-test">
+							<div class="test-detail"> 
+								<p class="name">T1147_Companies_Common_CompanyEditAndUpdateTheExistingInformation</p> 
+								<p class="duration text-sm">0h:2m:18s+099ms</p> 
+								<span class="datetime">10:26:26 AM</span>
+							</div>
+						</div>
+						<div class="test-contents d-none">
+							<div class="detail-head">
+								<div class="p-v-10 d-inline-block">	
+									<div class="info">
+										<h5 class="test-status text-pass">T1147_Companies_Common_CompanyEditAndUpdateTheExistingInformation</h5>
+										<span class='badge badge-success'>10/26/2022 10:26:26 AM</span>
+										<span class='badge badge-danger'>10/26/2022 10:28:44 AM</span>
+										<span class='badge badge-default'>0h:2m:18s+099ms</span>
+									</div>
+																	</div>
+							</div>
+<div class="detail-body mt-4">												
+	
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:26:26</td>
+				<td>
+Login | Salesforce is displayed Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:26:37</td>
+				<td>
+User Sahil Mittal is able to login Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:26:57</td>
+				<td>
+User Nicole Bicho details are displayed Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:27:12</td>
+				<td>
+Standard User: Nicole Bicho is able to login Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:27:38</td>
+				<td>
+Page with heading: Company Detail is displayed upon searching company Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:28:13</td>
+				<td>
+Existing company details are updated sucessfully. Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:28:35</td>
+				<td>
+Updated Company address: Street 1
+Kansas, Missouri 332131.00
+United States includes street,city,state,zip code and country in edit company page matches on company details page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:28:40</td>
+				<td>
+Updated Company phone number: (541) 754-3010 in edit company page matches on company details page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:28:44</td>
+				<td>
+Updated Company description: Company complete details. in edit company page matches on company details page Pass									</td>
+			</tr>
+	</tbody>
+</table>
+
+</div>    
+						</div>
+					</li>
+					<li class="test-item" status="pass" author="" device="" tag="" test-id="4"> 
+						<div class="status-avatar pass-bg">
+							<i class="fa fa-check text-white"></i>
+						</div>
+						<div class="open-test">
+							<div class="test-detail"> 
+								<p class="name">T1169_Companies_AddNewContactButtonFuncContactModuleOnCompanyDetailPage</p> 
+								<p class="duration text-sm">0h:5m:45s+203ms</p> 
+								<span class="datetime">10:28:52 AM</span>
+							</div>
+						</div>
+						<div class="test-contents d-none">
+							<div class="detail-head">
+								<div class="p-v-10 d-inline-block">	
+									<div class="info">
+										<h5 class="test-status text-pass">T1169_Companies_AddNewContactButtonFuncContactModuleOnCompanyDetailPage</h5>
+										<span class='badge badge-success'>10/26/2022 10:28:52 AM</span>
+										<span class='badge badge-danger'>10/26/2022 10:34:37 AM</span>
+										<span class='badge badge-default'>0h:5m:45s+203ms</span>
+									</div>
+																	</div>
+							</div>
+<div class="detail-body mt-4">												
+	
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:28:52</td>
+				<td>
+Login | Salesforce is displayed Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:29:03</td>
+				<td>
+User Sahil Mittal is able to login Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:29:38</td>
+				<td>
+Page with heading: Company Detail is displayed upon searching company Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:29:39</td>
+				<td>
+Select contact record type page is displayed upon clicking new contact button Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:29:59</td>
+				<td>
+Contact record types - Archived, Conflicts Check LDCCR, Distribution List, External Contact and Houlihan Employee are available for company record type - Operating Company with user type - Admin Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:30:31</td>
+				<td>
+Page with heading: Company Detail is displayed upon searching company Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:30:33</td>
+				<td>
+Select contact record type page is displayed upon clicking new contact button Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:30:52</td>
+				<td>
+Contact record types - Archived, Conflicts Check LDCCR, Distribution List, External Contact and Houlihan Employee are available for company record type - Capital Provider with user type - Admin Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:31:24</td>
+				<td>
+Page with heading: Company Detail is displayed upon searching company Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:31:25</td>
+				<td>
+Select contact record type page is displayed upon clicking new contact button Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:31:45</td>
+				<td>
+Contact record types - Archived, Conflicts Check LDCCR, Distribution List, External Contact and Houlihan Employee are available for company record type - Houlihan Company with user type - Admin Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:32:10</td>
+				<td>
+User Jennie Baker details are displayed Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:32:26</td>
+				<td>
+HR User: Jennie Baker is able to login Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:32:53</td>
+				<td>
+Page with heading: Company Detail is displayed upon searching company Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:32:54</td>
+				<td>
+Select contact record type page is displayed upon clicking new contact button Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:33:07</td>
+				<td>
+Contact record types -  Distribution List, External Contact and Houlihan Employee are available for company record type - Operating Company with user type - HR Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:33:36</td>
+				<td>
+Page with heading: Company Detail is displayed upon searching company Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:33:37</td>
+				<td>
+Select contact record type page is displayed upon clicking new contact button Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:33:53</td>
+				<td>
+Contact record types -  Distribution List, External Contact and Houlihan Employee are available for company record type - Capital Provider with user type - HR Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:34:22</td>
+				<td>
+Page with heading: Company Detail is displayed upon searching company Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:34:23</td>
+				<td>
+Select contact record type page is displayed upon clicking new contact button Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:34:36</td>
+				<td>
+Contact record types -  Distribution List, External Contact and Houlihan Employee are available for company record type - Houlihan Company with user type - HR Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:34:37</td>
+				<td>
+Logout from HR user Pass									</td>
+			</tr>
+	</tbody>
+</table>
+
+</div>    
+						</div>
+					</li>
+					<li class="test-item" status="pass" author="" device="" tag="" test-id="5"> 
+						<div class="status-avatar pass-bg">
+							<i class="fa fa-check text-white"></i>
+						</div>
+						<div class="open-test">
+							<div class="test-detail"> 
+								<p class="name">T1170_Companies_Contacts_MergeExistingContactsIntoSingleMasterRecord</p> 
+								<p class="duration text-sm">0h:1m:57s+281ms</p> 
+								<span class="datetime">10:34:43 AM</span>
+							</div>
+						</div>
+						<div class="test-contents d-none">
+							<div class="detail-head">
+								<div class="p-v-10 d-inline-block">	
+									<div class="info">
+										<h5 class="test-status text-pass">T1170_Companies_Contacts_MergeExistingContactsIntoSingleMasterRecord</h5>
+										<span class='badge badge-success'>10/26/2022 10:34:43 AM</span>
+										<span class='badge badge-danger'>10/26/2022 10:36:40 AM</span>
+										<span class='badge badge-default'>0h:1m:57s+281ms</span>
+									</div>
+																	</div>
+							</div>
+<div class="detail-body mt-4">												
+	
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:34:43</td>
+				<td>
+Login | Salesforce is displayed Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:34:55</td>
+				<td>
+User Sahil Mittal is able to login Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:34:56</td>
+				<td>
+Contact Page Heading: Contacts is displayed on click of Contacts tabPass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:35:01</td>
+				<td>
+user navigate to select contact record type page upon click of add contact button Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:35:06</td>
+				<td>
+user navigate to create contact page upon click of continue button Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:35:29</td>
+				<td>
+Page with heading: Contact Detail is displayed upon creation of a contact Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:35:32</td>
+				<td>
+External Contact record is created Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:35:34</td>
+				<td>
+user navigate to select contact record type page upon click of add contact button Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:35:40</td>
+				<td>
+user navigate to create contact page upon click of continue button Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:36:07</td>
+				<td>
+Page with heading: Contact Detail is displayed upon creation of a contact Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:36:10</td>
+				<td>
+External Contact record is created Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:36:40</td>
+				<td>
+Verified merge functionality Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:36:40</td>
+				<td>
+Deletion of Created Contact Pass									</td>
+			</tr>
+	</tbody>
+</table>
+
+</div>    
+						</div>
+					</li>
+					<li class="test-item" status="pass" author="" device="" tag="" test-id="6"> 
+						<div class="status-avatar pass-bg">
+							<i class="fa fa-check text-white"></i>
+						</div>
+						<div class="open-test">
+							<div class="test-detail"> 
+								<p class="name">T1174_Companies_AddCFOpportunityInCompanyDetailsPage</p> 
+								<p class="duration text-sm">0h:19m:55s+953ms</p> 
+								<span class="datetime">10:36:55 AM</span>
+							</div>
+						</div>
+						<div class="test-contents d-none">
+							<div class="detail-head">
+								<div class="p-v-10 d-inline-block">	
+									<div class="info">
+										<h5 class="test-status text-pass">T1174_Companies_AddCFOpportunityInCompanyDetailsPage</h5>
+										<span class='badge badge-success'>10/26/2022 10:36:55 AM</span>
+										<span class='badge badge-danger'>10/26/2022 10:56:51 AM</span>
+										<span class='badge badge-default'>0h:19m:55s+953ms</span>
+									</div>
+																	</div>
+							</div>
+<div class="detail-body mt-4">												
+	
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:36:56</td>
+				<td>
+Login | Salesforce is displayed Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:37:06</td>
+				<td>
+User Sahil Mittal is able to login Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:37:30</td>
+				<td>
+User Nicole Bicho details are displayed Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:37:47</td>
+				<td>
+Standard User: Nicole Bicho is able to login Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:38:13</td>
+				<td>
+Page with heading: Company Detail is displayed upon searching company Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:38:28</td>
+				<td>
+Page with heading:  Opportunity Edit is displayed upon clicking opportunity button Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:38:30</td>
+				<td>
+Prefilled opportunity name as StandardTestCompany is displayed Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:38:30</td>
+				<td>
+Prefilled client name as StandardTestCompany is displayed Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:38:30</td>
+				<td>
+Prefilled opportunity subject as StandardTestCompany is displayed Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:38:33</td>
+				<td>
+Prefilled opportunity line of business as CF is displayed Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:38:39</td>
+				<td>
+Page with heading: Company Detail is displayed upon clicking cancel button Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:38:46</td>
+				<td>
+Page with heading:  Opportunity Edit is displayed upon clicking opportunity button Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:39:41</td>
+				<td>
+Opportunity is created succcessfully Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:40:06</td>
+				<td>
+Opportunity: 11382022103849 ~ Salesforce - Unlimited Edition is displayed Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:40:08</td>
+				<td>
+Line of Business: CF in add opportunity page matches on Opportunity details page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:40:11</td>
+				<td>
+Job Type: Buyside in add opportunity page matches on Opportunity details page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:40:14</td>
+				<td>
+Industry Group: BUS in add opportunity page matches on Opportunity details page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:40:17</td>
+				<td>
+Sector: Dealership & Rental Services in add opportunity page matches on Opportunity details page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:40:20</td>
+				<td>
+Additional Client: No in add opportunity page matches on Opportunity details page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:40:24</td>
+				<td>
+Additional Subject: No in add opportunity page matches on Opportunity details page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:40:27</td>
+				<td>
+Referal Type: Accountant in add opportunity page matches on Opportunity details page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:40:31</td>
+				<td>
+Non Public: No in add opportunity page matches on Opportunity details page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:40:35</td>
+				<td>
+Beneficial owner and control person form: No in add opportunity page matches on Opportunity details page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:40:38</td>
+				<td>
+Primary office: LA as opportunity primary office matches on Opportunity details page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:40:41</td>
+				<td>
+Legal Entity: HL Consulting, Inc. as opportunity legal entity matches on Opportunity details page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:40:43</td>
+				<td>
+External disclosure status Do Not Disclose as opportunity external disclosure status matches on Opportunity details page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:40:48</td>
+				<td>
+Staff member Oscar Aarts as Opportunity staff member matches on Opportunity details page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:41:07</td>
+				<td>
+Get opportunity details using opportunity name Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:41:32</td>
+				<td>
+Delete opportunity including staff member Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:41:48</td>
+				<td>
+Get opportunity details using opportunity name for second time Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:41:56</td>
+				<td>
+Delete opportunity completely Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:42:17</td>
+				<td>
+User Nicole Bicho details are displayed Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:42:33</td>
+				<td>
+Standard User: Nicole Bicho is able to login Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:43:03</td>
+				<td>
+Page with heading: Company Detail is displayed upon searching company Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:43:18</td>
+				<td>
+Page with heading:  Opportunity Edit is displayed upon clicking opportunity button Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:43:21</td>
+				<td>
+Prefilled opportunity name as CapProviderTestCompany is displayed Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:43:21</td>
+				<td>
+Prefilled client name as CapProviderTestCompany is displayed Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:43:21</td>
+				<td>
+Prefilled opportunity subject as CapProviderTestCompany is displayed Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:43:24</td>
+				<td>
+Prefilled opportunity line of business as CF is displayed Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:43:30</td>
+				<td>
+Page with heading: Company Detail is displayed upon clicking cancel button Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:43:36</td>
+				<td>
+Page with heading:  Opportunity Edit is displayed upon clicking opportunity button Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:44:34</td>
+				<td>
+Opportunity is created succcessfully Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:44:57</td>
+				<td>
+Opportunity: 11432022104339 ~ Salesforce - Unlimited Edition is displayed Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:45:01</td>
+				<td>
+Line of Business: CF in add opportunity page matches on Opportunity details page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:45:04</td>
+				<td>
+Job Type: Buyside in add opportunity page matches on Opportunity details page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:45:07</td>
+				<td>
+Industry Group: BUS in add opportunity page matches on Opportunity details page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:45:10</td>
+				<td>
+Sector: Dealership & Rental Services in add opportunity page matches on Opportunity details page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:45:15</td>
+				<td>
+Additional Client: No in add opportunity page matches on Opportunity details page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:45:19</td>
+				<td>
+Additional Subject: No in add opportunity page matches on Opportunity details page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:45:22</td>
+				<td>
+Referal Type: Accountant in add opportunity page matches on Opportunity details page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:45:25</td>
+				<td>
+Non Public: No in add opportunity page matches on Opportunity details page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:45:28</td>
+				<td>
+Beneficial owner and control person form: No in add opportunity page matches on Opportunity details page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:45:31</td>
+				<td>
+Primary office: LA as opportunity primary office matches on Opportunity details page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:45:33</td>
+				<td>
+Legal Entity: HL Consulting, Inc. as opportunity legal entity matches on Opportunity details page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:45:36</td>
+				<td>
+External disclosure status Do Not Disclose as opportunity external disclosure status matches on Opportunity details page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:45:41</td>
+				<td>
+Staff member Oscar Aarts as Opportunity staff member matches on Opportunity details page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:46:00</td>
+				<td>
+Get opportunity details using opportunity name Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:46:25</td>
+				<td>
+Delete opportunity including staff member Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:46:41</td>
+				<td>
+Get opportunity details using opportunity name for second time Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:46:50</td>
+				<td>
+Delete opportunity completely Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:47:15</td>
+				<td>
+User Nicole Bicho details are displayed Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:47:31</td>
+				<td>
+Standard User: Nicole Bicho is able to login Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:48:00</td>
+				<td>
+Page with heading: Company Detail is displayed upon searching company Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:48:14</td>
+				<td>
+Page with heading:  Opportunity Edit is displayed upon clicking opportunity button Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:48:17</td>
+				<td>
+Prefilled opportunity name as HLTestCompany is displayed Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:48:17</td>
+				<td>
+Prefilled client name as HLTestCompany is displayed Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:48:17</td>
+				<td>
+Prefilled opportunity subject as HLTestCompany is displayed Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:48:20</td>
+				<td>
+Prefilled opportunity line of business as CF is displayed Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:48:23</td>
+				<td>
+Page with heading: Company Detail is displayed upon clicking cancel button Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:48:28</td>
+				<td>
+Page with heading:  Opportunity Edit is displayed upon clicking opportunity button Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:49:20</td>
+				<td>
+Opportunity is created succcessfully Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:49:44</td>
+				<td>
+Opportunity: 11482022104831 ~ Salesforce - Unlimited Edition is displayed Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:49:47</td>
+				<td>
+Line of Business: CF in add opportunity page matches on Opportunity details page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:49:50</td>
+				<td>
+Job Type: Buyside in add opportunity page matches on Opportunity details page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:49:54</td>
+				<td>
+Industry Group: BUS in add opportunity page matches on Opportunity details page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:49:58</td>
+				<td>
+Sector: Dealership & Rental Services in add opportunity page matches on Opportunity details page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:50:02</td>
+				<td>
+Additional Client: No in add opportunity page matches on Opportunity details page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:50:06</td>
+				<td>
+Additional Subject: No in add opportunity page matches on Opportunity details page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:50:08</td>
+				<td>
+Referal Type: Accountant in add opportunity page matches on Opportunity details page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:50:11</td>
+				<td>
+Non Public: No in add opportunity page matches on Opportunity details page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:50:14</td>
+				<td>
+Beneficial owner and control person form: No in add opportunity page matches on Opportunity details page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:50:17</td>
+				<td>
+Primary office: LA as opportunity primary office matches on Opportunity details page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:50:20</td>
+				<td>
+Legal Entity: HL Consulting, Inc. as opportunity legal entity matches on Opportunity details page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:50:23</td>
+				<td>
+External disclosure status Do Not Disclose as opportunity external disclosure status matches on Opportunity details page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:50:28</td>
+				<td>
+Staff member Oscar Aarts as Opportunity staff member matches on Opportunity details page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:50:48</td>
+				<td>
+Get opportunity details using opportunity name Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:51:13</td>
+				<td>
+Delete opportunity including staff member Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:51:28</td>
+				<td>
+Get opportunity details using opportunity name for second time Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:51:39</td>
+				<td>
+Delete opportunity completely Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:52:01</td>
+				<td>
+User Nicole Bicho details are displayed Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:52:16</td>
+				<td>
+Standard User: Nicole Bicho is able to login Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:52:50</td>
+				<td>
+Page with heading: Company Detail is displayed upon searching company Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:53:07</td>
+				<td>
+Page with heading:  Opportunity Edit is displayed upon clicking opportunity button Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:53:10</td>
+				<td>
+Prefilled opportunity name as ConflictsCheckTestCompany is displayed Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:53:10</td>
+				<td>
+Prefilled client name as ConflictsCheckTestCompany is displayed Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:53:10</td>
+				<td>
+Prefilled opportunity subject as ConflictsCheckTestCompany is displayed Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:53:13</td>
+				<td>
+Prefilled opportunity line of business as CF is displayed Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:53:18</td>
+				<td>
+Page with heading: Company Detail is displayed upon clicking cancel button Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:53:25</td>
+				<td>
+Page with heading:  Opportunity Edit is displayed upon clicking opportunity button Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:54:35</td>
+				<td>
+Opportunity is created succcessfully Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:55:01</td>
+				<td>
+Opportunity: 11532022105328 ~ Salesforce - Unlimited Edition is displayed Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:55:03</td>
+				<td>
+Line of Business: CF in add opportunity page matches on Opportunity details page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:55:06</td>
+				<td>
+Job Type: Buyside in add opportunity page matches on Opportunity details page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:55:08</td>
+				<td>
+Industry Group: BUS in add opportunity page matches on Opportunity details page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:55:10</td>
+				<td>
+Sector: Dealership & Rental Services in add opportunity page matches on Opportunity details page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:55:13</td>
+				<td>
+Additional Client: No in add opportunity page matches on Opportunity details page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:55:16</td>
+				<td>
+Additional Subject: No in add opportunity page matches on Opportunity details page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:55:19</td>
+				<td>
+Referal Type: Accountant in add opportunity page matches on Opportunity details page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:55:22</td>
+				<td>
+Non Public: No in add opportunity page matches on Opportunity details page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:55:25</td>
+				<td>
+Beneficial owner and control person form: No in add opportunity page matches on Opportunity details page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:55:29</td>
+				<td>
+Primary office: LA as opportunity primary office matches on Opportunity details page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:55:32</td>
+				<td>
+Legal Entity: HL Consulting, Inc. as opportunity legal entity matches on Opportunity details page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:55:35</td>
+				<td>
+External disclosure status Do Not Disclose as opportunity external disclosure status matches on Opportunity details page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:55:40</td>
+				<td>
+Staff member Oscar Aarts as Opportunity staff member matches on Opportunity details page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:56:00</td>
+				<td>
+Get opportunity details using opportunity name Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:56:25</td>
+				<td>
+Delete opportunity including staff member Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:56:41</td>
+				<td>
+Get opportunity details using opportunity name for second time Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:56:51</td>
+				<td>
+Delete opportunity completely Pass									</td>
+			</tr>
+	</tbody>
+</table>
+
+</div>    
+						</div>
+					</li>
+					<li class="test-item" status="pass" author="" device="" tag="" test-id="7"> 
+						<div class="status-avatar pass-bg">
+							<i class="fa fa-check text-white"></i>
+						</div>
+						<div class="open-test">
+							<div class="test-detail"> 
+								<p class="name">T1176_Companies_AddFVAOpportunityInCompanyDetailPage</p> 
+								<p class="duration text-sm">0h:19m:17s+079ms</p> 
+								<span class="datetime">10:56:57 AM</span>
+							</div>
+						</div>
+						<div class="test-contents d-none">
+							<div class="detail-head">
+								<div class="p-v-10 d-inline-block">	
+									<div class="info">
+										<h5 class="test-status text-pass">T1176_Companies_AddFVAOpportunityInCompanyDetailPage</h5>
+										<span class='badge badge-success'>10/26/2022 10:56:57 AM</span>
+										<span class='badge badge-danger'>10/26/2022 11:16:14 AM</span>
+										<span class='badge badge-default'>0h:19m:17s+079ms</span>
+									</div>
+																	</div>
+							</div>
+<div class="detail-body mt-4">												
+	
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:56:57</td>
+				<td>
+Login | Salesforce is displayed Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:57:07</td>
+				<td>
+User Sahil Mittal is able to login Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:57:31</td>
+				<td>
+User Nicole Bicho details are displayed Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:57:47</td>
+				<td>
+Standard User: Nicole Bicho is able to login Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:58:14</td>
+				<td>
+Page with heading: Company Detail is displayed upon searching company Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:58:34</td>
+				<td>
+Page with heading:  Opportunity Edit is displayed upon clicking opportunity button Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:58:37</td>
+				<td>
+Prefilled opportunity name as StandardTestCompany is displayed Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:58:37</td>
+				<td>
+Prefilled client name as StandardTestCompany is displayed Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:58:37</td>
+				<td>
+Prefilled opportunity subject as StandardTestCompany is displayed Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:58:40</td>
+				<td>
+Prefilled opportunity line of business as FVA is displayed Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:58:47</td>
+				<td>
+Page with heading: Company Detail is displayed upon clicking cancel button Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:58:53</td>
+				<td>
+Page with heading:  Opportunity Edit is displayed upon clicking opportunity button Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>10:59:59</td>
+				<td>
+Opportunity is created succcessfully Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:00:23</td>
+				<td>
+Opportunity: 11582022105858 ~ Salesforce - Unlimited Edition is displayed Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:00:25</td>
+				<td>
+Line of Business: FVA entered in add opportunity page matches on Opportunity details page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:00:28</td>
+				<td>
+Job Type: Board Advisory Services (BAS) in add opportunity page matches on Opportunity details page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:00:33</td>
+				<td>
+Industry Group: BUS in add opportunity page matches on Opportunity details page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:00:35</td>
+				<td>
+Sector: Dealership & Rental Services in add opportunity page matches on Opportunity details page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:00:38</td>
+				<td>
+Additional Client: No in add opportunity page matches on Opportunity details page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:00:42</td>
+				<td>
+Additional Subject: No in add opportunity page matches on Opportunity details page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:00:45</td>
+				<td>
+Referal Type: Accountant in add opportunity page matches on Opportunity details page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:00:49</td>
+				<td>
+Non Public: No in add opportunity page matches on Opportunity details page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:00:51</td>
+				<td>
+Beneficial owner and control person form: No in add opportunity page matches on Opportunity details page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:00:54</td>
+				<td>
+Primary office: AM as opportunity primary office matches on Opportunity details page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:00:58</td>
+				<td>
+Legal Entity: HL Consulting, Inc. as opportunity legal entity matches on Opportunity details page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:01:02</td>
+				<td>
+Staff member Oscar Aarts as Opportunity staff member matches on Opportunity details page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:01:22</td>
+				<td>
+Get opportunity details by using opportunity name Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:01:48</td>
+				<td>
+Delete opportunity including staff member Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:02:04</td>
+				<td>
+Get opportunity details by using opportunity name Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:02:13</td>
+				<td>
+Delete opportunity completely Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:02:33</td>
+				<td>
+User Nicole Bicho details are displayed Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:02:48</td>
+				<td>
+Standard User: Nicole Bicho is able to login Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:03:18</td>
+				<td>
+Page with heading: Company Detail is displayed upon searching company Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:03:34</td>
+				<td>
+Page with heading:  Opportunity Edit is displayed upon clicking opportunity button Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:03:37</td>
+				<td>
+Prefilled opportunity name as CapProviderTestCompany is displayed Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:03:37</td>
+				<td>
+Prefilled client name as CapProviderTestCompany is displayed Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:03:37</td>
+				<td>
+Prefilled opportunity subject as CapProviderTestCompany is displayed Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:03:40</td>
+				<td>
+Prefilled opportunity line of business as FVA is displayed Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:03:46</td>
+				<td>
+Page with heading: Company Detail is displayed upon clicking cancel button Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:03:52</td>
+				<td>
+Page with heading:  Opportunity Edit is displayed upon clicking opportunity button Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:04:39</td>
+				<td>
+Opportunity is created succcessfully Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:05:01</td>
+				<td>
+Opportunity: 11032022110355 ~ Salesforce - Unlimited Edition is displayed Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:05:04</td>
+				<td>
+Line of Business: FVA entered in add opportunity page matches on Opportunity details page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:05:07</td>
+				<td>
+Job Type: Board Advisory Services (BAS) in add opportunity page matches on Opportunity details page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:05:09</td>
+				<td>
+Industry Group: BUS in add opportunity page matches on Opportunity details page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:05:12</td>
+				<td>
+Sector: Dealership & Rental Services in add opportunity page matches on Opportunity details page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:05:15</td>
+				<td>
+Additional Client: No in add opportunity page matches on Opportunity details page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:05:19</td>
+				<td>
+Additional Subject: No in add opportunity page matches on Opportunity details page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:05:21</td>
+				<td>
+Referal Type: Accountant in add opportunity page matches on Opportunity details page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:05:24</td>
+				<td>
+Non Public: No in add opportunity page matches on Opportunity details page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:05:26</td>
+				<td>
+Beneficial owner and control person form: No in add opportunity page matches on Opportunity details page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:05:29</td>
+				<td>
+Primary office: AM as opportunity primary office matches on Opportunity details page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:05:32</td>
+				<td>
+Legal Entity: HL Consulting, Inc. as opportunity legal entity matches on Opportunity details page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:05:36</td>
+				<td>
+Staff member Oscar Aarts as Opportunity staff member matches on Opportunity details page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:05:56</td>
+				<td>
+Get opportunity details by using opportunity name Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:06:21</td>
+				<td>
+Delete opportunity including staff member Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:06:37</td>
+				<td>
+Get opportunity details by using opportunity name Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:06:47</td>
+				<td>
+Delete opportunity completely Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:07:08</td>
+				<td>
+User Nicole Bicho details are displayed Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:07:24</td>
+				<td>
+Standard User: Nicole Bicho is able to login Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:07:50</td>
+				<td>
+Page with heading: Company Detail is displayed upon searching company Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:08:04</td>
+				<td>
+Page with heading:  Opportunity Edit is displayed upon clicking opportunity button Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:08:07</td>
+				<td>
+Prefilled opportunity name as HLTestCompany is displayed Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:08:07</td>
+				<td>
+Prefilled client name as HLTestCompany is displayed Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:08:07</td>
+				<td>
+Prefilled opportunity subject as HLTestCompany is displayed Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:08:10</td>
+				<td>
+Prefilled opportunity line of business as FVA is displayed Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:08:13</td>
+				<td>
+Page with heading: Company Detail is displayed upon clicking cancel button Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:08:17</td>
+				<td>
+Page with heading:  Opportunity Edit is displayed upon clicking opportunity button Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:09:05</td>
+				<td>
+Opportunity is created succcessfully Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:09:29</td>
+				<td>
+Opportunity: 11082022110820 ~ Salesforce - Unlimited Edition is displayed Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:09:32</td>
+				<td>
+Line of Business: FVA entered in add opportunity page matches on Opportunity details page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:09:34</td>
+				<td>
+Job Type: Board Advisory Services (BAS) in add opportunity page matches on Opportunity details page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:09:37</td>
+				<td>
+Industry Group: BUS in add opportunity page matches on Opportunity details page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:09:40</td>
+				<td>
+Sector: Dealership & Rental Services in add opportunity page matches on Opportunity details page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:09:42</td>
+				<td>
+Additional Client: No in add opportunity page matches on Opportunity details page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:09:45</td>
+				<td>
+Additional Subject: No in add opportunity page matches on Opportunity details page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:09:47</td>
+				<td>
+Referal Type: Accountant in add opportunity page matches on Opportunity details page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:09:50</td>
+				<td>
+Non Public: No in add opportunity page matches on Opportunity details page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:09:53</td>
+				<td>
+Beneficial owner and control person form: No in add opportunity page matches on Opportunity details page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:09:55</td>
+				<td>
+Primary office: AM as opportunity primary office matches on Opportunity details page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:09:58</td>
+				<td>
+Legal Entity: HL Consulting, Inc. as opportunity legal entity matches on Opportunity details page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:10:02</td>
+				<td>
+Staff member Oscar Aarts as Opportunity staff member matches on Opportunity details page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:10:23</td>
+				<td>
+Get opportunity details by using opportunity name Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:10:48</td>
+				<td>
+Delete opportunity including staff member Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:11:03</td>
+				<td>
+Get opportunity details by using opportunity name Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:11:12</td>
+				<td>
+Delete opportunity completely Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:11:35</td>
+				<td>
+User Nicole Bicho details are displayed Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:11:50</td>
+				<td>
+Standard User: Nicole Bicho is able to login Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:12:25</td>
+				<td>
+Page with heading: Company Detail is displayed upon searching company Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:12:44</td>
+				<td>
+Page with heading:  Opportunity Edit is displayed upon clicking opportunity button Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:12:49</td>
+				<td>
+Prefilled opportunity name as ConflictsCheckTestCompany is displayed Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:12:49</td>
+				<td>
+Prefilled client name as ConflictsCheckTestCompany is displayed Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:12:49</td>
+				<td>
+Prefilled opportunity subject as ConflictsCheckTestCompany is displayed Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:12:53</td>
+				<td>
+Prefilled opportunity line of business as FVA is displayed Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:12:58</td>
+				<td>
+Page with heading: Company Detail is displayed upon clicking cancel button Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:13:07</td>
+				<td>
+Page with heading:  Opportunity Edit is displayed upon clicking opportunity button Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:14:00</td>
+				<td>
+Opportunity is created succcessfully Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:14:24</td>
+				<td>
+Opportunity: 11132022111311 ~ Salesforce - Unlimited Edition is displayed Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:14:27</td>
+				<td>
+Line of Business: FVA entered in add opportunity page matches on Opportunity details page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:14:30</td>
+				<td>
+Job Type: Board Advisory Services (BAS) in add opportunity page matches on Opportunity details page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:14:34</td>
+				<td>
+Industry Group: BUS in add opportunity page matches on Opportunity details page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:14:37</td>
+				<td>
+Sector: Dealership & Rental Services in add opportunity page matches on Opportunity details page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:14:41</td>
+				<td>
+Additional Client: No in add opportunity page matches on Opportunity details page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:14:44</td>
+				<td>
+Additional Subject: No in add opportunity page matches on Opportunity details page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:14:46</td>
+				<td>
+Referal Type: Accountant in add opportunity page matches on Opportunity details page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:14:49</td>
+				<td>
+Non Public: No in add opportunity page matches on Opportunity details page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:14:51</td>
+				<td>
+Beneficial owner and control person form: No in add opportunity page matches on Opportunity details page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:14:54</td>
+				<td>
+Primary office: AM as opportunity primary office matches on Opportunity details page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:14:57</td>
+				<td>
+Legal Entity: HL Consulting, Inc. as opportunity legal entity matches on Opportunity details page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:15:02</td>
+				<td>
+Staff member Oscar Aarts as Opportunity staff member matches on Opportunity details page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:15:21</td>
+				<td>
+Get opportunity details by using opportunity name Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:15:48</td>
+				<td>
+Delete opportunity including staff member Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:16:05</td>
+				<td>
+Get opportunity details by using opportunity name Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:16:14</td>
+				<td>
+Delete opportunity completely Pass									</td>
+			</tr>
+	</tbody>
+</table>
+
+</div>    
+						</div>
+					</li>
+					<li class="test-item" status="pass" author="" device="" tag="" test-id="8"> 
+						<div class="status-avatar pass-bg">
+							<i class="fa fa-check text-white"></i>
+						</div>
+						<div class="open-test">
+							<div class="test-detail"> 
+								<p class="name">T1177_Companies_AddFROpportunityInCompanyDetailPage</p> 
+								<p class="duration text-sm">0h:20m:12s+230ms</p> 
+								<span class="datetime">11:16:20 AM</span>
+							</div>
+						</div>
+						<div class="test-contents d-none">
+							<div class="detail-head">
+								<div class="p-v-10 d-inline-block">	
+									<div class="info">
+										<h5 class="test-status text-pass">T1177_Companies_AddFROpportunityInCompanyDetailPage</h5>
+										<span class='badge badge-success'>10/26/2022 11:16:20 AM</span>
+										<span class='badge badge-danger'>10/26/2022 11:36:32 AM</span>
+										<span class='badge badge-default'>0h:20m:12s+230ms</span>
+									</div>
+																	</div>
+							</div>
+<div class="detail-body mt-4">												
+	
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:16:20</td>
+				<td>
+Login | Salesforce is displayed Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:16:30</td>
+				<td>
+User Sahil Mittal is able to login Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:16:53</td>
+				<td>
+User Nicole Bicho details are displayed Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:17:09</td>
+				<td>
+Standard User: Nicole Bicho is able to login Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:17:34</td>
+				<td>
+Page with heading: Company Detail is displayed upon searching company Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:17:50</td>
+				<td>
+Page with heading:  Opportunity Edit is displayed upon clicking opportunity button Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:17:52</td>
+				<td>
+Prefilled opportunity name as StandardTestCompany is displayed Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:17:52</td>
+				<td>
+Prefilled client name as StandardTestCompany is displayed Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:17:52</td>
+				<td>
+Prefilled opportunity subject as StandardTestCompany is displayed Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:17:55</td>
+				<td>
+Prefilled opportunity line of business as FR is displayed Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:18:01</td>
+				<td>
+Page with heading: Company Detail is displayed upon clicking cancel button Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:18:09</td>
+				<td>
+Page with heading:  Opportunity Edit is displayed upon clicking opportunity button Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:19:28</td>
+				<td>
+Opportunity is created succcessfully Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:19:52</td>
+				<td>
+Opportunity: 11182022111813 ~ Salesforce - Unlimited Edition is displayed Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:19:55</td>
+				<td>
+Line of Business: FR entered in add opportunity page matches on Opportunity details page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:19:57</td>
+				<td>
+Job Type: Debtor Advisors in add opportunity page matches on Opportunity details page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:20:00</td>
+				<td>
+Industry Group: BUS in add opportunity page matches on Opportunity details page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:20:03</td>
+				<td>
+Sector: Dealership & Rental Services in add opportunity page matches on Opportunity details page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:20:06</td>
+				<td>
+Additional Client: No in add opportunity page matches on Opportunity details page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:20:08</td>
+				<td>
+Additional Subject: No in add opportunity page matches on Opportunity details page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:20:11</td>
+				<td>
+Referal Type: Accountant in add opportunity page matches on Opportunity details page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:20:14</td>
+				<td>
+Non Public: No in add opportunity page matches on Opportunity details page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:20:17</td>
+				<td>
+Beneficial owner and control person form: No in add opportunity page matches on Opportunity details page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:20:20</td>
+				<td>
+Primary office: LA as opportunity primary office matches on Opportunity details page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:20:22</td>
+				<td>
+Legal Entity: HL Consulting, Inc. as opportunity legal entity matches on Opportunity details page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:20:27</td>
+				<td>
+Staff member Oscar Aarts as Opportunity staff member matches on Opportunity details page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:20:48</td>
+				<td>
+Get opportunity details using opportunity name Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:21:12</td>
+				<td>
+Delete opportunity including staff member Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:21:28</td>
+				<td>
+Get opportunity details using opportunity name Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:21:37</td>
+				<td>
+Delete opportunity completely Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:21:59</td>
+				<td>
+User Nicole Bicho details are displayed Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:22:14</td>
+				<td>
+Standard User: Nicole Bicho is able to login Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:22:47</td>
+				<td>
+Page with heading: Company Detail is displayed upon searching company Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:23:03</td>
+				<td>
+Page with heading:  Opportunity Edit is displayed upon clicking opportunity button Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:23:07</td>
+				<td>
+Prefilled opportunity name as CapProviderTestCompany is displayed Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:23:07</td>
+				<td>
+Prefilled client name as CapProviderTestCompany is displayed Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:23:07</td>
+				<td>
+Prefilled opportunity subject as CapProviderTestCompany is displayed Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:23:10</td>
+				<td>
+Prefilled opportunity line of business as FR is displayed Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:23:16</td>
+				<td>
+Page with heading: Company Detail is displayed upon clicking cancel button Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:23:23</td>
+				<td>
+Page with heading:  Opportunity Edit is displayed upon clicking opportunity button Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:24:31</td>
+				<td>
+Opportunity is created succcessfully Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:24:55</td>
+				<td>
+Opportunity: 11232022112325 ~ Salesforce - Unlimited Edition is displayed Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:24:57</td>
+				<td>
+Line of Business: FR entered in add opportunity page matches on Opportunity details page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:25:01</td>
+				<td>
+Job Type: Debtor Advisors in add opportunity page matches on Opportunity details page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:25:05</td>
+				<td>
+Industry Group: BUS in add opportunity page matches on Opportunity details page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:25:09</td>
+				<td>
+Sector: Dealership & Rental Services in add opportunity page matches on Opportunity details page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:25:12</td>
+				<td>
+Additional Client: No in add opportunity page matches on Opportunity details page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:25:15</td>
+				<td>
+Additional Subject: No in add opportunity page matches on Opportunity details page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:25:17</td>
+				<td>
+Referal Type: Accountant in add opportunity page matches on Opportunity details page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:25:21</td>
+				<td>
+Non Public: No in add opportunity page matches on Opportunity details page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:25:23</td>
+				<td>
+Beneficial owner and control person form: No in add opportunity page matches on Opportunity details page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:25:26</td>
+				<td>
+Primary office: LA as opportunity primary office matches on Opportunity details page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:25:30</td>
+				<td>
+Legal Entity: HL Consulting, Inc. as opportunity legal entity matches on Opportunity details page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:25:35</td>
+				<td>
+Staff member Oscar Aarts as Opportunity staff member matches on Opportunity details page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:25:55</td>
+				<td>
+Get opportunity details using opportunity name Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:26:19</td>
+				<td>
+Delete opportunity including staff member Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:26:35</td>
+				<td>
+Get opportunity details using opportunity name Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:26:44</td>
+				<td>
+Delete opportunity completely Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:27:05</td>
+				<td>
+User Nicole Bicho details are displayed Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:27:21</td>
+				<td>
+Standard User: Nicole Bicho is able to login Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:27:49</td>
+				<td>
+Page with heading: Company Detail is displayed upon searching company Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:28:03</td>
+				<td>
+Page with heading:  Opportunity Edit is displayed upon clicking opportunity button Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:28:06</td>
+				<td>
+Prefilled opportunity name as HLTestCompany is displayed Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:28:06</td>
+				<td>
+Prefilled client name as HLTestCompany is displayed Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:28:06</td>
+				<td>
+Prefilled opportunity subject as HLTestCompany is displayed Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:28:09</td>
+				<td>
+Prefilled opportunity line of business as FR is displayed Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:28:12</td>
+				<td>
+Page with heading: Company Detail is displayed upon clicking cancel button Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:28:16</td>
+				<td>
+Page with heading:  Opportunity Edit is displayed upon clicking opportunity button Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:29:16</td>
+				<td>
+Opportunity is created succcessfully Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:29:39</td>
+				<td>
+Opportunity: 11282022112819 ~ Salesforce - Unlimited Edition is displayed Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:29:42</td>
+				<td>
+Line of Business: FR entered in add opportunity page matches on Opportunity details page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:29:46</td>
+				<td>
+Job Type: Debtor Advisors in add opportunity page matches on Opportunity details page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:29:49</td>
+				<td>
+Industry Group: BUS in add opportunity page matches on Opportunity details page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:29:52</td>
+				<td>
+Sector: Dealership & Rental Services in add opportunity page matches on Opportunity details page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:29:54</td>
+				<td>
+Additional Client: No in add opportunity page matches on Opportunity details page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:29:57</td>
+				<td>
+Additional Subject: No in add opportunity page matches on Opportunity details page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:29:59</td>
+				<td>
+Referal Type: Accountant in add opportunity page matches on Opportunity details page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:30:02</td>
+				<td>
+Non Public: No in add opportunity page matches on Opportunity details page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:30:04</td>
+				<td>
+Beneficial owner and control person form: No in add opportunity page matches on Opportunity details page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:30:07</td>
+				<td>
+Primary office: LA as opportunity primary office matches on Opportunity details page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:30:10</td>
+				<td>
+Legal Entity: HL Consulting, Inc. as opportunity legal entity matches on Opportunity details page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:30:15</td>
+				<td>
+Staff member Oscar Aarts as Opportunity staff member matches on Opportunity details page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:30:35</td>
+				<td>
+Get opportunity details using opportunity name Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:30:59</td>
+				<td>
+Delete opportunity including staff member Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:31:16</td>
+				<td>
+Get opportunity details using opportunity name Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:31:25</td>
+				<td>
+Delete opportunity completely Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:31:46</td>
+				<td>
+User Nicole Bicho details are displayed Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:32:02</td>
+				<td>
+Standard User: Nicole Bicho is able to login Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:32:38</td>
+				<td>
+Page with heading: Company Detail is displayed upon searching company Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:32:58</td>
+				<td>
+Page with heading:  Opportunity Edit is displayed upon clicking opportunity button Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:33:03</td>
+				<td>
+Prefilled opportunity name as ConflictsCheckTestCompany is displayed Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:33:03</td>
+				<td>
+Prefilled client name as ConflictsCheckTestCompany is displayed Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:33:03</td>
+				<td>
+Prefilled opportunity subject as ConflictsCheckTestCompany is displayed Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:33:07</td>
+				<td>
+Prefilled opportunity line of business as FR is displayed Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:33:13</td>
+				<td>
+Page with heading: Company Detail is displayed upon clicking cancel button Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:33:20</td>
+				<td>
+Page with heading:  Opportunity Edit is displayed upon clicking opportunity button Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:34:19</td>
+				<td>
+Opportunity is created succcessfully Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:34:42</td>
+				<td>
+Opportunity: 11332022113323 ~ Salesforce - Unlimited Edition is displayed Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:34:45</td>
+				<td>
+Line of Business: FR entered in add opportunity page matches on Opportunity details page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:34:48</td>
+				<td>
+Job Type: Debtor Advisors in add opportunity page matches on Opportunity details page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:34:51</td>
+				<td>
+Industry Group: BUS in add opportunity page matches on Opportunity details page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:34:54</td>
+				<td>
+Sector: Dealership & Rental Services in add opportunity page matches on Opportunity details page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:34:57</td>
+				<td>
+Additional Client: No in add opportunity page matches on Opportunity details page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:35:00</td>
+				<td>
+Additional Subject: No in add opportunity page matches on Opportunity details page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:35:03</td>
+				<td>
+Referal Type: Accountant in add opportunity page matches on Opportunity details page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:35:06</td>
+				<td>
+Non Public: No in add opportunity page matches on Opportunity details page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:35:09</td>
+				<td>
+Beneficial owner and control person form: No in add opportunity page matches on Opportunity details page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:35:13</td>
+				<td>
+Primary office: LA as opportunity primary office matches on Opportunity details page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:35:16</td>
+				<td>
+Legal Entity: HL Consulting, Inc. as opportunity legal entity matches on Opportunity details page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:35:22</td>
+				<td>
+Staff member Oscar Aarts as Opportunity staff member matches on Opportunity details page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:35:41</td>
+				<td>
+Get opportunity details using opportunity name Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:36:06</td>
+				<td>
+Delete opportunity including staff member Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:36:23</td>
+				<td>
+Get opportunity details using opportunity name Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:36:32</td>
+				<td>
+Delete opportunity completely Pass									</td>
+			</tr>
+	</tbody>
+</table>
+
+</div>    
+						</div>
+					</li>
+					<li class="test-item" status="pass" author="" device="" tag="" test-id="9"> 
+						<div class="status-avatar pass-bg">
+							<i class="fa fa-check text-white"></i>
+						</div>
+						<div class="open-test">
+							<div class="test-detail"> 
+								<p class="name">T1550_T1552_Companies_CompanyLists_SaveCancelEditAndDelete</p> 
+								<p class="duration text-sm">0h:1m:20s+777ms</p> 
+								<span class="datetime">11:36:38 AM</span>
+							</div>
+						</div>
+						<div class="test-contents d-none">
+							<div class="detail-head">
+								<div class="p-v-10 d-inline-block">	
+									<div class="info">
+										<h5 class="test-status text-pass">T1550_T1552_Companies_CompanyLists_SaveCancelEditAndDelete</h5>
+										<span class='badge badge-success'>10/26/2022 11:36:38 AM</span>
+										<span class='badge badge-danger'>10/26/2022 11:37:58 AM</span>
+										<span class='badge badge-default'>0h:1m:20s+777ms</span>
+									</div>
+																	</div>
+							</div>
+<div class="detail-body mt-4">												
+	
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:36:38</td>
+				<td>
+Login | Salesforce is displayed Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:36:48</td>
+				<td>
+User Sahil Mittal is able to login Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:37:10</td>
+				<td>
+User Nicole Bicho details are displayed Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:37:26</td>
+				<td>
+Standard User: Nicole Bicho is able to login Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:37:30</td>
+				<td>
+Company list name page error message: Error: Invalid Data.
+Review all error messages below to correct your data. is displayed upon click of save button without entering details Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:37:30</td>
+				<td>
+Company list name field error message: Error: You must enter a value us displayed upon click of save button without entering details Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:37:34</td>
+				<td>
+Company list is not created upon entering the details and click of cancel button and verified the visibility as: False Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:37:44</td>
+				<td>
+Company Name: CompanyListTest in add company list page matches on company list details page  Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:37:45</td>
+				<td>
+Company List Names contains first character as:  C upon selecting that alphabet Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:37:45</td>
+				<td>
+New Company List is available in the company lists and verified availability as: True Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:37:55</td>
+				<td>
+Company List updated name: CompanyListTestNew in edit company list pages matches on company list details page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:37:58</td>
+				<td>
+Created and updated company list are deleted from company lists and return availablility in the list as: False after deletion Pass									</td>
+			</tr>
+	</tbody>
+</table>
+
+</div>    
+						</div>
+					</li>
+					<li class="test-item" status="pass" author="" device="" tag="" test-id="10"> 
+						<div class="status-avatar pass-bg">
+							<i class="fa fa-check text-white"></i>
+						</div>
+						<div class="open-test">
+							<div class="test-detail"> 
+								<p class="name">T1747_Companies_CoverageTeam_NewOffsiteTemplate_SaveCancel</p> 
+								<p class="duration text-sm">0h:3m:30s+342ms</p> 
+								<span class="datetime">11:38:06 AM</span>
+							</div>
+						</div>
+						<div class="test-contents d-none">
+							<div class="detail-head">
+								<div class="p-v-10 d-inline-block">	
+									<div class="info">
+										<h5 class="test-status text-pass">T1747_Companies_CoverageTeam_NewOffsiteTemplate_SaveCancel</h5>
+										<span class='badge badge-success'>10/26/2022 11:38:06 AM</span>
+										<span class='badge badge-danger'>10/26/2022 11:41:36 AM</span>
+										<span class='badge badge-default'>0h:3m:30s+342ms</span>
+									</div>
+																	</div>
+							</div>
+<div class="detail-body mt-4">												
+	
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:38:06</td>
+				<td>
+Login | Salesforce is displayed Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:38:16</td>
+				<td>
+User Sahil Mittal is able to login Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:38:37</td>
+				<td>
+User Johnny Colville details are displayed Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:39:06</td>
+				<td>
+FS User: Johnny Colville is able to login Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:39:36</td>
+				<td>
+Page with heading: Company Detail is displayed upon searching company Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:39:42</td>
+				<td>
+Page with heading: Coverage Team Detail is displayed upon selecting coverage team officer from company detail page coverage team section Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:39:46</td>
+				<td>
+Page with heading: Offsite Template Edit is displayed upon click of new offsite template button Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:40:18</td>
+				<td>
+Enter offsite template details and click on cancel button did not create a new offsite template Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:40:48</td>
+				<td>
+Enter offsite template details and click on save button created a new offsite template Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:40:51</td>
+				<td>
+Page with heading: Offsite Template Detail is displayed Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:40:53</td>
+				<td>
+Current year: Test Current Year Strategy in edit offsite template matches on offsite template detail page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:40:56</td>
+				<td>
+Revenue comment: Test Comments in edit offsite template matches on offsite template detail page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:40:58</td>
+				<td>
+Relationship Metrics Comment: Test Metrics Comments in edit offsite template matches on offsite template detail page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:41:03</td>
+				<td>
+Fund Name: Test Fund Name in edit offsite template matches on offsite template detail page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:41:05</td>
+				<td>
+FS user logged out successfully Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:41:31</td>
+				<td>
+Company is searched successfully Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:41:33</td>
+				<td>
+Coverage Team officer is selected successfully Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:41:36</td>
+				<td>
+Offsite template is deleted successfully Pass									</td>
+			</tr>
+	</tbody>
+</table>
+
+</div>    
+						</div>
+					</li>
+					<li class="test-item" status="pass" author="" device="" tag="" test-id="11"> 
+						<div class="status-avatar pass-bg">
+							<i class="fa fa-check text-white"></i>
+						</div>
+						<div class="open-test">
+							<div class="test-detail"> 
+								<p class="name">T1885_T1886_Companies_CompanyDetailsPage_CompanyFinancials_EditAndDelete</p> 
+								<p class="duration text-sm">0h:4m:39s+680ms</p> 
+								<span class="datetime">11:41:42 AM</span>
+							</div>
+						</div>
+						<div class="test-contents d-none">
+							<div class="detail-head">
+								<div class="p-v-10 d-inline-block">	
+									<div class="info">
+										<h5 class="test-status text-pass">T1885_T1886_Companies_CompanyDetailsPage_CompanyFinancials_EditAndDelete</h5>
+										<span class='badge badge-success'>10/26/2022 11:41:42 AM</span>
+										<span class='badge badge-danger'>10/26/2022 11:46:22 AM</span>
+										<span class='badge badge-default'>0h:4m:39s+680ms</span>
+									</div>
+																	</div>
+							</div>
+<div class="detail-body mt-4">												
+	
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:41:42</td>
+				<td>
+Login | Salesforce is displayed Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:41:53</td>
+				<td>
+User Sahil Mittal is able to login Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:42:16</td>
+				<td>
+User Nicole Bicho details are displayed Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:42:33</td>
+				<td>
+Standard User: Nicole Bicho is able to login Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:43:06</td>
+				<td>
+Page with heading: New Company Financial is displayed upon click of new company financial button Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:43:09</td>
+				<td>
+Prefilled Selected Company: StandardTestCompany is displayed upon click of new company financial button Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:43:23</td>
+				<td>
+Page with heading: Company Detail is displayed upon creating new company financial Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:43:26</td>
+				<td>
+Company Financial Year: 2025 is displayed in company financial section of company detail page upon creating new company financial Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:43:26</td>
+				<td>
+As Of Date: 10/26/2022 is displayed in company financial section of company detail page upon creating new company financial Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:43:35</td>
+				<td>
+Page with heading: New Company Financial is displayed upon click of new company financial button Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:43:39</td>
+				<td>
+Prefilled Selected Company: StandardTestCompany is displayed upon click of new company financial button Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:43:54</td>
+				<td>
+Page with heading: Company Detail is displayed upon creating new company financial Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:43:58</td>
+				<td>
+Company Financial Year: 2024 is displayed in company financial section of company detail page upon creating new company financial Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:43:58</td>
+				<td>
+As Of Date: 10/26/2022 is displayed in company financial section of company detail page upon creating new company financial Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:44:07</td>
+				<td>
+Page with heading: New Company Financial is displayed upon click of new company financial button Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:44:11</td>
+				<td>
+Prefilled Selected Company: StandardTestCompany is displayed upon click of new company financial button Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:44:27</td>
+				<td>
+Page with heading: Company Detail is displayed upon creating new company financial Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:44:31</td>
+				<td>
+Company Financial Year: 2023 is displayed in company financial section of company detail page upon creating new company financial Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:44:31</td>
+				<td>
+As Of Date: 10/26/2022 is displayed in company financial section of company detail page upon creating new company financial Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:44:39</td>
+				<td>
+Page with heading: New Company Financial is displayed upon click of new company financial button Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:44:42</td>
+				<td>
+Prefilled Selected Company: StandardTestCompany is displayed upon click of new company financial button Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:44:55</td>
+				<td>
+Page with heading: Company Detail is displayed upon creating new company financial Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:44:58</td>
+				<td>
+Company Financial Year: 2022 is displayed in company financial section of company detail page upon creating new company financial Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:44:58</td>
+				<td>
+As Of Date: 10/26/2022 is displayed in company financial section of company detail page upon creating new company financial Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:45:03</td>
+				<td>
+Most Recent year: 2025 is displayed to the company level Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:45:09</td>
+				<td>
+Most Recent year: 2025 is displayed to the annual financial and matches with company level Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:45:12</td>
+				<td>
+LogOut from StandardUser Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:45:49</td>
+				<td>
+Most Recent year: 2024 is displayed at company level after changing the latest year to oldest year Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:45:49</td>
+				<td>
+Most Recent year: 2024 is displayed at annual financial after changing the latest year to oldest year Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:46:00</td>
+				<td>
+Next top Recent year: 2023 is displayed at company level after deleting most recent year Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:46:00</td>
+				<td>
+Next top Recent year: 2023 is displayed at annual financial after deleting most recent year Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:46:07</td>
+				<td>
+Company Financial record is deleted successfully Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:46:16</td>
+				<td>
+Company Financial record is deleted successfully Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:46:22</td>
+				<td>
+no such alert
+  (Session info: chrome=106.0.5249.103)Pass									</td>
+			</tr>
+	</tbody>
+</table>
+
+</div>    
+						</div>
+					</li>
+					<li class="test-item" status="pass" author="" device="" tag="" test-id="12"> 
+						<div class="status-avatar pass-bg">
+							<i class="fa fa-check text-white"></i>
+						</div>
+						<div class="open-test">
+							<div class="test-detail"> 
+								<p class="name">T1894_CapIQCompanies_CapIQCompaniesDetailPage_AddSalesforceCompany</p> 
+								<p class="duration text-sm">0h:2m:57s+891ms</p> 
+								<span class="datetime">11:46:28 AM</span>
+							</div>
+						</div>
+						<div class="test-contents d-none">
+							<div class="detail-head">
+								<div class="p-v-10 d-inline-block">	
+									<div class="info">
+										<h5 class="test-status text-pass">T1894_CapIQCompanies_CapIQCompaniesDetailPage_AddSalesforceCompany</h5>
+										<span class='badge badge-success'>10/26/2022 11:46:28 AM</span>
+										<span class='badge badge-danger'>10/26/2022 11:49:26 AM</span>
+										<span class='badge badge-default'>0h:2m:57s+891ms</span>
+									</div>
+																	</div>
+							</div>
+<div class="detail-body mt-4">												
+	
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:46:29</td>
+				<td>
+Login | Salesforce is displayed Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:46:39</td>
+				<td>
+User Sahil Mittal is able to login Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:46:59</td>
+				<td>
+User Nicole Bicho details are displayed Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:47:15</td>
+				<td>
+Standard User: Nicole Bicho is able to login Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:48:00</td>
+				<td>
+Page with heading: CapIQ Company Detail is displayed upon searching company Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:48:05</td>
+				<td>
+Page with heading: Create a New Salesforce Company from CapIQ Data is displayed upon click of add salesforce company button Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:48:07</td>
+				<td>
+No Potential Match Text: No Potential Matches is displayed upon click of add salesforce company button Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:48:11</td>
+				<td>
+Page with heading: CapIQ Company Detail is displayed upon searching company Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:48:15</td>
+				<td>
+Page with heading: Create a New Salesforce Company from CapIQ Data is displayed upon click of add salesforce company button Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:48:16</td>
+				<td>
+Add salesforce company button is leaading to new company edit page with basic details copied as ticker symbol,business and company information Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:48:27</td>
+				<td>
+Page with heading: Company Detail is displayed upon click of create button Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:48:30</td>
+				<td>
+Company Name: !A Test CapIQ Company is displayed on company details upon click of create button Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:48:32</td>
+				<td>
+Salesforce company: !A Test CapIQ Company is created successfully Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:48:32</td>
+				<td>
+Salesforce company relationship is established with CapIQ company verified under CapIQ information section of company detail page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:48:36</td>
+				<td>
+Standard user logged out successfully Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:49:00</td>
+				<td>
+Created salesforce company is searched and selected Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:49:26</td>
+				<td>
+Deleted salesforce company Pass									</td>
+			</tr>
+	</tbody>
+</table>
+
+</div>    
+						</div>
+					</li>
+					<li class="test-item" status="pass" author="" device="" tag="" test-id="13"> 
+						<div class="status-avatar pass-bg">
+							<i class="fa fa-check text-white"></i>
+						</div>
+						<div class="open-test">
+							<div class="test-detail"> 
+								<p class="name">T1948_Companies_ValidationRule_HQCannotBeTrueIfParentCompanyHasValue</p> 
+								<p class="duration text-sm">0h:2m:16s+484ms</p> 
+								<span class="datetime">11:49:33 AM</span>
+							</div>
+						</div>
+						<div class="test-contents d-none">
+							<div class="detail-head">
+								<div class="p-v-10 d-inline-block">	
+									<div class="info">
+										<h5 class="test-status text-pass">T1948_Companies_ValidationRule_HQCannotBeTrueIfParentCompanyHasValue</h5>
+										<span class='badge badge-success'>10/26/2022 11:49:33 AM</span>
+										<span class='badge badge-danger'>10/26/2022 11:51:49 AM</span>
+										<span class='badge badge-default'>0h:2m:16s+484ms</span>
+									</div>
+																	</div>
+							</div>
+<div class="detail-body mt-4">												
+	
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:49:33</td>
+				<td>
+Login | Salesforce is displayed Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:49:44</td>
+				<td>
+User Sahil Mittal is able to login Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:50:12</td>
+				<td>
+Page with heading: Company Detail is displayed upon searching company Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:50:26</td>
+				<td>
+Parent Company: ActivityCompany is updated successfully when updated individually without checking HQ Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:50:35</td>
+				<td>
+HQ checkbox marked as : Checked is updated successfully when updated individually without adding parent company Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:50:45</td>
+				<td>
+Error Message : Error: HQ cannot be true if Parent Company has a value. is validated upon entering parent company and checking HQ checkbox Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:51:14</td>
+				<td>
+Page with heading: Company Detail is displayed upon searching company Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:51:29</td>
+				<td>
+Parent Company: ActivityCompany is updated successfully when updated individually without checking HQ Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:51:38</td>
+				<td>
+HQ checkbox marked as : Checked is updated successfully when updated individually without adding parent company Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:51:49</td>
+				<td>
+Error Message : Error: HQ cannot be true if Parent Company has a value. is validated upon entering parent company and checking HQ checkbox Pass									</td>
+			</tr>
+	</tbody>
+</table>
+
+</div>    
+						</div>
+					</li>
+					<li class="test-item" status="pass" author="" device="" tag="" test-id="14"> 
+						<div class="status-avatar pass-bg">
+							<i class="fa fa-check text-white"></i>
+						</div>
+						<div class="open-test">
+							<div class="test-detail"> 
+								<p class="name">T1952_Companies_ValidationRule_OnlyDataHygieneAndSystemAdminsToChangeRecordType</p> 
+								<p class="duration text-sm">0h:2m:1s+296ms</p> 
+								<span class="datetime">11:51:55 AM</span>
+							</div>
+						</div>
+						<div class="test-contents d-none">
+							<div class="detail-head">
+								<div class="p-v-10 d-inline-block">	
+									<div class="info">
+										<h5 class="test-status text-pass">T1952_Companies_ValidationRule_OnlyDataHygieneAndSystemAdminsToChangeRecordType</h5>
+										<span class='badge badge-success'>10/26/2022 11:51:55 AM</span>
+										<span class='badge badge-danger'>10/26/2022 11:53:56 AM</span>
+										<span class='badge badge-default'>0h:2m:1s+296ms</span>
+									</div>
+																	</div>
+							</div>
+<div class="detail-body mt-4">												
+	
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:51:55</td>
+				<td>
+Login | Salesforce is displayed Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:52:06</td>
+				<td>
+User Sahil Mittal is able to login Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:52:46</td>
+				<td>
+Page with heading: Company Detail is displayed upon searching company Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:53:56</td>
+				<td>
+Timed out after 60 secondsPass									</td>
+			</tr>
+	</tbody>
+</table>
+
+</div>    
+						</div>
+					</li>
+					<li class="test-item" status="pass" author="" device="" tag="" test-id="15"> 
+						<div class="status-avatar pass-bg">
+							<i class="fa fa-check text-white"></i>
+						</div>
+						<div class="open-test">
+							<div class="test-detail"> 
+								<p class="name">T2040_Companies_StandardCoverageTeam_VerifyRequiredFieldsHelpText</p> 
+								<p class="duration text-sm">0h:2m:23s+977ms</p> 
+								<span class="datetime">11:54:02 AM</span>
+							</div>
+						</div>
+						<div class="test-contents d-none">
+							<div class="detail-head">
+								<div class="p-v-10 d-inline-block">	
+									<div class="info">
+										<h5 class="test-status text-pass">T2040_Companies_StandardCoverageTeam_VerifyRequiredFieldsHelpText</h5>
+										<span class='badge badge-success'>10/26/2022 11:54:02 AM</span>
+										<span class='badge badge-danger'>10/26/2022 11:56:26 AM</span>
+										<span class='badge badge-default'>0h:2m:23s+977ms</span>
+									</div>
+																	</div>
+							</div>
+<div class="detail-body mt-4">												
+	
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:54:02</td>
+				<td>
+Login | Salesforce is displayed Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:54:14</td>
+				<td>
+User Sahil Mittal is able to login Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:54:35</td>
+				<td>
+User Drew Koecher details are displayed Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:54:49</td>
+				<td>
+Standard User: Drew Koecher is able to login Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:55:16</td>
+				<td>
+Page with heading: Company Detail is displayed upon searching company Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:55:19</td>
+				<td>
+Page with heading: Coverage Team Edit is displayed upon click of new coverage team button Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:55:19</td>
+				<td>
+Validation of mandatory fields for Comapany,Officer,Coverage Level,Type and Tier  Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:55:20</td>
+				<td>
+Company name error message displayed upon click of save button without entering details Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:55:21</td>
+				<td>
+Officer error message displayed upon click of save button without entering details Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:55:21</td>
+				<td>
+Coverage level error message displayed upon click of save button without entering details Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:55:21</td>
+				<td>
+Coverage type error message displayed upon click of save button without entering details Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:55:21</td>
+				<td>
+Coverage tier error message displayed upon click of save button without entering details Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:55:21</td>
+				<td>
+Priority help tooltip is available Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:55:21</td>
+				<td>
+Priority help tooltip text matches Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:55:47</td>
+				<td>
+Coverage Team Officer: Jennifer Muller is displayed on company detail page under Coverage Team section upon adding a new coverage team Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:55:50</td>
+				<td>
+Coverage Level: Calling Officer is displayed on company detail page under Coverage Team section upon adding a new coverage team Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:55:52</td>
+				<td>
+Coverage Type: FVA Coverage is displayed on company detail page under Coverage Team section upon adding a new coverage team Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:56:26</td>
+				<td>
+Coverage Team is deleted successfully Pass									</td>
+			</tr>
+	</tbody>
+</table>
+
+</div>    
+						</div>
+					</li>
+					<li class="test-item" status="pass" author="" device="" tag="" test-id="16"> 
+						<div class="status-avatar pass-bg">
+							<i class="fa fa-check text-white"></i>
+						</div>
+						<div class="open-test">
+							<div class="test-detail"> 
+								<p class="name">T2041_Companies_FSCoverageTeam_VerifyRequiredFieldsHelpText</p> 
+								<p class="duration text-sm">0h:2m:28s+001ms</p> 
+								<span class="datetime">11:56:35 AM</span>
+							</div>
+						</div>
+						<div class="test-contents d-none">
+							<div class="detail-head">
+								<div class="p-v-10 d-inline-block">	
+									<div class="info">
+										<h5 class="test-status text-pass">T2041_Companies_FSCoverageTeam_VerifyRequiredFieldsHelpText</h5>
+										<span class='badge badge-success'>10/26/2022 11:56:35 AM</span>
+										<span class='badge badge-danger'>10/26/2022 11:59:03 AM</span>
+										<span class='badge badge-default'>0h:2m:28s+001ms</span>
+									</div>
+																	</div>
+							</div>
+<div class="detail-body mt-4">												
+	
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:56:35</td>
+				<td>
+Login | Salesforce is displayed Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:56:46</td>
+				<td>
+User Sahil Mittal is able to login Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:57:08</td>
+				<td>
+User Lael Miller details are displayed Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:57:25</td>
+				<td>
+FS User: Lael Miller is able to login Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:57:52</td>
+				<td>
+User redirected to Company Detail page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:57:56</td>
+				<td>
+User redirected to Coverage Team Edit page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:57:56</td>
+				<td>
+Validation of mandatory fields for Comapany,Officer,Coverage Level,Type and Tier  Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:57:57</td>
+				<td>
+Company name error message displayed upon click of save button without entering details Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:57:57</td>
+				<td>
+Officer error message displayed upon click of save button without entering details Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:57:57</td>
+				<td>
+Coverage level error message displayed upon click of save button without entering details Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:57:57</td>
+				<td>
+Coverage type error message displayed upon click of save button without entering details Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:57:57</td>
+				<td>
+Coverage tier error message displayed upon click of save button without entering details Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:58:23</td>
+				<td>
+Coverage Team Officer: Kevin Salmini is displayed on company detail page under Coverage Team section upon adding a new coverage team Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:58:26</td>
+				<td>
+Coverage Level: Sponsor Officer is displayed on company detail page under Coverage Team section upon adding a new coverage team Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:58:29</td>
+				<td>
+Coverage Type: Credit Fund is displayed on company detail page under Coverage Team section upon adding a new coverage team Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:59:03</td>
+				<td>
+Coverage Team is deleted successfully Pass									</td>
+			</tr>
+	</tbody>
+</table>
+
+</div>    
+						</div>
+					</li>
+					<li class="test-item" status="pass" author="" device="" tag="" test-id="17"> 
+						<div class="status-avatar pass-bg">
+							<i class="fa fa-check text-white"></i>
+						</div>
+						<div class="open-test">
+							<div class="test-detail"> 
+								<p class="name">T2237_Companies_VerifyDuplicateRuleAccountCreatedByAndDupRecordSetOnCreatingDuplicateCompanyRecord</p> 
+								<p class="duration text-sm">0h:4m:13s+280ms</p> 
+								<span class="datetime">11:59:14 AM</span>
+							</div>
+						</div>
+						<div class="test-contents d-none">
+							<div class="detail-head">
+								<div class="p-v-10 d-inline-block">	
+									<div class="info">
+										<h5 class="test-status text-pass">T2237_Companies_VerifyDuplicateRuleAccountCreatedByAndDupRecordSetOnCreatingDuplicateCompanyRecord</h5>
+										<span class='badge badge-success'>10/26/2022 11:59:14 AM</span>
+										<span class='badge badge-danger'>10/26/2022 12:03:27 PM</span>
+										<span class='badge badge-default'>0h:4m:13s+280ms</span>
+									</div>
+																	</div>
+							</div>
+<div class="detail-body mt-4">												
+	
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:59:14</td>
+				<td>
+Login | Salesforce is displayed Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:59:25</td>
+				<td>
+User Sahil Mittal is able to login Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:59:46</td>
+				<td>
+User Nicole Bicho details are displayed Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:00:02</td>
+				<td>
+Standard User: Nicole Bicho is able to login Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:00:06</td>
+				<td>
+Page with heading: Select Company Record Type is displayed upon click add company button Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:00:13</td>
+				<td>
+Page with heading: Company Create is displayed upon selecting company record type Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:00:13</td>
+				<td>
+Selected company type: Operating Company choosen on select company record type page is matching on Company create page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:00:33</td>
+				<td>
+Page with heading: Select Company Record Type is displayed upon click add company button Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:00:37</td>
+				<td>
+Page with heading: Company Create is displayed upon selecting company record type Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:00:37</td>
+				<td>
+Selected company type: Operating Company choosen on select company record type page is matching on Company create page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:01:11</td>
+				<td>
+Page with heading: Company Detail is displayed upon adding company Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:01:14</td>
+				<td>
+Company name: TestDuplicateCompany in add company page matches on company details page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:01:19</td>
+				<td>
+Company Location: New York, New York including city and state in add company page matches on company details page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:01:22</td>
+				<td>
+Company Type: Operating Company in add company page matches on company details page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:01:22</td>
+				<td>
+Created By: Nicole Bicho user is picked from company details page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:01:48</td>
+				<td>
+Data Hygiene Folder Title: Data Hygiene is displayed upon search of data hygiene folder Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:02:14</td>
+				<td>
+Report Title: Duplicate Rule Account - Created By is maching with the selected report Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:02:18</td>
+				<td>
+Show Details button is visible on click of hide details button Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:03:27</td>
+				<td>
+Timed out after 60 secondsPass									</td>
+			</tr>
+	</tbody>
+</table>
+
+</div>    
+						</div>
+					</li>
+					<li class="test-item" status="pass" author="" device="" tag="" test-id="18"> 
+						<div class="status-avatar pass-bg">
+							<i class="fa fa-check text-white"></i>
+						</div>
+						<div class="open-test">
+							<div class="test-detail"> 
+								<p class="name">T2346_Companies_Common_VerifyCoverageTeamOfficerCanBeAddedToCoverageTeams_BySelectingDifferentPrimarySectorValues</p> 
+								<p class="duration text-sm">0h:3m:47s+566ms</p> 
+								<span class="datetime">12:03:33 PM</span>
+							</div>
+						</div>
+						<div class="test-contents d-none">
+							<div class="detail-head">
+								<div class="p-v-10 d-inline-block">	
+									<div class="info">
+										<h5 class="test-status text-pass">T2346_Companies_Common_VerifyCoverageTeamOfficerCanBeAddedToCoverageTeams_BySelectingDifferentPrimarySectorValues</h5>
+										<span class='badge badge-success'>10/26/2022 12:03:33 PM</span>
+										<span class='badge badge-danger'>10/26/2022 12:07:21 PM</span>
+										<span class='badge badge-default'>0h:3m:47s+566ms</span>
+									</div>
+																	</div>
+							</div>
+<div class="detail-body mt-4">												
+	
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:03:34</td>
+				<td>
+Login | Salesforce is displayed Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:03:44</td>
+				<td>
+User Sahil Mittal is able to login Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:04:05</td>
+				<td>
+User Drew Koecher details are displayed Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:04:21</td>
+				<td>
+Standard User: Drew Koecher is able to login Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:04:47</td>
+				<td>
+Page with heading: Company Detail is displayed upon searching company Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:05:14</td>
+				<td>
+Coverage Team Officer: Sonika Goyal is displayed on company detail page under Coverage Team section upon adding a new coverage team Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:05:17</td>
+				<td>
+Coverage Level: Calling Officer is displayed on company detail page under Coverage Team section upon adding a new coverage team Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:05:20</td>
+				<td>
+Coverage Type: FVA Coverage is displayed on company detail page under Coverage Team section upon adding a new coverage team Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:05:39</td>
+				<td>
+Coverage Type: Business Services is displayed on company detail page under Coverage Team section upon selecting different primary sector values in existing coverage team Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:05:52</td>
+				<td>
+Coverage Type: Cannabis is displayed on company detail page under Coverage Team section upon selecting different primary sector values in existing coverage team Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:06:05</td>
+				<td>
+Coverage Type: EU IFA is displayed on company detail page under Coverage Team section upon selecting different primary sector values in existing coverage team Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:06:18</td>
+				<td>
+Coverage Type: FIG is displayed on company detail page under Coverage Team section upon selecting different primary sector values in existing coverage team Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:06:32</td>
+				<td>
+Coverage Type: HC is displayed on company detail page under Coverage Team section upon selecting different primary sector values in existing coverage team Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:06:47</td>
+				<td>
+Coverage Type: Healthcare is displayed on company detail page under Coverage Team section upon selecting different primary sector values in existing coverage team Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:07:21</td>
+				<td>
+Coverage Team is deleted successfully Pass									</td>
+			</tr>
+	</tbody>
+</table>
+
+</div>    
+						</div>
+					</li>
+					<li class="test-item" status="pass" author="" device="" tag="" test-id="19"> 
+						<div class="status-avatar pass-bg">
+							<i class="fa fa-check text-white"></i>
+						</div>
+						<div class="open-test">
+							<div class="test-detail"> 
+								<p class="name">TMTT0014212_TMTT0014213_TMTT0014215_Company_VerifyTheUserIsAbleToAddNewSectorOnTheCompanyPage</p> 
+								<p class="duration text-sm">0h:22m:48s+103ms</p> 
+								<span class="datetime">12:07:30 PM</span>
+							</div>
+						</div>
+						<div class="test-contents d-none">
+							<div class="detail-head">
+								<div class="p-v-10 d-inline-block">	
+									<div class="info">
+										<h5 class="test-status text-pass">TMTT0014212_TMTT0014213_TMTT0014215_Company_VerifyTheUserIsAbleToAddNewSectorOnTheCompanyPage</h5>
+										<span class='badge badge-success'>10/26/2022 12:07:30 PM</span>
+										<span class='badge badge-danger'>10/26/2022 12:30:18 PM</span>
+										<span class='badge badge-default'>0h:22m:48s+103ms</span>
+									</div>
+																	</div>
+							</div>
+<div class="detail-body mt-4">												
+	
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:07:30</td>
+				<td>
+Login | Salesforce is displayed Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:07:50</td>
+				<td>
+User Sahil Mittal is able to login Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:08:01</td>
+				<td>
+Coverage Sector Dependencies: Home ~ Salesforce - Unlimited Edition page is displayed Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:08:04</td>
+				<td>
+Coverage Sector Dependency Edit: New Coverage Sector Dependency ~ Salesforce - Unlimited Edition page is displayed Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:08:20</td>
+				<td>
+Coverage Sector Dependency Name is: CSDN-0000003936 Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:08:39</td>
+				<td>
+User Oscar Aarts details are displayed Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:08:56</td>
+				<td>
+Standard User: Oscar Aarts is able to login Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:09:01</td>
+				<td>
+Page with heading: Select Company Record Type is displayed upon click add company button Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:09:06</td>
+				<td>
+Page with heading: Company Create is displayed upon selecting company record type Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:09:07</td>
+				<td>
+Selected company type: Capital Provider choosen on select company record type page is matching on Company create page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:09:37</td>
+				<td>
+Page with heading: Company Detail is displayed upon adding company Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:09:40</td>
+				<td>
+Company name: TestCapitalProvider in add company page matches on company details page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:09:43</td>
+				<td>
+Company Type: Capital Provider in add company page matches on company details page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:09:43</td>
+				<td>
+Company Sector Quick Link is displayed on company details page. Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:09:46</td>
+				<td>
+Company Sector Edit: New Company Sector ~ Salesforce - Unlimited Edition is displayed. Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:10:05</td>
+				<td>
+Company Sector with name: COS-00003918 is created successfully. Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:10:34</td>
+				<td>
+Filters functionality is working properly on coverage sector dependency popup. Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:10:44</td>
+				<td>
+User navigated back to company detail page. Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:10:49</td>
+				<td>
+Company sector: COS-00003918 is added successfully to a company: TestCapitalProvider Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:10:58</td>
+				<td>
+Company Sector deleted successfully. Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:11:12</td>
+				<td>
+Coverage sector dependency deleted successfully. Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:11:39</td>
+				<td>
+Created company is deleted successfully Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:11:45</td>
+				<td>
+Coverage Sector Dependencies: Home ~ Salesforce - Unlimited Edition page is displayed Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:11:48</td>
+				<td>
+Coverage Sector Dependency Edit: New Coverage Sector Dependency ~ Salesforce - Unlimited Edition page is displayed Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:12:03</td>
+				<td>
+Coverage Sector Dependency Name is: CSDN-0000003937 Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:12:21</td>
+				<td>
+User Eve Apollonio details are displayed Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:12:38</td>
+				<td>
+Marketing User: Eve Apollonio is able to login Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:12:41</td>
+				<td>
+Page with heading: Select Company Record Type is displayed upon click add company button Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:12:47</td>
+				<td>
+Page with heading: Company Create is displayed upon selecting company record type Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:12:47</td>
+				<td>
+Selected company type: Capital Provider choosen on select company record type page is matching on Company create page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:13:21</td>
+				<td>
+Page with heading: Company Detail is displayed upon adding company Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:13:25</td>
+				<td>
+Company name: TestCapitalProvider in add company page matches on company details page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:13:30</td>
+				<td>
+Company Type: Capital Provider in add company page matches on company details page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:13:30</td>
+				<td>
+Company Sector Quick Link is displayed on company details page. Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:13:33</td>
+				<td>
+Company Sector Edit: New Company Sector ~ Salesforce - Unlimited Edition is displayed. Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:13:52</td>
+				<td>
+Company Sector with name: COS-00003919 is created successfully. Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:14:22</td>
+				<td>
+Filters functionality is working properly on coverage sector dependency popup. Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:14:32</td>
+				<td>
+User navigated back to company detail page. Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:14:37</td>
+				<td>
+Company sector: COS-00003919 is added successfully to a company: TestCapitalProvider Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:14:46</td>
+				<td>
+Company Sector deleted successfully. Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:15:00</td>
+				<td>
+Coverage sector dependency deleted successfully. Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:15:26</td>
+				<td>
+Created company is deleted successfully Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:15:32</td>
+				<td>
+Coverage Sector Dependencies: Home ~ Salesforce - Unlimited Edition page is displayed Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:15:35</td>
+				<td>
+Coverage Sector Dependency Edit: New Coverage Sector Dependency ~ Salesforce - Unlimited Edition page is displayed Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:15:50</td>
+				<td>
+Coverage Sector Dependency Name is: CSDN-0000003938 Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:16:08</td>
+				<td>
+User Andrea Ghittino details are displayed Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:16:23</td>
+				<td>
+CF Financial User: Andrea Ghittino is able to login Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:16:26</td>
+				<td>
+Page with heading: Select Company Record Type is displayed upon click add company button Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:16:32</td>
+				<td>
+Page with heading: Company Create is displayed upon selecting company record type Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:16:32</td>
+				<td>
+Selected company type: Capital Provider choosen on select company record type page is matching on Company create page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:16:56</td>
+				<td>
+Page with heading: Company Detail is displayed upon adding company Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:17:01</td>
+				<td>
+Company name: TestCapitalProvider in add company page matches on company details page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:17:03</td>
+				<td>
+Company Type: Capital Provider in add company page matches on company details page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:17:03</td>
+				<td>
+Company Sector Quick Link is displayed on company details page. Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:17:06</td>
+				<td>
+Company Sector Edit: New Company Sector ~ Salesforce - Unlimited Edition is displayed. Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:17:25</td>
+				<td>
+Company Sector with name: COS-00003920 is created successfully. Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:17:55</td>
+				<td>
+Filters functionality is working properly on coverage sector dependency popup. Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:18:03</td>
+				<td>
+User navigated back to company detail page. Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:18:08</td>
+				<td>
+Company sector: COS-00003920 is added successfully to a company: TestCapitalProvider Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:18:17</td>
+				<td>
+Company Sector deleted successfully. Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:18:31</td>
+				<td>
+Coverage sector dependency deleted successfully. Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:18:57</td>
+				<td>
+Created company is deleted successfully Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:19:03</td>
+				<td>
+Coverage Sector Dependencies: Home ~ Salesforce - Unlimited Edition page is displayed Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:19:06</td>
+				<td>
+Coverage Sector Dependency Edit: New Coverage Sector Dependency ~ Salesforce - Unlimited Edition page is displayed Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:19:26</td>
+				<td>
+Coverage Sector Dependency Name is: CSDN-0000003939 Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:19:45</td>
+				<td>
+User Blaise Brunda details are displayed Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:20:01</td>
+				<td>
+CAO User: Blaise Brunda is able to login Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:20:04</td>
+				<td>
+Page with heading: Select Company Record Type is displayed upon click add company button Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:20:09</td>
+				<td>
+Page with heading: Company Create is displayed upon selecting company record type Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:20:09</td>
+				<td>
+Selected company type: Capital Provider choosen on select company record type page is matching on Company create page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:20:37</td>
+				<td>
+Page with heading: Company Detail is displayed upon adding company Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:20:39</td>
+				<td>
+Company name: TestCapitalProvider in add company page matches on company details page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:20:44</td>
+				<td>
+Company Type: Capital Provider in add company page matches on company details page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:20:44</td>
+				<td>
+Company Sector Quick Link is displayed on company details page. Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:20:47</td>
+				<td>
+Company Sector Edit: New Company Sector ~ Salesforce - Unlimited Edition is displayed. Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:21:06</td>
+				<td>
+Company Sector with name: COS-00003921 is created successfully. Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:21:36</td>
+				<td>
+Filters functionality is working properly on coverage sector dependency popup. Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:21:47</td>
+				<td>
+User navigated back to company detail page. Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:21:52</td>
+				<td>
+Company sector: COS-00003921 is added successfully to a company: TestCapitalProvider Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:22:01</td>
+				<td>
+Company Sector deleted successfully. Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:22:15</td>
+				<td>
+Coverage sector dependency deleted successfully. Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:22:42</td>
+				<td>
+Created company is deleted successfully Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:22:48</td>
+				<td>
+Coverage Sector Dependencies: Home ~ Salesforce - Unlimited Edition page is displayed Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:22:50</td>
+				<td>
+Coverage Sector Dependency Edit: New Coverage Sector Dependency ~ Salesforce - Unlimited Edition page is displayed Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:23:05</td>
+				<td>
+Coverage Sector Dependency Name is: CSDN-0000003940 Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:23:24</td>
+				<td>
+User Alex Hughes details are displayed Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:23:45</td>
+				<td>
+Business Operation User: Alex Hughes is able to login Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:23:50</td>
+				<td>
+Page with heading: Select Company Record Type is displayed upon click add company button Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:23:54</td>
+				<td>
+Page with heading: Company Create is displayed upon selecting company record type Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:23:54</td>
+				<td>
+Selected company type: Capital Provider choosen on select company record type page is matching on Company create page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:24:22</td>
+				<td>
+Page with heading: Company Detail is displayed upon adding company Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:24:25</td>
+				<td>
+Company name: TestCapitalProvider in add company page matches on company details page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:24:28</td>
+				<td>
+Company Type: Capital Provider in add company page matches on company details page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:24:28</td>
+				<td>
+Company Sector Quick Link is displayed on company details page. Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:24:31</td>
+				<td>
+Company Sector Edit: New Company Sector ~ Salesforce - Unlimited Edition is displayed. Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:24:50</td>
+				<td>
+Company Sector with name: COS-00003922 is created successfully. Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:25:19</td>
+				<td>
+Filters functionality is working properly on coverage sector dependency popup. Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:25:30</td>
+				<td>
+User navigated back to company detail page. Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:25:35</td>
+				<td>
+Company sector: COS-00003922 is added successfully to a company: TestCapitalProvider Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:25:43</td>
+				<td>
+Company Sector deleted successfully. Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:25:58</td>
+				<td>
+Coverage sector dependency deleted successfully. Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:26:27</td>
+				<td>
+Created company is deleted successfully Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:26:33</td>
+				<td>
+Coverage Sector Dependencies: Home ~ Salesforce - Unlimited Edition page is displayed Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:26:36</td>
+				<td>
+Coverage Sector Dependency Edit: New Coverage Sector Dependency ~ Salesforce - Unlimited Edition page is displayed Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:26:56</td>
+				<td>
+Coverage Sector Dependency Name is: CSDN-0000003941 Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:27:16</td>
+				<td>
+User Vijay Kumar details are displayed Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:27:32</td>
+				<td>
+System Administrator User: Vijay Kumar is able to login Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:27:35</td>
+				<td>
+Page with heading: Select Company Record Type is displayed upon click add company button Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:27:41</td>
+				<td>
+Page with heading: Company Create is displayed upon selecting company record type Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:27:41</td>
+				<td>
+Selected company type: Capital Provider choosen on select company record type page is matching on Company create page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:28:11</td>
+				<td>
+Page with heading: Company Detail is displayed upon adding company Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:28:14</td>
+				<td>
+Company name: TestCapitalProvider in add company page matches on company details page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:28:16</td>
+				<td>
+Company Type: Capital Provider in add company page matches on company details page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:28:16</td>
+				<td>
+Company Sector Quick Link is displayed on company details page. Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:28:22</td>
+				<td>
+Company Sector Edit: New Company Sector ~ Salesforce - Unlimited Edition is displayed. Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:28:40</td>
+				<td>
+Company Sector with name: COS-00003923 is created successfully. Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:29:10</td>
+				<td>
+Filters functionality is working properly on coverage sector dependency popup. Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:29:22</td>
+				<td>
+User navigated back to company detail page. Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:29:27</td>
+				<td>
+Company sector: COS-00003923 is added successfully to a company: TestCapitalProvider Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:29:36</td>
+				<td>
+Company Sector deleted successfully. Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:29:51</td>
+				<td>
+Coverage sector dependency deleted successfully. Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:30:18</td>
+				<td>
+Created company is deleted successfully Pass									</td>
+			</tr>
+	</tbody>
+</table>
+
+</div>    
+						</div>
+					</li>
+            </ul>    
+        </div>
+    </div>
+    <div class="test-content scrollable">
+        <div class="test-content-tools">
+            <ul>
+                <li>
+                    <a class="back-to-test" href="javascript:void(0)">
+                        <i class="fa fa-arrow-left"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="test-content-detail">
+            <div class="detail-body"></div>
+        </div>
+    </div>
+</div>
+										<div class="container-fluid p-4 dashboard-view">
+	<div class="row">
+		<div class="col-md-12">
+			<div class="card">
+				<div class="card-header">
+					<h6 class="card-title">Tests</h6>
+				</div>
+				<div class="card-body">
+	                <div class="">
+	                    <canvas id='parent-analysis' width='115' height='90'></canvas>
+	                </div>
+	            </div>
+	            <div class="card-footer">
+	                <div><small data-tooltip='100%'>
+	                    <b>19</b> tests passed
+                    </small></div>
+	                <div>
+	                    <small data-tooltip='0%'><b>0</b> tests failed, 
+	                    <b data-tooltip='0%'>0</b> others
+	                    </small>
+                    </div>
+	            </div>
+			</div>
+		</div>
+			</div>
+	<div class="row">
+		<div class="col-md-3">
+			<div class="card">
+				<div class="card-body box-height-150">
+	                <div class="media justify-content-between">
+						<div>
+							<h6 class="card-title">Tests</h6>
+							<h2 class="font-size-28 font-weight-light">19</h2>
+							<span class="text-semibold text-success font-size-15">
+							<i class="ti-arrow-up font-size-11"></i> 
+								<span>100%</span>
+							</span>
+						</div>
+						<div class="align-self-end">
+							<i class="fa fa-align-left font-size-70 opacity-01"></i>
+						</div>
+					</div>
+	            </div>
+			</div>
+		</div>
+		<div class="col-md-3">
+			<div class="card">
+				<div class="card-body box-height-150">
+	                <div class="media justify-content-between">
+						<div>
+							<h6 class="card-title">Start</h6>
+							<h6 class="font-weight-light">10/26/2022 10:12:16 AM</h6>
+							<span class="text-semibold text-success font-size-15">
+						</div>
+						<div class="align-self-end">
+							<i class="fa fa-clock-o font-size-70 text-success opacity-01"></i>
+						</div>
+					</div>
+	            </div>
+			</div>
+		</div>
+		<div class="col-md-3">
+			<div class="card">
+				<div class="card-body box-height-150">
+	                <div class="media justify-content-between">
+						<div>
+							<h6 class="card-title">Duration</h6>
+							<h6 class="font-weight-light">02:18:02.9307650</h6>
+							<span class="text-semibold text-danger font-size-15">
+						</div>
+						<div class="align-self-end">
+							<i class="fa fa-clock-o font-size-70 text-danger opacity-01"></i>
+						</div>
+					</div>
+	            </div>
+			</div>
+		</div>
+		<div class="col-md-3">
+			<div class="card">
+				<div class="card-body box-height-150">
+	                <div class="media justify-content-between">
+						<div>
+							<p class="">Duration</p>
+							<h6 class="font-weight-light">02:18:02.9437628</h6>
+							<span class="text-semibold font-size-15">
+						</div>
+						<div class="align-self-end">
+							<i class="fa fa-clock-o font-size-70 text-danger opacity-01"></i>
+						</div>
+					</div>
+	            </div>
+			</div>
+		</div>
+	</div>
+	<div class="row">
+								<div class="col-md-4">
+			<div class="card">
+				<div class="card-header">
+					<h6 class="card-title">Environment</h6>
+				</div>
+				<div class="table-overflow">
+					<table class="table table-sm">
+						<thead>
+							<tr class="bg-gray">
+								<th>Name</th>
+								<th>Value</th>
+							</tr>
+						</thead>
+						<tbody>
+								<tr>
+									<td>Application Under Test</td>
+									<td>Salesforce Application</td>
+								</tr>
+								<tr>
+									<td>Environment</td>
+									<td>Test</td>
+								</tr>
+								<tr>
+									<td>Machine</td>
+									<td>SLV-DEVS03</td>
+								</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<script>
+	var statusGroup = {
+    parentCount: 19,
+		passParent: 19,
+		failParent: 0,
+		fatalParent: 0,
+		errorParent: 0,
+		warningParent: 0,
+		skipParent: 0,
+		exceptionsParent: 0,
+		childCount: 0,
+		passChild: 0,
+		failChild: 0,
+		fatalChild: 0,
+		errorChild: 0,
+		warningChild: 0,
+		skipChild: 0,
+		infoChild: 0,
+		debugChild: 0,
+		exceptionsChild: 0,
+		grandChildCount: 0,
+		passGrandChild: 0,
+		failGrandChild: 0,
+		fatalGrandChild: 0,
+		errorGrandChild: 0,
+		warningGrandChild: 0,
+		skipGrandChild: 0,
+		infoGrandChild: 0,
+		debugGrandChild: 0,
+		exceptionsGrandChild: 0,
+	};
+</script>
+
+                </div>
+            </div>
+        </div>
+    </div>
+	<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@cc89904c1a12065be1d08fc4994a258ef01b12bd/spark/js/scripts.js"></script>
+<script type='text/javascript'>
+	
+</script>
+</body>
+
+</html>

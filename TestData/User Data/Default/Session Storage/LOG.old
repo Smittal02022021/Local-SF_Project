@@ -1,0 +1,15 @@
+2022/12/22-16:59:11.090 5e8 Reusing MANIFEST C:\HL\SalesForce_Project\SalesForce_Project\TestData\User Data\Default\Session Storage/MANIFEST-000001
+2022/12/22-16:59:11.091 5e8 Recovering log #29
+2022/12/22-16:59:11.091 5e8 Reusing old log C:\HL\SalesForce_Project\SalesForce_Project\TestData\User Data\Default\Session Storage/000029.log 
+2022/12/22-17:00:31.587 3044 Level-0 table #33: started
+2022/12/22-17:00:31.593 3044 Level-0 table #33: 52101 bytes OK
+2022/12/22-17:00:31.597 3044 Delete type=0 #29
+2022/12/22-17:00:31.598 3044 Compacting 4@0 + 1@1 files
+2022/12/22-17:00:31.606 3044 Generated table #34@0: 644 keys, 56291 bytes
+2022/12/22-17:00:31.607 3044 Compacted 4@0 + 1@1 files => 56291 bytes
+2022/12/22-17:00:31.608 3044 compacted to: files[ 0 1 1 0 0 0 0 ]
+2022/12/22-17:00:31.611 3044 Delete type=2 #21
+2022/12/22-17:00:31.611 3044 Delete type=2 #24
+2022/12/22-17:00:31.611 3044 Delete type=2 #27
+2022/12/22-17:00:31.611 3044 Delete type=2 #30
+2022/12/22-17:00:31.611 3044 Delete type=2 #33

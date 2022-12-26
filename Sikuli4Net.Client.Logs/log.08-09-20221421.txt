@@ -1,0 +1,2 @@
+:::Making Request to Service: http://localhost:8080/sikuli/api/wait POST: {"jPattern":{"imagePath":"C:\\HL\\SalesForce_Project\\SalesForce_Project\\TestData\\Screenshot_Username.jpg","offset_x":0,"offset_y":0,"similar":0.7},"timeout":20.0}:::
+:::Making Request to Service: http://localhost:8080/sikuli/api/type POST: {"jPattern":{"imagePath":"C:\\HL\\SalesForce_Project\\SalesForce_Project\\TestData\\Screenshot_Username.jpg","offset_x":0,"offset_y":0,"similar":0.7},"jKeyModifier":"NONE","text":"Admin"}:::

@@ -1,0 +1,30 @@
+﻿{
+  "authentication": {
+    "username": "SMittal0207@hl.com.test",
+    "password": "Nidhi12@",
+    "loggedUser": "Nidhi Goyal",
+    "stdUser": "Verifaya Standar"
+  },
+  "addOpportunityDetails": {
+    "opportunityName": "24thJune2020",
+    "client": "Techno",
+    "subject": "Techno",
+    "jobType": "Activism Advisory",
+    "industryGroup": "BUS - Business Services",
+    "sector": "Dealership & Rental Services",
+    "additionalClient": "Yes",
+    "additionalSubject": "Yes",
+    "referralType": "Accountant",
+    "nonPublicInfo": "No",
+    "beneficialOwner": "No",
+    "primaryOffice": "AM",
+    "legalEntity": "HL Consulting, Inc.",
+    "disclosureStatus": "Do Not Disclose"
+  },
+  "additionalClientSubject": {
+    "search": "Tec Alliance",
+    "clientInterest": "No",
+    "staff": "Sonika"
+  }
+
+}

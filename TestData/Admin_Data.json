@@ -1,0 +1,10 @@
+﻿{
+  "authentication": {
+    "username": "Sahil.Mittal0207@hl.com.test",
+    "password": "yankee@123",
+    "loggeduser": "Sahil Mittal"
+  },
+    "filePaths": {
+        "testData": "C:\\HL\\SalesForce_Project\\SalesForce_Project\\TestData\\"
+    }
+}

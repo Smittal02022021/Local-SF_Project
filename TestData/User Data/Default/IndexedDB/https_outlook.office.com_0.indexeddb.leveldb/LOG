@@ -1,0 +1,13 @@
+2022/12/22-17:48:43.866 2958 Reusing MANIFEST C:\HL\SalesForce_Project\SalesForce_Project\TestData\User Data\Default\IndexedDB\https_outlook.office.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/12/22-17:48:43.866 2958 Recovering log #46
+2022/12/22-17:48:43.866 2958 Reusing old log C:\HL\SalesForce_Project\SalesForce_Project\TestData\User Data\Default\IndexedDB\https_outlook.office.com_0.indexeddb.leveldb/000046.log 
+2022/12/22-17:48:56.149 1be0 Level-0 table #51: started
+2022/12/22-17:48:56.151 1be0 Level-0 table #51: 1213 bytes OK
+2022/12/22-17:48:56.152 1be0 Delete type=0 #46
+2022/12/22-17:48:56.153 1be0 Manual compaction at level-0 from '\x00\x11\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x12\x00\x00\x00' @ 0 : 0; will stop at '\x00\x11\x00\x00\x05' @ 476 : 1
+2022/12/22-17:48:56.153 1be0 Compacting 1@0 + 1@1 files
+2022/12/22-17:48:56.155 1be0 Generated table #52@0: 71 keys, 6052 bytes
+2022/12/22-17:48:56.155 1be0 Compacted 1@0 + 1@1 files => 6052 bytes
+2022/12/22-17:48:56.155 1be0 compacted to: files[ 0 1 1 0 0 0 0 ]
+2022/12/22-17:48:56.156 1be0 Delete type=2 #51
+2022/12/22-17:48:56.156 1be0 Manual compaction at level-0 from '\x00\x11\x00\x00\x05' @ 476 : 1 .. '\x00\x12\x00\x00\x00' @ 0 : 0; will stop at (end)

@@ -1,0 +1,4736 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Test Execution Report</title>
+  <link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@3da944e596e81f10ac6c1042c792af8a5a741023/commons/img/logo.png">
+  <link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@3da944e596e81f10ac6c1042c792af8a5a741023/commons/img/logo.png">
+  <link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@8539670db814bf19a0ddbe9a6d19058aea0cf981/spark/css/spark-style.css" rel="stylesheet" />
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <style> </style>
+</head>
+<script src="https://cdn.rawgit.com/extent-framework/extent-github-cdn/7cc78ce/spark/js/jsontree.js"></script>
+<body class="spa ">
+    <div class="app header-dark side-nav-folded">
+        <div class="layout">
+            <div class="header navbar">
+    <div class="header-container">
+        <div class="nav-logo">
+          <a href="index.html">
+            <div class="logo logo-dark" style="background-image: url('https://cdn.rawgit.com/extent-framework/extent-github-cdn/d74480e/commons/img/logo.png')"></div>
+            <div class="logo logo-white" style="background-image: url('https://cdn.rawgit.com/extent-framework/extent-github-cdn/d74480e/commons/img/logo.png')"></div>
+          </a>
+        </div>
+        <ul class="nav-left">
+          <li>
+            <a class="sidenav-fold-toggler" href="javascript:void(0);">
+              <i class="fa fa-bars"></i>
+            </a>
+            <a class="sidenav-expand-toggler" href="javascript:void(0);">
+              <i class="fa fa-bars"></i>
+            </a>
+          </li>
+          <li class="search-box">
+            <a class="search-toggle" href="javascript:void(0);">
+              <i class="search-icon fa fa-search"></i>
+              <i class="search-icon-close fa fa-close"></i>
+            </a>
+          </li>
+          <li class="search-input">
+            <input id="search-tests" class="form-control" type="text" placeholder="Type to search...">
+          </li>
+        </ul>
+        <ul class="nav-right">
+          <li class="m-r-10">
+            <a href="#">
+              <span class="badge badge-primary"></span>
+            </a>
+          </li>
+            <li class="m-r-10">
+                <a href="#">
+                    <span class="badge badge-primary">8/08/2022 11:03:12 AM</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>
+            <div class="side-nav side-nav-folded">
+  <div class="side-nav-inner">
+    <ul class="side-nav-menu scrollable">
+      <li class="nav-item dropdown" onclick="toggleView('test-view')">
+        <a id="nav-test" class="dropdown-toggle" href="index.html">
+          <span class="icon-holder">
+            <i class="fa fa-align-left"></i>
+          </span>
+          <span class="title">Tests</span>
+        </a>
+      </li>
+            <li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+        <a id="nav-dashboard" class="dropdown-toggle" href="dashboard.html">
+          <span class="icon-holder">
+            <i class="fa fa-bar-chart"></i>
+          </span>
+          <span class="title">Dashboard</span>
+        </a>
+      </li>
+    </ul>
+  </div>
+  <div class="side-nav-controls">
+    <ul>
+      <li>
+        <a href="#" class="lightsout" style="color:#8a8a8a;">
+          <i class="fa fa-desktop"></i>"</a>
+      </li>
+    </ul>
+  </div>
+</div>
+
+            <div class="page-container">
+                <div class="main-content">
+                    <div class="test-wrapper row test-view">
+    <div class="test-list">
+        <div class="test-list-tools">
+            <ul class="tools pull-left">
+                <li>
+                    <a href="">
+                        <span class="font-size-14">Tests</span>
+                    </a>
+                </li> 
+            </ul>
+            <ul class="tools text-right">
+				<li class="user-profile dropdown dropdown-animated scale-left">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+						<i class="fa fa-exclamation-circle"></i>
+					</a>
+					<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a status="pass" class="dropdown-item" href="#"><span>Pass</span><span class="status success pull-right"></span></a>						<a status="fail" class="dropdown-item" href="#"><span>Fail</span><span class="status danger pull-right"></span></a>																														<div class="dropdown-divider"></div>
+						<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+					</ul>
+				</li>
+								            </ul>
+        </div>
+        <div class="test-list-wrapper scrollable">
+            <ul class="test-list-item">
+					<li class="test-item" status="pass" author="" device="" tag="" test-id="1"> 
+						<div class="status-avatar pass-bg">
+							<i class="fa fa-check text-white"></i>
+						</div>
+						<div class="open-test">
+							<div class="test-detail"> 
+								<p class="name">T1508_T1511_T1514_ClientGiftPre_ApprovalPage_AddGiftToSelectRecipient_RequiredInformationFieldValidation_AtleastOneRecipientRequired</p> 
+								<p class="duration text-sm">0h:1m:33s+075ms</p> 
+								<span class="datetime">11:03:12 AM</span>
+							</div>
+						</div>
+						<div class="test-contents d-none">
+							<div class="detail-head">
+								<div class="p-v-10 d-inline-block">	
+									<div class="info">
+										<h5 class="test-status text-pass">T1508_T1511_T1514_ClientGiftPre_ApprovalPage_AddGiftToSelectRecipient_RequiredInformationFieldValidation_AtleastOneRecipientRequired</h5>
+										<span class='badge badge-success'>8/08/2022 11:03:12 AM</span>
+										<span class='badge badge-danger'>8/08/2022 11:04:45 AM</span>
+										<span class='badge badge-default'>0h:1m:33s+075ms</span>
+									</div>
+																	</div>
+							</div>
+<div class="detail-body mt-4">												
+	
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:03:12</td>
+				<td>
+Login | Salesforce is displayed Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:03:22</td>
+				<td>
+User Sahil Mittal is able to login Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:03:38</td>
+				<td>
+User Giorgia Cardia details are displayed Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:03:50</td>
+				<td>
+Standard User: Giorgia Cardia is able to login Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:03:51</td>
+				<td>
+Page Title: Client Gift Pre-approval is diplayed upon click of Gift Request link Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:03:51</td>
+				<td>
+Default submitted for value is matching with the logged in user Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:03:54</td>
+				<td>
+Gift Type error message displayed upon click of save button without entering details Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:03:54</td>
+				<td>
+Gift Name error message displayed upon click of save button without entering details Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:03:54</td>
+				<td>
+Gift Value error message displayed upon click of save button without entering details Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:03:54</td>
+				<td>
+HL Relationship error message displayed upon click of save button without entering details Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:03:54</td>
+				<td>
+Vendor error message displayed upon click of save button without entering details Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:04:21</td>
+				<td>
+Gift Details are entered successfully without adding recipients to selected recipients Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:04:42</td>
+				<td>
+Click on Submit Gift Request button successfully Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:04:44</td>
+				<td>
+Error Message: Error:
+You must select at least one recipient. is diplayed upon submittion of gift request without adding atleast one recipient to selected recipients list Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:04:44</td>
+				<td>
+Help Text for Gift Type: Type of gift is displaying on Gift Pre-Approval Page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:04:44</td>
+				<td>
+Help Text for  SUbmitted for: HL Staff member giving gift is displaying on Gift Pre-Approval Page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:04:45</td>
+				<td>
+Help Text for Gift Value : The gift\&#39;s market value in the specified currency excluding the cost of tax, shipping, and engraving. is displaying on Gift Pre-Approval Page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:04:45</td>
+				<td>
+Help Text for Gift Value : Date the gift will be purchased by. is displaying on Gift Pre-Approval Page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:04:45</td>
+				<td>
+Help Text for Gift Value : Currency that the gift will be purchased in. is displaying on Gift Pre-Approval Page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:04:45</td>
+				<td>
+Help Text for Gift Value : Vendor to be used for gift. is displaying on Gift Pre-Approval Page Pass									</td>
+			</tr>
+	</tbody>
+</table>
+
+</div>    
+						</div>
+					</li>
+					<li class="test-item" status="pass" author="" device="" tag="" test-id="2"> 
+						<div class="status-avatar pass-bg">
+							<i class="fa fa-check text-white"></i>
+						</div>
+						<div class="open-test">
+							<div class="test-detail"> 
+								<p class="name">T1509_VerifysubmittedforfieldslookupisdisplayingthecontactsofRecordTypesHoulihanEmployeewithdetails</p> 
+								<p class="duration text-sm">0h:0m:37s+688ms</p> 
+								<span class="datetime">11:04:57 AM</span>
+							</div>
+						</div>
+						<div class="test-contents d-none">
+							<div class="detail-head">
+								<div class="p-v-10 d-inline-block">	
+									<div class="info">
+										<h5 class="test-status text-pass">T1509_VerifysubmittedforfieldslookupisdisplayingthecontactsofRecordTypesHoulihanEmployeewithdetails</h5>
+										<span class='badge badge-success'>8/08/2022 11:04:57 AM</span>
+										<span class='badge badge-danger'>8/08/2022 11:05:35 AM</span>
+										<span class='badge badge-default'>0h:0m:37s+688ms</span>
+									</div>
+																	</div>
+							</div>
+<div class="detail-body mt-4">												
+	
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:04:57</td>
+				<td>
+Login | Salesforce is displayed Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:05:06</td>
+				<td>
+User Sahil Mittal is able to login Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:05:27</td>
+				<td>
+Standard User: Giorgia Cardia is able to login Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:05:29</td>
+				<td>
+Page Title: Client Gift Pre-approval is diplayed upon click of Gift Request link Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:05:30</td>
+				<td>
+Text: Shows only Houlihan Employees. is displaying on frame Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:05:30</td>
+				<td>
+Name checkbox is selected by Default Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:05:31</td>
+				<td>
+Search external contacts retrieved zero contacts Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:05:32</td>
+				<td>
+Appropriate results are dispalyed when user searched with partial name of Houlihan Employee Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:05:33</td>
+				<td>
+Appropriate results are displayed when user searched for title Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:05:35</td>
+				<td>
+Appropriate results are displayed when user searched for Department Pass									</td>
+			</tr>
+	</tbody>
+</table>
+
+</div>    
+						</div>
+					</li>
+					<li class="test-item" status="pass" author="" device="" tag="" test-id="3"> 
+						<div class="status-avatar pass-bg">
+							<i class="fa fa-check text-white"></i>
+						</div>
+						<div class="open-test">
+							<div class="test-detail"> 
+								<p class="name">T1510_ClientGiftPre_ApprovalPageLayoutAndFields</p> 
+								<p class="duration text-sm">0h:0m:40s+826ms</p> 
+								<span class="datetime">11:05:41 AM</span>
+							</div>
+						</div>
+						<div class="test-contents d-none">
+							<div class="detail-head">
+								<div class="p-v-10 d-inline-block">	
+									<div class="info">
+										<h5 class="test-status text-pass">T1510_ClientGiftPre_ApprovalPageLayoutAndFields</h5>
+										<span class='badge badge-success'>8/08/2022 11:05:41 AM</span>
+										<span class='badge badge-danger'>8/08/2022 11:06:21 AM</span>
+										<span class='badge badge-default'>0h:0m:40s+826ms</span>
+									</div>
+																	</div>
+							</div>
+<div class="detail-body mt-4">												
+	
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:05:41</td>
+				<td>
+Login | Salesforce is displayed Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:05:52</td>
+				<td>
+User Sahil Mittal is able to login Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:06:08</td>
+				<td>
+User Giorgia Cardia details are displayed Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:06:20</td>
+				<td>
+Gift Log User: Giorgia Cardia is able to login Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:06:21</td>
+				<td>
+Page Title: Client Gift Pre-approval is diplayed upon click of Gift Request link Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:06:21</td>
+				<td>
+Fields defined under Gift Billing Details Section are displayed. Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:06:21</td>
+				<td>
+Fields defined under Gift Details Section are displayed. Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:06:21</td>
+				<td>
+Fields defined under Gift Recipients Section are displayed. Pass									</td>
+			</tr>
+	</tbody>
+</table>
+
+</div>    
+						</div>
+					</li>
+					<li class="test-item" status="pass" author="" device="" tag="" test-id="4"> 
+						<div class="status-avatar pass-bg">
+							<i class="fa fa-check text-white"></i>
+						</div>
+						<div class="open-test">
+							<div class="test-detail"> 
+								<p class="name">T1512_T1513_GiftLog_ClientGiftPre_ApprovalPage_AddingaRecipientToTheSelectedRecipientSection</p> 
+								<p class="duration text-sm">0h:5m:40s+456ms</p> 
+								<span class="datetime">11:06:30 AM</span>
+							</div>
+						</div>
+						<div class="test-contents d-none">
+							<div class="detail-head">
+								<div class="p-v-10 d-inline-block">	
+									<div class="info">
+										<h5 class="test-status text-pass">T1512_T1513_GiftLog_ClientGiftPre_ApprovalPage_AddingaRecipientToTheSelectedRecipientSection</h5>
+										<span class='badge badge-success'>8/08/2022 11:06:30 AM</span>
+										<span class='badge badge-danger'>8/08/2022 11:12:10 AM</span>
+										<span class='badge badge-default'>0h:5m:40s+456ms</span>
+									</div>
+																	</div>
+							</div>
+<div class="detail-body mt-4">												
+	
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:06:30</td>
+				<td>
+Login | Salesforce is displayed Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:06:46</td>
+				<td>
+User Sahil Mittal is able to login Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:07:02</td>
+				<td>
+User Giorgia Cardia details are displayed Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:07:14</td>
+				<td>
+Standard User: Giorgia Cardia is able to login Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:07:20</td>
+				<td>
+Page Title: Client Gift Pre-approval is diplayed upon click of Gift Request link Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:07:40</td>
+				<td>
+details enteredPass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:08:09</td>
+				<td>
+Company Name: StandardTestCompany is listed in Available Recipient(s) table for contains combo box in Cmmpany Name Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:08:26</td>
+				<td>
+Recipient Name: Test External is listed in Available Recipient(s) table for Contains combo box in Contact Name Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:08:37</td>
+				<td>
+Company Name: StandardTestCompany and Recipient Name: Test External is listed in Available Recipient(s) table for Contains combo box in Contact Name Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:08:51</td>
+				<td>
+Company Name: StandardTestCompany is listed in Available Recipient(s) table for contains combo box in Cmmpany Name Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:09:00</td>
+				<td>
+Recipient Name: Test External is listed in Available Recipient(s) table for Contains combo box in Contact Name Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:09:05</td>
+				<td>
+Company Name: StandardTestCompany and Recipient Name: Test External is listed in Available Recipient(s) table for Contains combo box in Contact Name Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:09:17</td>
+				<td>
+Company Name: StandardTestCompany is listed in Available Recipient(s) table for contains combo box in Cmmpany Name Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:09:28</td>
+				<td>
+Recipient Name: Test External is listed in Available Recipient(s) table for Contains combo box in Contact Name Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:09:38</td>
+				<td>
+Company Name: StandardTestCompany and Recipient Name: Test External is listed in Available Recipient(s) table for Contains combo box in Contact Name Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:09:53</td>
+				<td>
+Company Name: StandardTestCompany is listed in Available Recipient(s) table for contains combo box in Cmmpany Name Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:10:03</td>
+				<td>
+Recipient Name: Test External is listed in Available Recipient(s) table for Contains combo box in Contact Name Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:10:10</td>
+				<td>
+Company Name: StandardTestCompany and Recipient Name: Test External is listed in Available Recipient(s) table for Contains combo box in Contact Name Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:10:27</td>
+				<td>
+Company Name: StandardTestCompany is listed in Available Recipient(s) table Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:10:28</td>
+				<td>
+Recipient Name: Test External is listed in Available Recipient(s) table Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:10:29</td>
+				<td>
+Recipient Name: Test External in selected recipient(s) table matches with available recipient name listed in Available Recipient(s) table Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:10:29</td>
+				<td>
+Company Name: StandardTestCompany in selected recipient(s) table matches with available company name listed in Available Recipient(s) table Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:10:30</td>
+				<td>
+Recipient details are not displayed in Selected Recipient(s) section after Remove Recipient Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:11:03</td>
+				<td>
+Company Name: StandardTestCompany is listed in Available Recipient(s) table Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:11:03</td>
+				<td>
+Recipient Name: Test External is listed in Available Recipient(s) table Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:11:04</td>
+				<td>
+Recipient Name: Test External in selected recipient(s) table matches with available recipient name listed in Available Recipient(s) table Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:11:04</td>
+				<td>
+Company Name: StandardTestCompany in selected recipient(s) table matches with available company name listed in Available Recipient(s) table Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:11:06</td>
+				<td>
+Page Title: Client Gift Pre-approval is diplayed upon click of cancel button and gift request is not created Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:11:48</td>
+				<td>
+Company Name: StandardTestCompany is listed in Available Recipient(s) table Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:11:48</td>
+				<td>
+Recipient Name: Test External is listed in Available Recipient(s) table Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:11:49</td>
+				<td>
+Recipient Name: Test External in selected recipient(s) table matches with available recipient name listed in Available Recipient(s) table Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:11:49</td>
+				<td>
+Company Name: StandardTestCompany in selected recipient(s) table matches with available company name listed in Available Recipient(s) table Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:11:56</td>
+				<td>
+Congratulations message: Congratulations in displayed upon successful submission of gift request Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:11:57</td>
+				<td>
+Gift Description: 11112022111109 is listed on gift request submission detail page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:12:04</td>
+				<td>
+Recipient Name: Test External is listed on gift request submission detail page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:12:10</td>
+				<td>
+Page Title: Client Gift Pre-approval is diplayed upon click of return to pre approval page Pass									</td>
+			</tr>
+	</tbody>
+</table>
+
+</div>    
+						</div>
+					</li>
+					<li class="test-item" status="pass" author="" device="" tag="" test-id="5"> 
+						<div class="status-avatar pass-bg">
+							<i class="fa fa-check text-white"></i>
+						</div>
+						<div class="open-test">
+							<div class="test-detail"> 
+								<p class="name">T1516_T1517_T1518_T1519_T1520_T2005_ClientGiftPre_ApprovalPage_RecipientsExceedsYearlyGiftAllowance_100_ReviseRequestAndSubmitsRequestForCurrencyTypeUSDollar</p> 
+								<p class="duration text-sm">0h:9m:52s+129ms</p> 
+								<span class="datetime">11:12:36 AM</span>
+							</div>
+						</div>
+						<div class="test-contents d-none">
+							<div class="detail-head">
+								<div class="p-v-10 d-inline-block">	
+									<div class="info">
+										<h5 class="test-status text-pass">T1516_T1517_T1518_T1519_T1520_T2005_ClientGiftPre_ApprovalPage_RecipientsExceedsYearlyGiftAllowance_100_ReviseRequestAndSubmitsRequestForCurrencyTypeUSDollar</h5>
+										<span class='badge badge-success'>8/08/2022 11:12:36 AM</span>
+										<span class='badge badge-danger'>8/08/2022 11:22:28 AM</span>
+										<span class='badge badge-default'>0h:9m:52s+129ms</span>
+									</div>
+																	</div>
+							</div>
+<div class="detail-body mt-4">												
+	
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:12:36</td>
+				<td>
+Login | Salesforce is displayed Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:12:45</td>
+				<td>
+User Sahil Mittal is able to login Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:13:03</td>
+				<td>
+User Giorgia Cardia details are displayed Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:13:16</td>
+				<td>
+Gift Log User: Giorgia Cardia is able to login Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:13:18</td>
+				<td>
+Page Title: Client Gift Pre-approval is diplayed upon click of Gift Request link Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:14:02</td>
+				<td>
+Company Name: StandardTestCompany is listed in Available Recipient(s) table Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:14:03</td>
+				<td>
+Recipient Name: Test External is listed in Available Recipient(s) table Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:14:05</td>
+				<td>
+Gift Label: New Gift Amt YTD is displayed in Selected Recipient(s) table Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:14:06</td>
+				<td>
+Gift Value: 101.0 is displayed in Selected Recipient(s) table Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:14:08</td>
+				<td>
+Currency Code: USD is displayed in Selected Recipient(s) table Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:14:19</td>
+				<td>
+Color Of Gift Value: Red is displayed in Selected Recipient(s) table Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:14:36</td>
+				<td>
+Warning Message: WARNING:The following gift recipients will exceed their yearly gift maximum if the submitted gifts are approved. This gift request is subject to approval by the Compliance Department. Do you still wish to submit these gifts? is displayed upon submitting a gift request with gift amount exceeding $100 Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:14:37</td>
+				<td>
+Revise Request button is visible on warning message page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:14:37</td>
+				<td>
+Submit Request button is visible on warning message page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:14:41</td>
+				<td>
+Submit Gift Request button is visible upon click of revise request button Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:14:41</td>
+				<td>
+Page Title: Client Gift Pre-approval is diplayed upon click of revise request button Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:14:48</td>
+				<td>
+Page Title: Client Gift Pre-approval is diplayed upon click of Gift Request link Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:15:21</td>
+				<td>
+details entered Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:15:25</td>
+				<td>
+newGIftAmtYTD: 109.9is displayingPass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:15:29</td>
+				<td>
+Currency Code: USD is displayed in Selected Recipient(s) table Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:15:32</td>
+				<td>
+Color Of Gift Value: Red is displayed in Selected Recipient(s) table Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:15:45</td>
+				<td>
+Warning Message: WARNING:The following gift recipients will exceed their yearly gift maximum if the submitted gifts are approved. This gift request is subject to approval by the Compliance Department. Do you still wish to submit these gifts? is displayed upon submitting a gift request with gift amount exceeding $100 Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:15:51</td>
+				<td>
+Return to pre approval page button is visible upon click of submit request button Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:15:53</td>
+				<td>
+Congratulations message: Congratulations in displayed upon successful submission of gift request Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:15:53</td>
+				<td>
+Currency: EUR 101.00 is listed on gift request submission detail page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:15:53</td>
+				<td>
+Gift Value: 11/04/2022 is listed on gift request submission detail page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:15:55</td>
+				<td>
+Page Title: Client Gift Pre-approval is diplayed upon click of Gift Request link Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:16:24</td>
+				<td>
+details entered Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:16:56</td>
+				<td>
+newGIftAmtYTD: 71.8is displayingPass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:17:06</td>
+				<td>
+Currency Code: USD is displayed in Selected Recipient(s) table Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:17:10</td>
+				<td>
+Color Of Gift Value: Red is displayed in Selected Recipient(s) table Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:17:14</td>
+				<td>
+Warning Message: WARNING:The following gift recipients will exceed their yearly gift maximum if the submitted gifts are approved. This gift request is subject to approval by the Compliance Department. Do you still wish to submit these gifts? is displayed upon submitting a gift request with gift amount exceeding $100 Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:17:18</td>
+				<td>
+Return to pre approval page button is visible upon click of submit request button Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:17:18</td>
+				<td>
+Congratulations message: Congratulations in displayed upon successful submission of gift request Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:17:18</td>
+				<td>
+Currency: EUR 66.00 is listed on gift request submission detail page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:17:18</td>
+				<td>
+Gift Value: 11/04/2022 is listed on gift request submission detail page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:17:22</td>
+				<td>
+Page Title: Client Gift Pre-approval is diplayed upon click of Gift Request link Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:18:15</td>
+				<td>
+details entered Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:18:18</td>
+				<td>
+newGIftAmtYTD: 131.7is displayingPass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:18:19</td>
+				<td>
+Currency Code: USD is displayed in Selected Recipient(s) table Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:18:20</td>
+				<td>
+Color Of Gift Value: Red is displayed in Selected Recipient(s) table Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:18:23</td>
+				<td>
+Warning Message: WARNING:The following gift recipients will exceed their yearly gift maximum if the submitted gifts are approved. This gift request is subject to approval by the Compliance Department. Do you still wish to submit these gifts? is displayed upon submitting a gift request with gift amount exceeding $100 Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:18:31</td>
+				<td>
+Return to pre approval page button is visible upon click of submit request button Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:18:34</td>
+				<td>
+Congratulations message: Congratulations in displayed upon successful submission of gift request Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:18:35</td>
+				<td>
+Currency: GBP 101.00 (EUR 121.06) is listed on gift request submission detail page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:18:35</td>
+				<td>
+Gift Value: 11/04/2022 is listed on gift request submission detail page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:18:48</td>
+				<td>
+Page Title: Client Gift Pre-approval is diplayed upon click of Gift Request link Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:19:14</td>
+				<td>
+details entered Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:19:20</td>
+				<td>
+newGIftAmtYTD: 127.7is displayingPass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:19:25</td>
+				<td>
+Currency Code: USD is displayed in Selected Recipient(s) table Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:19:48</td>
+				<td>
+Color Of Gift Value: Red is displayed in Selected Recipient(s) table Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:19:56</td>
+				<td>
+Warning Message: WARNING:The following gift recipients will exceed their yearly gift maximum if the submitted gifts are approved. This gift request is subject to approval by the Compliance Department. Do you still wish to submit these gifts? is displayed upon submitting a gift request with gift amount exceeding $100 Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:20:00</td>
+				<td>
+Return to pre approval page button is visible upon click of submit request button Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:20:01</td>
+				<td>
+Congratulations message: Congratulations in displayed upon successful submission of gift request Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:20:01</td>
+				<td>
+Currency: HKD 1,001.00 (EUR 117.40) is listed on gift request submission detail page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:20:01</td>
+				<td>
+Gift Value: 11/04/2022 is listed on gift request submission detail page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:20:04</td>
+				<td>
+Page Title: Client Gift Pre-approval is diplayed upon click of Gift Request link Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:20:18</td>
+				<td>
+details entered Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:21:12</td>
+				<td>
+newGIftAmtYTD: 75.3is displayingPass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:21:14</td>
+				<td>
+Currency Code: USD is displayed in Selected Recipient(s) table Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:21:14</td>
+				<td>
+Color Of Gift Value: Red is displayed in Selected Recipient(s) table Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:21:17</td>
+				<td>
+Warning Message: WARNING:The following gift recipients will exceed their yearly gift maximum if the submitted gifts are approved. This gift request is subject to approval by the Compliance Department. Do you still wish to submit these gifts? is displayed upon submitting a gift request with gift amount exceeding $100 Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:21:20</td>
+				<td>
+Return to pre approval page button is visible upon click of submit request button Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:21:21</td>
+				<td>
+Congratulations message: Congratulations in displayed upon successful submission of gift request Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:21:21</td>
+				<td>
+Currency: AUD 101.00 (EUR 69.28) is listed on gift request submission detail page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:21:21</td>
+				<td>
+Gift Value: 11/04/2022 is listed on gift request submission detail page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:21:25</td>
+				<td>
+Page Title: Client Gift Pre-approval is diplayed upon switching from HL Force to Gift Log Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:22:13</td>
+				<td>
+Company Name: StandardTestCompany is listed in Available Recipient(s) table Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:22:13</td>
+				<td>
+Recipient Name: Test External is listed in Available Recipient(s) table Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:22:14</td>
+				<td>
+Gift Label: New Gift Amt YTD is displayed in Selected Recipient(s) table Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:22:14</td>
+				<td>
+Gift Value: New Gift Amt YTD is displayed in Selected Recipient(s) table Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:22:14</td>
+				<td>
+Currency Code: USD is displayed in Selected Recipient(s) table Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:22:14</td>
+				<td>
+Color Of Gift Value:Red is displayed in Selected Recipient(s) table Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:22:17</td>
+				<td>
+Warning Message: WARNING:The following gift recipients will exceed their yearly gift maximum if the submitted gifts are approved. This gift request is subject to approval by the Compliance Department. Do you still wish to submit these gifts? is displayed upon submitting a gift request with gift amount exceeding $100 Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:22:17</td>
+				<td>
+Revise Request button is visible on warning message page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:22:17</td>
+				<td>
+Submit Request button is visible on warning message page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:22:23</td>
+				<td>
+Return to pre approval page button is visible upon click of submit request button Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:22:23</td>
+				<td>
+Congratulations message: Congratulations in displayed upon successful submission of gift request Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:22:23</td>
+				<td>
+Gift Description: 11212022112128 is listed on gift request submission detail page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:22:24</td>
+				<td>
+Recipient Name: Test External is listed on gift request submission detail page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:22:25</td>
+				<td>
+Submitted For: Test External is listed on gift request submission detail page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:22:25</td>
+				<td>
+Currency: USD 101.00 (EUR 92.86) is listed on gift request submission detail page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:22:28</td>
+				<td>
+Gift Value: 11/04/2022 is listed on gift request submission detail page Pass									</td>
+			</tr>
+	</tbody>
+</table>
+
+</div>    
+						</div>
+					</li>
+					<li class="test-item" status="fail" author="" device="" tag="" test-id="6"> 
+						<div class="status-avatar fail-bg">
+							<i class="fa fa-times text-white"></i>
+						</div>
+						<div class="open-test">
+							<div class="test-detail"> 
+								<p class="name">T1523_T2010_T1515_ApproveGifts_DefaultLayoutFieldsAndFieldsValues</p> 
+								<p class="duration text-sm">0h:1m:31s+024ms</p> 
+								<span class="datetime">11:22:54 AM</span>
+							</div>
+						</div>
+						<div class="test-contents d-none">
+							<div class="detail-head">
+								<div class="p-v-10 d-inline-block">	
+									<div class="info">
+										<h5 class="test-status text-fail">T1523_T2010_T1515_ApproveGifts_DefaultLayoutFieldsAndFieldsValues</h5>
+										<span class='badge badge-success'>8/08/2022 11:22:54 AM</span>
+										<span class='badge badge-danger'>8/08/2022 11:24:25 AM</span>
+										<span class='badge badge-default'>0h:1m:31s+024ms</span>
+									</div>
+																	</div>
+							</div>
+<div class="detail-body mt-4">												
+	
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:22:54</td>
+				<td>
+Login | Salesforce is displayed Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:23:06</td>
+				<td>
+User Sahil Mittal is able to login Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:23:21</td>
+				<td>
+User Giorgia Cardia details are displayed Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:23:34</td>
+				<td>
+Gift Log User: Giorgia Cardia is able to login Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:23:35</td>
+				<td>
+Page Title: Client Gift Pre-approval is diplayed upon click of Gift Request link Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:24:13</td>
+				<td>
+Company Name: StandardTestCompany is listed in Available Recipient(s) table Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:24:18</td>
+				<td>
+Recipient Name: Test External is listed in Available Recipient(s) table Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:24:20</td>
+				<td>
+Recipient Name: Test External in selected recipient(s) table matches with available recipient name listed in Available Recipient(s) table Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:24:20</td>
+				<td>
+Company Name: StandardTestCompany in selected recipient(s) table matches with available company name listed in Available Recipient(s) table Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-times text-fail"></i></td>
+				<td>11:24:25</td>
+				<td>
+Fail-  Expected string length 4 but was 8. Strings differ at index 0.
+  Expected: "00.0"
+  But was:  "USD 00.0"
+  -----------^									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-times text-fail"></i></td>
+				<td>11:24:25</td>
+				<td>
+SnapShot below: AventStack.ExtentReports.ExtentTest									</td>
+			</tr>
+	</tbody>
+</table>
+
+</div>    
+<img class='r-img' title='' onerror='this.style.display="none"' data-featherlight='C:\Users\SMittal0207\source\repos\SalesForce_Project\\Defects_Screenshots\ApproveGifts_DefaultLayoutFieldsAndFieldsValues.png' src='C:\Users\SMittal0207\source\repos\SalesForce_Project\\Defects_Screenshots\ApproveGifts_DefaultLayoutFieldsAndFieldsValues.png' data-src='C:\Users\SMittal0207\source\repos\SalesForce_Project\\Defects_Screenshots\ApproveGifts_DefaultLayoutFieldsAndFieldsValues.png'>						</div>
+					</li>
+					<li class="test-item" status="pass" author="" device="" tag="" test-id="7"> 
+						<div class="status-avatar pass-bg">
+							<i class="fa fa-check text-white"></i>
+						</div>
+						<div class="open-test">
+							<div class="test-detail"> 
+								<p class="name">T1524_T2014_GiftLog_GiftApprovalProcess_ApproveGifts_VerifyPendingApprovedAndDeniedGiftsEditRights</p> 
+								<p class="duration text-sm">0h:6m:40s+038ms</p> 
+								<span class="datetime">11:24:37 AM</span>
+							</div>
+						</div>
+						<div class="test-contents d-none">
+							<div class="detail-head">
+								<div class="p-v-10 d-inline-block">	
+									<div class="info">
+										<h5 class="test-status text-pass">T1524_T2014_GiftLog_GiftApprovalProcess_ApproveGifts_VerifyPendingApprovedAndDeniedGiftsEditRights</h5>
+										<span class='badge badge-success'>8/08/2022 11:24:37 AM</span>
+										<span class='badge badge-danger'>8/08/2022 11:31:17 AM</span>
+										<span class='badge badge-default'>0h:6m:40s+038ms</span>
+									</div>
+																	</div>
+							</div>
+<div class="detail-body mt-4">												
+	
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:24:38</td>
+				<td>
+Login | Salesforce is displayed Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:24:54</td>
+				<td>
+User Sahil Mittal is able to login Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:25:09</td>
+				<td>
+User Julie Carthane details are displayed Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:25:23</td>
+				<td>
+Compliance User: Julie Carthane is able to login Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:25:27</td>
+				<td>
+Page Title: Client Gift Pre-approval is diplayed upon click of Gift Request link Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:26:05</td>
+				<td>
+Company Name: StandardTestCompany is listed in Available Recipient(s) table Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:26:08</td>
+				<td>
+Recipient Name: Test External is listed in Available Recipient(s) table Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:26:11</td>
+				<td>
+Recipient Name: Test External in selected recipient(s) table matches with available recipient name listed in Available Recipient(s) table Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:26:19</td>
+				<td>
+Congratulations message: Congratulations in displayed upon successful submission of gift request Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:26:22</td>
+				<td>
+Approve Selected button is visible on click of approve gifts tab Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:26:27</td>
+				<td>
+Approved Column is displayed with 'Pending' Status as default Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:26:45</td>
+				<td>
+Gift Description link matches with Gift Name and clicked Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:26:46</td>
+				<td>
+Edit button is visible in Gift Request Detail section upon click of gift description link Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:26:46</td>
+				<td>
+Delete button is not visible in Gift Request Detail section upon click of gift description link Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:26:50</td>
+				<td>
+Gift Edit Page Title: Gift Request Edit in displayed upon upon click of edit button Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:26:50</td>
+				<td>
+Field: Gift Name is editable on gift request edit page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:26:52</td>
+				<td>
+Field: Gift Type is editable on gift request edit page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:26:53</td>
+				<td>
+Field: Currency is editable on gift request edit page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:26:54</td>
+				<td>
+Field: HL Relationship is editable on gift request edit page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:26:54</td>
+				<td>
+Field: Vendor is editable on gift request edit page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:26:54</td>
+				<td>
+Field: Gift Value is editable on gift request edit page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:26:54</td>
+				<td>
+Field: Desired Date is editable on gift request edit page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:26:57</td>
+				<td>
+Approve Selected button is visible on click of approve gifts tab Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:27:01</td>
+				<td>
+Approved Column is displayed with 'Pending' Status as default and upon search gifts list is displayed Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:27:10</td>
+				<td>
+Gift Description link matches with Gift Name and checkbox clicked Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:27:16</td>
+				<td>
+Approve selected button is clicked successfully Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:27:22</td>
+				<td>
+Gift List table is displayed with approved status upon search by selecting 'Approved' option in Approved Status Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:27:31</td>
+				<td>
+Gift Description link matches with Gift Name and checkbox clicked Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:27:32</td>
+				<td>
+Gift Edit Page Title: Gift Request Edit in displayed upon upon click of edit button Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:27:32</td>
+				<td>
+Field: Gift Name is editable on gift request edit page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:27:32</td>
+				<td>
+Field: Gift Value is editable on gift request edit page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:27:32</td>
+				<td>
+Field: Apporval Comments is editable on gift request edit page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:27:32</td>
+				<td>
+Request Edit Page is displayed for the gift selected with Approved View Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:27:36</td>
+				<td>
+Approve Selected button is visible on click of approve gifts tab Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:27:42</td>
+				<td>
+Gift List table is displayed with approved status upon search by selecting 'Approved' option in Approved Status Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:27:51</td>
+				<td>
+Gift Description link matches with Gift Name and checkbox clicked Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:27:51</td>
+				<td>
+Deny Selected Button is displayed Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:27:56</td>
+				<td>
+Click on Deny Selected Button successfully Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:28:02</td>
+				<td>
+Gift List table is displayed with Denied status upon search by selecting 'Denied' option in Approved Status Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:28:11</td>
+				<td>
+Gift Description link matches with Gift Name and checkbox clicked Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:28:12</td>
+				<td>
+Gift Edit Page Title: Gift Request Edit in displayed upon upon click of edit button Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:28:12</td>
+				<td>
+Field: Approved is editable on gift request edit page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:28:12</td>
+				<td>
+Field: Approval comments is editable on gift request edit page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:28:12</td>
+				<td>
+Request Edit Page is displayed for the gift selected with Denied View Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:28:14</td>
+				<td>
+Page Title: Client Gift Pre-approval is diplayed upon click of Gift Request link Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:28:48</td>
+				<td>
+Congratulations message: Congratulations in displayed upon successful submission of gift request Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:28:54</td>
+				<td>
+Approve Selected button is visible on click of approve gifts tab Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:29:12</td>
+				<td>
+Approved Column is displayed with 'Pending' Status as default and upon search gifts list is displayed Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:29:15</td>
+				<td>
+Approve selected button is clicked successfully Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:29:15</td>
+				<td>
+Error message:Error:
+You must select at least one gift to approve. is displaying Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:29:29</td>
+				<td>
+Error:
+You MUST enter an Approval Comment to exceed the yearly limit. Recipients exceeding yearly limit: Test External - USD 110.0Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:29:30</td>
+				<td>
+Error message:Error:
+You MUST enter an Approval Comment to exceed the yearly limit. Recipients exceeding yearly limit: Test External - USD 110.0 is displaying Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:30:02</td>
+				<td>
+Click on Deny Selected Button successfully Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:30:42</td>
+				<td>
+user navigate to create contact page upon click of continue button Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:31:17</td>
+				<td>
+External Contact created Pass									</td>
+			</tr>
+	</tbody>
+</table>
+
+</div>    
+						</div>
+					</li>
+					<li class="test-item" status="pass" author="" device="" tag="" test-id="8"> 
+						<div class="status-avatar pass-bg">
+							<i class="fa fa-check text-white"></i>
+						</div>
+						<div class="open-test">
+							<div class="test-detail"> 
+								<p class="name">T1525_ApproveGifts_DenySelected_ToDenyTheGiftsFromPendingList</p> 
+								<p class="duration text-sm">0h:3m:39s+041ms</p> 
+								<span class="datetime">11:31:23 AM</span>
+							</div>
+						</div>
+						<div class="test-contents d-none">
+							<div class="detail-head">
+								<div class="p-v-10 d-inline-block">	
+									<div class="info">
+										<h5 class="test-status text-pass">T1525_ApproveGifts_DenySelected_ToDenyTheGiftsFromPendingList</h5>
+										<span class='badge badge-success'>8/08/2022 11:31:23 AM</span>
+										<span class='badge badge-danger'>8/08/2022 11:35:02 AM</span>
+										<span class='badge badge-default'>0h:3m:39s+041ms</span>
+									</div>
+																	</div>
+							</div>
+<div class="detail-body mt-4">												
+	
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:31:23</td>
+				<td>
+Login | Salesforce is displayed Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:31:39</td>
+				<td>
+User Sahil Mittal is able to login Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:31:57</td>
+				<td>
+User Julie Carthane details are displayed Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:32:08</td>
+				<td>
+Compliance User: Julie Carthane is able to login Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:32:13</td>
+				<td>
+Page Title: Client Gift Pre-approval is diplayed upon click of Gift Request link Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:33:05</td>
+				<td>
+Congratulations message: Congratulations in displayed upon successful submission of gift request Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:33:08</td>
+				<td>
+Approve Selected button is visible on click of approve gifts tab Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:33:11</td>
+				<td>
+Approved Column is displayed with 'Pending' Status as default and upon search gifts list is displayed Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:33:14</td>
+				<td>
+Approve selected button is clicked successfully Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:33:14</td>
+				<td>
+Error message:Error:
+You must select at least one gift to approve. is displaying Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:33:38</td>
+				<td>
+Denied is displaying in gift status Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:33:41</td>
+				<td>
+Page Title: Client Gift Pre-approval is diplayed upon click of Gift Request link Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:34:34</td>
+				<td>
+Congratulations message: Congratulations in displayed upon successful submission of gift request Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:34:38</td>
+				<td>
+Approve Selected button is visible on click of approve gifts tab Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:34:40</td>
+				<td>
+Approved Column is displayed with 'Pending' Status as default and upon search gifts list is displayed Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:35:02</td>
+				<td>
+Denied is displaying in gift status Pass									</td>
+			</tr>
+	</tbody>
+</table>
+
+</div>    
+						</div>
+					</li>
+					<li class="test-item" status="pass" author="" device="" tag="" test-id="9"> 
+						<div class="status-avatar pass-bg">
+							<i class="fa fa-check text-white"></i>
+						</div>
+						<div class="open-test">
+							<div class="test-detail"> 
+								<p class="name">T1526_ApproveGifts_DenySelected_ToDenySelectedGiftsFromApprovedList</p> 
+								<p class="duration text-sm">0h:3m:58s+394ms</p> 
+								<span class="datetime">11:35:07 AM</span>
+							</div>
+						</div>
+						<div class="test-contents d-none">
+							<div class="detail-head">
+								<div class="p-v-10 d-inline-block">	
+									<div class="info">
+										<h5 class="test-status text-pass">T1526_ApproveGifts_DenySelected_ToDenySelectedGiftsFromApprovedList</h5>
+										<span class='badge badge-success'>8/08/2022 11:35:07 AM</span>
+										<span class='badge badge-danger'>8/08/2022 11:39:05 AM</span>
+										<span class='badge badge-default'>0h:3m:58s+394ms</span>
+									</div>
+																	</div>
+							</div>
+<div class="detail-body mt-4">												
+	
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:35:07</td>
+				<td>
+Login | Salesforce is displayed Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:35:16</td>
+				<td>
+User Sahil Mittal is able to login Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:35:31</td>
+				<td>
+User Julie Carthane details are displayed Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:35:44</td>
+				<td>
+Compliance User: Julie Carthane is able to login Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:35:46</td>
+				<td>
+Page Title: Client Gift Pre-approval is diplayed upon click of Gift Request link Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:36:28</td>
+				<td>
+Congratulations message: Congratulations in displayed upon successful submission of gift request Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:36:37</td>
+				<td>
+Approve Selected button is visible on click of approve gifts tab Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:36:50</td>
+				<td>
+Approved Column is displayed with 'Pending' Status as default and upon search gifts list is displayed Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:37:05</td>
+				<td>
+Approve selected button is clicked successfully Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:37:14</td>
+				<td>
+Error message:Error:
+You must select at least one gift to deny. is displaying Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:37:36</td>
+				<td>
+Denied is displaying in gift status Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:37:38</td>
+				<td>
+Page Title: Client Gift Pre-approval is diplayed upon click of Gift Request link Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:38:16</td>
+				<td>
+Congratulations message: Congratulations in displayed upon successful submission of gift request Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:38:28</td>
+				<td>
+Approve Selected button is visible on click of approve gifts tab Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:38:41</td>
+				<td>
+Approved Column is displayed with 'Pending' Status as default and upon search gifts list is displayed Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:39:05</td>
+				<td>
+Denied is displaying in gift status Pass									</td>
+			</tr>
+	</tbody>
+</table>
+
+</div>    
+						</div>
+					</li>
+					<li class="test-item" status="pass" author="" device="" tag="" test-id="10"> 
+						<div class="status-avatar pass-bg">
+							<i class="fa fa-check text-white"></i>
+						</div>
+						<div class="open-test">
+							<div class="test-detail"> 
+								<p class="name">T1527_ApproveGifts_ApproveSelected_ToApproveSelectedGiftsFromDeniedList</p> 
+								<p class="duration text-sm">0h:4m:40s+168ms</p> 
+								<span class="datetime">11:39:12 AM</span>
+							</div>
+						</div>
+						<div class="test-contents d-none">
+							<div class="detail-head">
+								<div class="p-v-10 d-inline-block">	
+									<div class="info">
+										<h5 class="test-status text-pass">T1527_ApproveGifts_ApproveSelected_ToApproveSelectedGiftsFromDeniedList</h5>
+										<span class='badge badge-success'>8/08/2022 11:39:12 AM</span>
+										<span class='badge badge-danger'>8/08/2022 11:43:52 AM</span>
+										<span class='badge badge-default'>0h:4m:40s+168ms</span>
+									</div>
+																	</div>
+							</div>
+<div class="detail-body mt-4">												
+	
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:39:12</td>
+				<td>
+Login | Salesforce is displayed Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:39:23</td>
+				<td>
+User Sahil Mittal is able to login Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:39:39</td>
+				<td>
+User Julie Carthane details are displayed Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:39:51</td>
+				<td>
+Compliance User: Julie Carthane is able to login Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:39:53</td>
+				<td>
+Page Title: Client Gift Pre-approval is diplayed upon click of Gift Request link Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:40:28</td>
+				<td>
+Congratulations message is displayed upon successful submission of gift request. Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:40:36</td>
+				<td>
+Approve Selected button is visible on click of approve gifts tab Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:41:02</td>
+				<td>
+Approved Column is displayed with 'Pending' Status as default and upon search gifts list is displayed Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:41:05</td>
+				<td>
+Error message: Error:
+You must select at least one gift to deny. is displaying. Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:41:20</td>
+				<td>
+Deny selected button is clicked successfully. Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:41:29</td>
+				<td>
+Error message: Error:
+You must select at least one gift to approve. is displaying. Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:41:41</td>
+				<td>
+Gift approved from denied list. Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:41:53</td>
+				<td>
+Gift moved from denied list to approved list successfully. Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:41:57</td>
+				<td>
+Approved is displaying in gift status. Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:41:59</td>
+				<td>
+Page Title: Client Gift Pre-approval is diplayed upon click of Gift Request link Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:42:29</td>
+				<td>
+Congratulations in displayed upon successful submission of gift request Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:42:35</td>
+				<td>
+Approve Selected button is visible on click of approve gifts tab Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:42:53</td>
+				<td>
+Approved Column is displayed with 'Pending' Status as default and upon search gifts list is displayed Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:42:59</td>
+				<td>
+Error message: Error:
+You must select at least one gift to deny. is displaying. Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:43:14</td>
+				<td>
+Gift exceeding max limit value is denied successfully. Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:43:23</td>
+				<td>
+Error message: Error:
+You must select at least one gift to approve. is displaying. Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:43:36</td>
+				<td>
+Gift approved from denied list. Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:43:48</td>
+				<td>
+Gift moved from denied list to approved list successfully. Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:43:52</td>
+				<td>
+Approved is displaying in gift status. Pass									</td>
+			</tr>
+	</tbody>
+</table>
+
+</div>    
+						</div>
+					</li>
+					<li class="test-item" status="pass" author="" device="" tag="" test-id="11"> 
+						<div class="status-avatar pass-bg">
+							<i class="fa fa-check text-white"></i>
+						</div>
+						<div class="open-test">
+							<div class="test-detail"> 
+								<p class="name">T2006_GiftLog_GiftRequestProcess_GiftSubmissionForCurrentAndNextCalendarYear</p> 
+								<p class="duration text-sm">0h:1m:44s+283ms</p> 
+								<span class="datetime">11:43:57 AM</span>
+							</div>
+						</div>
+						<div class="test-contents d-none">
+							<div class="detail-head">
+								<div class="p-v-10 d-inline-block">	
+									<div class="info">
+										<h5 class="test-status text-pass">T2006_GiftLog_GiftRequestProcess_GiftSubmissionForCurrentAndNextCalendarYear</h5>
+										<span class='badge badge-success'>8/08/2022 11:43:57 AM</span>
+										<span class='badge badge-danger'>8/08/2022 11:45:41 AM</span>
+										<span class='badge badge-default'>0h:1m:44s+283ms</span>
+									</div>
+																	</div>
+							</div>
+<div class="detail-body mt-4">												
+	
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:43:57</td>
+				<td>
+Login | Salesforce is displayed Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:44:09</td>
+				<td>
+User Sahil Mittal is able to login Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:44:25</td>
+				<td>
+User Giorgia Cardia details are displayed Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:44:38</td>
+				<td>
+Gift Log User: Giorgia Cardia is able to login Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:44:39</td>
+				<td>
+Page Title: Client Gift Pre-approval is diplayed upon click of Gift Request link Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:45:17</td>
+				<td>
+Company Name: StandardTestCompany is listed in Available Recipient(s) table Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:45:20</td>
+				<td>
+Recipient Name: Test External is listed in Available Recipient(s) table Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:45:22</td>
+				<td>
+Recipient Name: Test External in selected recipient(s) table matches with available recipient name listed in Available Recipient(s) table Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:45:26</td>
+				<td>
+Desire Date: 11/04/2023 entered as next year date greater than an year Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:45:41</td>
+				<td>
+Error Message: Error:
+Desired Date Should not be greater than one Year. is displayed upon entering a desire date greater than an year and clicking on submit gift request Pass									</td>
+			</tr>
+	</tbody>
+</table>
+
+</div>    
+						</div>
+					</li>
+					<li class="test-item" status="pass" author="" device="" tag="" test-id="12"> 
+						<div class="status-avatar pass-bg">
+							<i class="fa fa-check text-white"></i>
+						</div>
+						<div class="open-test">
+							<div class="test-detail"> 
+								<p class="name">T2007_GiftLog_GiftRequestProcess_SplitGiftValueInEqualDistributionForSelectedRecipient</p> 
+								<p class="duration text-sm">0h:1m:31s+941ms</p> 
+								<span class="datetime">11:45:53 AM</span>
+							</div>
+						</div>
+						<div class="test-contents d-none">
+							<div class="detail-head">
+								<div class="p-v-10 d-inline-block">	
+									<div class="info">
+										<h5 class="test-status text-pass">T2007_GiftLog_GiftRequestProcess_SplitGiftValueInEqualDistributionForSelectedRecipient</h5>
+										<span class='badge badge-success'>8/08/2022 11:45:53 AM</span>
+										<span class='badge badge-danger'>8/08/2022 11:47:25 AM</span>
+										<span class='badge badge-default'>0h:1m:31s+941ms</span>
+									</div>
+																	</div>
+							</div>
+<div class="detail-body mt-4">												
+	
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:45:53</td>
+				<td>
+Login | Salesforce is displayed Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:46:02</td>
+				<td>
+User Sahil Mittal is able to login Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:46:18</td>
+				<td>
+User Giorgia Cardia details are displayed Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:46:31</td>
+				<td>
+Gift Log User: Giorgia Cardia is able to login Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:46:32</td>
+				<td>
+Page Title: Client Gift Pre-approval is diplayed upon click of Gift Request link Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:47:06</td>
+				<td>
+Multiple Recipients added to Selected Recipients successfully Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:47:11</td>
+				<td>
+Total dollar value split equal between the selected recipient Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:47:18</td>
+				<td>
+One selected recipient is removed from the list Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:47:18</td>
+				<td>
+Total dollar value split equal between the selected recipient after removing one recipient Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:47:23</td>
+				<td>
+Add one recipient back to selected recipient list Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:47:23</td>
+				<td>
+Total dollar value split equal between the selected recipient after adding back one recipient Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:47:25</td>
+				<td>
+Total dollar value split is coming equal in total next year Pass									</td>
+			</tr>
+	</tbody>
+</table>
+
+</div>    
+						</div>
+					</li>
+					<li class="test-item" status="pass" author="" device="" tag="" test-id="13"> 
+						<div class="status-avatar pass-bg">
+							<i class="fa fa-check text-white"></i>
+						</div>
+						<div class="open-test">
+							<div class="test-detail"> 
+								<p class="name">T2009_GiftLog_GiftRequestProcess_RecipientsExceedsYearlyGiftAllowanceGreaterThan100ForCurrencyTypeAustralianDollar</p> 
+								<p class="duration text-sm">0h:1m:56s+663ms</p> 
+								<span class="datetime">11:47:30 AM</span>
+							</div>
+						</div>
+						<div class="test-contents d-none">
+							<div class="detail-head">
+								<div class="p-v-10 d-inline-block">	
+									<div class="info">
+										<h5 class="test-status text-pass">T2009_GiftLog_GiftRequestProcess_RecipientsExceedsYearlyGiftAllowanceGreaterThan100ForCurrencyTypeAustralianDollar</h5>
+										<span class='badge badge-success'>8/08/2022 11:47:30 AM</span>
+										<span class='badge badge-danger'>8/08/2022 11:49:27 AM</span>
+										<span class='badge badge-default'>0h:1m:56s+663ms</span>
+									</div>
+																	</div>
+							</div>
+<div class="detail-body mt-4">												
+	
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:47:30</td>
+				<td>
+Login | Salesforce is displayed Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:47:41</td>
+				<td>
+User Sahil Mittal is able to login Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:47:57</td>
+				<td>
+User Giorgia Cardia details are displayed Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:48:09</td>
+				<td>
+Gift Log User: Giorgia Cardia is able to login Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:48:10</td>
+				<td>
+Page Title: Client Gift Pre-approval is diplayed upon click of Gift Request link Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:48:52</td>
+				<td>
+Gift Label: New Gift Amt YTD is displayed in Selected Recipient(s) table Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:48:54</td>
+				<td>
+Gift Value: 111.7 is displayed in Selected Recipient(s) table Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:48:56</td>
+				<td>
+Currency Code: USD is displayed in Selected Recipient(s) table Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:49:01</td>
+				<td>
+Color Of Gift Value: Red is displayed in Selected Recipient(s) table Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:49:09</td>
+				<td>
+Warning Message: WARNING:The following gift recipients will exceed their yearly gift maximum if the submitted gifts are approved. This gift request is subject to approval by the Compliance Department. Do you still wish to submit these gifts? is displayed upon submitting a gift request with gift amount exceeding $100 Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:49:09</td>
+				<td>
+Revise Request button is visible on warning message page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:49:09</td>
+				<td>
+Submit Request button is visible on warning message page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:49:10</td>
+				<td>
+Page Title: Client Gift Pre-approval is diplayed upon click of revise request button Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:49:10</td>
+				<td>
+Next Calendar Year date is set to: 10/04/2023Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:49:17</td>
+				<td>
+Warning Message: WARNING:The following gift recipients will exceed their yearly gift maximum if the submitted gifts are approved. This gift request is subject to approval by the Compliance Department. Do you still wish to submit these gifts? is displayed upon submitting a gift request with gift amount exceeding $100 Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:49:27</td>
+				<td>
+Congratulations message is displayed upon successful submission of gift request. Pass									</td>
+			</tr>
+	</tbody>
+</table>
+
+</div>    
+						</div>
+					</li>
+					<li class="test-item" status="pass" author="" device="" tag="" test-id="14"> 
+						<div class="status-avatar pass-bg">
+							<i class="fa fa-check text-white"></i>
+						</div>
+						<div class="open-test">
+							<div class="test-detail"> 
+								<p class="name">T2011_GiftLog_GiftRequestProcess_GiftSubmitted_GiftRequestDetailLayoutAndFields</p> 
+								<p class="duration text-sm">0h:2m:36s+536ms</p> 
+								<span class="datetime">11:49:37 AM</span>
+							</div>
+						</div>
+						<div class="test-contents d-none">
+							<div class="detail-head">
+								<div class="p-v-10 d-inline-block">	
+									<div class="info">
+										<h5 class="test-status text-pass">T2011_GiftLog_GiftRequestProcess_GiftSubmitted_GiftRequestDetailLayoutAndFields</h5>
+										<span class='badge badge-success'>8/08/2022 11:49:37 AM</span>
+										<span class='badge badge-danger'>8/08/2022 11:52:14 AM</span>
+										<span class='badge badge-default'>0h:2m:36s+536ms</span>
+									</div>
+																	</div>
+							</div>
+<div class="detail-body mt-4">												
+	
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:49:37</td>
+				<td>
+Login | Salesforce is displayed Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:49:50</td>
+				<td>
+User Sahil Mittal is able to login Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:50:07</td>
+				<td>
+User Giorgia Cardia details are displayed Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:50:19</td>
+				<td>
+Gift Log User: Giorgia Cardia is able to login Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:50:20</td>
+				<td>
+Page Title: Client Gift Pre-approval is diplayed upon click of Gift Request link Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:51:12</td>
+				<td>
+Company Name: StandardTestCompany is listed in Available Recipient(s) table Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:51:13</td>
+				<td>
+Recipient Name: Test External is listed in Available Recipient(s) table Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:51:14</td>
+				<td>
+Recipient Name: Test External in selected recipient(s) table matches with available recipient name listed in Available Recipient(s) table Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:51:25</td>
+				<td>
+Congratulations message: Congratulations in displayed upon successful submission of gift request Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:51:57</td>
+				<td>
+Gift submitted page opened. Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:52:03</td>
+				<td>
+Clicked on gift description successfully. Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:52:04</td>
+				<td>
+Gift Name field is displayed with correct value under Gift Request detail section on gifts submitted page. Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:52:07</td>
+				<td>
+Gift Type field is displayed with correct value under Gift Request detail section on gifts submitted page. Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:52:08</td>
+				<td>
+Recipient For Gift field is displayed with correct value under Gift Request detail section on gifts submitted page. Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:52:09</td>
+				<td>
+Submitted For field is displayed with correct value under Gift Request detail section on gifts submitted page. Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:52:09</td>
+				<td>
+Vendor field is displayed with correct value under Gift Request detail section on gifts submitted page. Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:52:10</td>
+				<td>
+Gift Value field is displayed with correct value under Gift Request detail section on gifts submitted page. Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:52:11</td>
+				<td>
+Currency field is displayed with correct value under Gift Request detail section on gifts submitted page. Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:52:12</td>
+				<td>
+HL Relationship field is displayed with correct value under Gift Request detail section on gifts submitted page. Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:52:13</td>
+				<td>
+Reason For Gift field is displayed with correct value under Gift Request detail section on gifts submitted page. Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:52:13</td>
+				<td>
+Approval Number field is displayed with value as Pending on gifts submitted page. Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:52:14</td>
+				<td>
+Created By field is displayed with correct value under Gift Request detail section on gifts submitted page. Pass									</td>
+			</tr>
+	</tbody>
+</table>
+
+</div>    
+						</div>
+					</li>
+					<li class="test-item" status="pass" author="" device="" tag="" test-id="15"> 
+						<div class="status-avatar pass-bg">
+							<i class="fa fa-check text-white"></i>
+						</div>
+						<div class="open-test">
+							<div class="test-detail"> 
+								<p class="name">T2012_GiftLog_GiftRequestProcess_GiftSubmitted_GiftRequestDetail_VerifyEditAndDeleteFunctionality</p> 
+								<p class="duration text-sm">0h:3m:37s+011ms</p> 
+								<span class="datetime">11:52:41 AM</span>
+							</div>
+						</div>
+						<div class="test-contents d-none">
+							<div class="detail-head">
+								<div class="p-v-10 d-inline-block">	
+									<div class="info">
+										<h5 class="test-status text-pass">T2012_GiftLog_GiftRequestProcess_GiftSubmitted_GiftRequestDetail_VerifyEditAndDeleteFunctionality</h5>
+										<span class='badge badge-success'>8/08/2022 11:52:41 AM</span>
+										<span class='badge badge-danger'>8/08/2022 11:56:18 AM</span>
+										<span class='badge badge-default'>0h:3m:37s+011ms</span>
+									</div>
+																	</div>
+							</div>
+<div class="detail-body mt-4">												
+	
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:52:41</td>
+				<td>
+Login | Salesforce is displayed Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:53:04</td>
+				<td>
+User Sahil Mittal is able to login Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:53:21</td>
+				<td>
+User Giorgia Cardia details are displayed Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:53:34</td>
+				<td>
+Gift Log User: Giorgia Cardia is able to login Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:53:35</td>
+				<td>
+Page Title: Client Gift Pre-approval is diplayed upon click of Gift Request link Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:54:16</td>
+				<td>
+Company Name: StandardTestCompany is listed in Available Recipient(s) table Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:54:17</td>
+				<td>
+Recipient Name: Test External is listed in Available Recipient(s) table Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:54:18</td>
+				<td>
+Recipient Name: Test External in selected recipient(s) table matches with available recipient name listed in Available Recipient(s) table Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:54:27</td>
+				<td>
+Congratulations message: Congratulations in displayed upon successful submission of gift request Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:54:37</td>
+				<td>
+Gift Detail Title: Gift Request Detail in displayed upon click of Gift description link Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:54:42</td>
+				<td>
+Gift Edit Page Title: Gift Request Edit in displayed upon upon click of edit button Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:54:46</td>
+				<td>
+Verification of on the Edit page -the fields “Gift Name, Gift Type, HL Relationship, Gift Value, Desired Date , Vendor, Reason For Gift, “ are displayed as required fields Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:55:24</td>
+				<td>
+Success Message: Success:
+Your Gift has been updated. is displayed upon successful editing gift details Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:55:28</td>
+				<td>
+Gift Submitted Page is displayed with table upon click of cancel button Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:55:31</td>
+				<td>
+Gift Detail Title: Gift Request Detail in displayed upon click of Gift description link Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:55:32</td>
+				<td>
+Updated Gift Type: Gifts: Customers is matching with the value of gift type entered on gift edit page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:55:33</td>
+				<td>
+Updated HL Relationship: Prospect is matching with the value of HL Relationship entered on gift edit page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:55:33</td>
+				<td>
+Updated gift value: USD 90.00 is matching with the value of Gift value entered on gift edit page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:55:34</td>
+				<td>
+Updated gift reason: Reason for giving gift is matching with the value of Gift reason entered on gift edit page Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:55:35</td>
+				<td>
+Gift Edit Page Title: Gift Request Edit in displayed upon upon click of edit button Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:55:37</td>
+				<td>
+Page Title: Client Gift Pre-approval is displayed upon click of new gift request button Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:55:55</td>
+				<td>
+Gift Detail Title: Gift Request Detail in displayed upon click of Gift description link Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:56:06</td>
+				<td>
+Page Title: Client Gift Pre-approval is displayed upon deletion of Gift Request Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:56:18</td>
+				<td>
+Selected Gift is not listed under Gift Submitted as part of delete functionality Pass									</td>
+			</tr>
+	</tbody>
+</table>
+
+</div>    
+						</div>
+					</li>
+					<li class="test-item" status="pass" author="" device="" tag="" test-id="16"> 
+						<div class="status-avatar pass-bg">
+							<i class="fa fa-check text-white"></i>
+						</div>
+						<div class="open-test">
+							<div class="test-detail"> 
+								<p class="name">T2013_T2019_GiftLog_GiftRequestProcess_GiftSubmitted_VerifyApprovedDeniedGiftsEditRights</p> 
+								<p class="duration text-sm">0h:6m:3s+508ms</p> 
+								<span class="datetime">11:56:22 AM</span>
+							</div>
+						</div>
+						<div class="test-contents d-none">
+							<div class="detail-head">
+								<div class="p-v-10 d-inline-block">	
+									<div class="info">
+										<h5 class="test-status text-pass">T2013_T2019_GiftLog_GiftRequestProcess_GiftSubmitted_VerifyApprovedDeniedGiftsEditRights</h5>
+										<span class='badge badge-success'>8/08/2022 11:56:22 AM</span>
+										<span class='badge badge-danger'>8/08/2022 12:02:26 PM</span>
+										<span class='badge badge-default'>0h:6m:3s+508ms</span>
+									</div>
+																	</div>
+							</div>
+<div class="detail-body mt-4">												
+	
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:56:23</td>
+				<td>
+Login | Salesforce is displayed Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:56:32</td>
+				<td>
+User Sahil Mittal is able to login Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:56:47</td>
+				<td>
+User Giorgia Cardia details are displayed Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:56:59</td>
+				<td>
+Gift Log User: Giorgia Cardia is able to login Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:57:00</td>
+				<td>
+Page Title: Client Gift Pre-approval is diplayed upon click of Gift Request link Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:57:36</td>
+				<td>
+Company Name: StandardTestCompany is listed in Available Recipient(s) table Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:57:43</td>
+				<td>
+Recipient Name: Test External is listed in Available Recipient(s) table Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:57:54</td>
+				<td>
+Recipient Name: Test External in selected recipient(s) table matches with available recipient name listed in Available Recipient(s) table Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:58:13</td>
+				<td>
+Congratulations message: Congratulations in displayed upon successful submission of gift request Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:58:33</td>
+				<td>
+User Julie Carthane details are displayed Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:58:43</td>
+				<td>
+Compliance User: Julie Carthane is able to login Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:58:47</td>
+				<td>
+Approve Selected button is visible on click of approve gifts tab Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:58:51</td>
+				<td>
+Approved Column is displayed with 'Pending' Status as default and upon search gifts list is displayed Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:59:05</td>
+				<td>
+Approve selected button is clicked successfully Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:59:22</td>
+				<td>
+User Giorgia Cardia details are displayed Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:59:31</td>
+				<td>
+Gift Log User: Giorgia Cardia is able to login Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:59:44</td>
+				<td>
+Landed on approved gifts page. Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:59:45</td>
+				<td>
+Gift description is not clickable. Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:00:01</td>
+				<td>
+User Giorgia Cardia details are displayed Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:00:11</td>
+				<td>
+Gift Log User: Giorgia Cardia is able to login Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:00:11</td>
+				<td>
+Page Title: Client Gift Pre-approval is diplayed upon click of Gift Request link Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:00:23</td>
+				<td>
+Company Name: StandardTestCompany is listed in Available Recipient(s) table Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:00:24</td>
+				<td>
+Recipient Name: Test External is listed in Available Recipient(s) table Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:00:26</td>
+				<td>
+Recipient Name: Test External in selected recipient(s) table matches with available recipient name listed in Available Recipient(s) table Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:00:44</td>
+				<td>
+Congratulations message: Congratulations in displayed upon successful submission of gift request Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:01:12</td>
+				<td>
+User Julie Carthane details are displayed Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:01:21</td>
+				<td>
+Compliance User: Julie Carthane is able to login Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:01:25</td>
+				<td>
+Deny Selected button is visible on click of approve gifts tab Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:01:28</td>
+				<td>
+Denied Column is displayed with 'Pending' Status as default and upon search gifts list is displayed Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:01:42</td>
+				<td>
+Deny selected button is clicked successfully Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:02:01</td>
+				<td>
+User Giorgia Cardia details are displayed Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:02:10</td>
+				<td>
+Gift Log User: Giorgia Cardia is able to login Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:02:26</td>
+				<td>
+Landed on denied gifts page. Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:02:26</td>
+				<td>
+Gift description is not clickable. Pass									</td>
+			</tr>
+	</tbody>
+</table>
+
+</div>    
+						</div>
+					</li>
+					<li class="test-item" status="pass" author="" device="" tag="" test-id="17"> 
+						<div class="status-avatar pass-bg">
+							<i class="fa fa-check text-white"></i>
+						</div>
+						<div class="open-test">
+							<div class="test-detail"> 
+								<p class="name">T2015_GiftLog_GiftApprovalProcess_ApproveGifts_GiftRequestDetailLayoutAndFields</p> 
+								<p class="duration text-sm">0h:2m:55s+049ms</p> 
+								<span class="datetime">12:02:31 PM</span>
+							</div>
+						</div>
+						<div class="test-contents d-none">
+							<div class="detail-head">
+								<div class="p-v-10 d-inline-block">	
+									<div class="info">
+										<h5 class="test-status text-pass">T2015_GiftLog_GiftApprovalProcess_ApproveGifts_GiftRequestDetailLayoutAndFields</h5>
+										<span class='badge badge-success'>8/08/2022 12:02:31 PM</span>
+										<span class='badge badge-danger'>8/08/2022 12:05:26 PM</span>
+										<span class='badge badge-default'>0h:2m:55s+049ms</span>
+									</div>
+																	</div>
+							</div>
+<div class="detail-body mt-4">												
+	
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:02:31</td>
+				<td>
+Login | Salesforce is displayed Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:02:43</td>
+				<td>
+User Sahil Mittal is able to login Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:02:59</td>
+				<td>
+User Giorgia Cardia details are displayed Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:03:12</td>
+				<td>
+Gift Log User: Giorgia Cardia is able to login Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:03:13</td>
+				<td>
+Page Title: Client Gift Pre-approval is diplayed upon click of Gift Request link Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:03:41</td>
+				<td>
+Company Name: StandardTestCompany is listed in Available Recipient(s) table Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:03:42</td>
+				<td>
+Recipient Name: Test External is listed in Available Recipient(s) table Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:03:47</td>
+				<td>
+Recipient Name: Test External in selected recipient(s) table matches with available recipient name listed in Available Recipient(s) table Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:04:06</td>
+				<td>
+Congratulations message: Congratulations in displayed upon successful submission of gift request Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:04:39</td>
+				<td>
+User Julie Carthane details are displayed Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:04:50</td>
+				<td>
+Compliance User: Julie Carthane is able to login Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:04:53</td>
+				<td>
+Approve Selected button is visible on click of approve gifts tab Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:04:56</td>
+				<td>
+Approved Column is displayed with 'Pending' Status as default and upon search gifts list is displayed Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:05:04</td>
+				<td>
+Gift desc is clicked successfully Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:05:04</td>
+				<td>
+Gift Name field is displayed with correct value under Gift Request detail section on approve gifts page. Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:05:05</td>
+				<td>
+Gift Type field is displayed with correct value under Gift Request detail section on approve gifts page. Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:05:05</td>
+				<td>
+Recipient For Gift field is displayed with correct value under Gift Request detail section on approve gifts page. Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:05:06</td>
+				<td>
+Submitted For field is displayed with correct value under Gift Request detail section on approve gifts page. Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:05:07</td>
+				<td>
+Vendor field is displayed with correct value under Gift Request detail section on approve gifts page. Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:05:09</td>
+				<td>
+Gift Value field is displayed with correct value under Gift Request detail section on approve gifts page. Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:05:11</td>
+				<td>
+Currency field is displayed with correct value under Gift Request detail section on approve gifts page. Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:05:14</td>
+				<td>
+HL Relationship field is displayed with correct value under Gift Request detail section on approve gifts page. Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:05:20</td>
+				<td>
+Reason For Gift field is displayed with correct value under Gift Request detail section on approve gifts page. Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:05:21</td>
+				<td>
+Approval Number field is displayed with value as Pending on approve gifts page. Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:05:26</td>
+				<td>
+Created By field is displayed with correct value under Gift Request detail section on approve gifts page. Pass									</td>
+			</tr>
+	</tbody>
+</table>
+
+</div>    
+						</div>
+					</li>
+					<li class="test-item" status="pass" author="" device="" tag="" test-id="18"> 
+						<div class="status-avatar pass-bg">
+							<i class="fa fa-check text-white"></i>
+						</div>
+						<div class="open-test">
+							<div class="test-detail"> 
+								<p class="name">T2016_GiftLog_GiftRequestProcess_GiftRequests_VerifyGiftDetailsGetsUpdatedOnRefresh</p> 
+								<p class="duration text-sm">0h:1m:56s+926ms</p> 
+								<span class="datetime">12:05:39 PM</span>
+							</div>
+						</div>
+						<div class="test-contents d-none">
+							<div class="detail-head">
+								<div class="p-v-10 d-inline-block">	
+									<div class="info">
+										<h5 class="test-status text-pass">T2016_GiftLog_GiftRequestProcess_GiftRequests_VerifyGiftDetailsGetsUpdatedOnRefresh</h5>
+										<span class='badge badge-success'>8/08/2022 12:05:39 PM</span>
+										<span class='badge badge-danger'>8/08/2022 12:07:36 PM</span>
+										<span class='badge badge-default'>0h:1m:56s+926ms</span>
+									</div>
+																	</div>
+							</div>
+<div class="detail-body mt-4">												
+	
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:05:40</td>
+				<td>
+Login | Salesforce is displayed Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:05:57</td>
+				<td>
+User Sahil Mittal is able to login Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:06:13</td>
+				<td>
+User Giorgia Cardia details are displayed Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:06:25</td>
+				<td>
+Gift Log User: Giorgia Cardia is able to login Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:06:26</td>
+				<td>
+Page Title: Client Gift Pre-approval is diplayed upon click of Gift Request link Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:07:02</td>
+				<td>
+Company Name: StandardTestCompany is listed in Available Recipient(s) table Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:07:08</td>
+				<td>
+Recipient Name: Test External is listed in Available Recipient(s) table Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:07:17</td>
+				<td>
+Recipient Name: Test External in selected recipient(s) table matches with available recipient name listed in Available Recipient(s) table Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:07:26</td>
+				<td>
+Gift Value is updated to: 90.0Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:07:29</td>
+				<td>
+Refresh button is clicked. Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:07:30</td>
+				<td>
+Updated gift value: 202.0 is visible in Selected Recipient(s) table. Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:07:33</td>
+				<td>
+Currency name is updated to: Australian DollarPass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:07:34</td>
+				<td>
+Refresh button is clicked. Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:07:34</td>
+				<td>
+Gift Value: 179.1 is updated as per the currency name change in Selected Recipient(s) table. Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:07:35</td>
+				<td>
+Desire Date: 10/04/2023 entered as next year date. Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:07:36</td>
+				<td>
+Refresh button is clicked. Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:07:36</td>
+				<td>
+Gift Value: 67.1 is displayed for next year. Pass									</td>
+			</tr>
+	</tbody>
+</table>
+
+</div>    
+						</div>
+					</li>
+					<li class="test-item" status="fail" author="" device="" tag="" test-id="19"> 
+						<div class="status-avatar fail-bg">
+							<i class="fa fa-times text-white"></i>
+						</div>
+						<div class="open-test">
+							<div class="test-detail"> 
+								<p class="name">T2017_GiftLog_GiftRequestProcess_GiftRequests_VerifyTheTotalsOfTheGiftsAreMeasuredSeparatelyFromTheCurrentYear</p> 
+								<p class="duration text-sm">0h:4m:22s+076ms</p> 
+								<span class="datetime">12:07:44 PM</span>
+							</div>
+						</div>
+						<div class="test-contents d-none">
+							<div class="detail-head">
+								<div class="p-v-10 d-inline-block">	
+									<div class="info">
+										<h5 class="test-status text-fail">T2017_GiftLog_GiftRequestProcess_GiftRequests_VerifyTheTotalsOfTheGiftsAreMeasuredSeparatelyFromTheCurrentYear</h5>
+										<span class='badge badge-success'>8/08/2022 12:07:44 PM</span>
+										<span class='badge badge-danger'>8/08/2022 12:12:06 PM</span>
+										<span class='badge badge-default'>0h:4m:22s+076ms</span>
+									</div>
+																	</div>
+							</div>
+<div class="detail-body mt-4">												
+	
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:07:45</td>
+				<td>
+Login | Salesforce is displayed Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:07:56</td>
+				<td>
+User Sahil Mittal is able to login Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:08:13</td>
+				<td>
+User Giorgia Cardia details are displayed Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:08:26</td>
+				<td>
+Gift Log User: Giorgia Cardia is able to login Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:08:27</td>
+				<td>
+Page Title: Client Gift Pre-approval is diplayed upon click of Gift Request link Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:09:05</td>
+				<td>
+Company Name: StandardTestCompany is listed in Available Recipient(s) table Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:09:06</td>
+				<td>
+Recipient Name: Test External is listed in Available Recipient(s) table Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:09:07</td>
+				<td>
+Recipient Name: Test External in selected recipient(s) table matches with available recipient name listed in Available Recipient(s) table Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:09:16</td>
+				<td>
+113 displayed under New Gift Amt YTD is as expected. Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:09:50</td>
+				<td>
+Congratulations message: Congratulations in displayed upon successful submission of gift request Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:10:08</td>
+				<td>
+User Julie Carthane details are displayed Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:10:20</td>
+				<td>
+Compliance User: Julie Carthane is able to login Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:10:24</td>
+				<td>
+Approve Selected button is visible on click of approve gifts tab Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:10:27</td>
+				<td>
+Approved Column is displayed with 'Pending' Status as default and upon search gifts list is displayed Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:10:42</td>
+				<td>
+Approve selected button is clicked successfully Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:10:58</td>
+				<td>
+User Giorgia Cardia details are displayed Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:11:08</td>
+				<td>
+Gift Log User: Giorgia Cardia is able to login Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:11:08</td>
+				<td>
+Page Title: Client Gift Pre-approval is diplayed upon click of Gift Request link Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-times text-fail"></i></td>
+				<td>12:12:06</td>
+				<td>
+Fail-  Expected: 1.0d
+  But was:  0.0d									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-times text-fail"></i></td>
+				<td>12:12:06</td>
+				<td>
+SnapShot below: AventStack.ExtentReports.ExtentTest									</td>
+			</tr>
+	</tbody>
+</table>
+
+</div>    
+<img class='r-img' title='' onerror='this.style.display="none"' data-featherlight='C:\Users\SMittal0207\source\repos\SalesForce_Project\\Defects_Screenshots\GiftRequestProcess_GiftRequests_VerifyTheTotalsOfTheGiftsAreMeasuredSeparatelyFromTheCurrentYear.png' src='C:\Users\SMittal0207\source\repos\SalesForce_Project\\Defects_Screenshots\GiftRequestProcess_GiftRequests_VerifyTheTotalsOfTheGiftsAreMeasuredSeparatelyFromTheCurrentYear.png' data-src='C:\Users\SMittal0207\source\repos\SalesForce_Project\\Defects_Screenshots\GiftRequestProcess_GiftRequests_VerifyTheTotalsOfTheGiftsAreMeasuredSeparatelyFromTheCurrentYear.png'>						</div>
+					</li>
+					<li class="test-item" status="pass" author="" device="" tag="" test-id="20"> 
+						<div class="status-avatar pass-bg">
+							<i class="fa fa-check text-white"></i>
+						</div>
+						<div class="open-test">
+							<div class="test-detail"> 
+								<p class="name">T2018_GiftLog_GiftApprovalProcess_ApproveGifts_VerifyThePreviousYTDGiftValueAndNewYTDIsVisibleToApprover</p> 
+								<p class="duration text-sm">0h:6m:16s+893ms</p> 
+								<span class="datetime">12:12:12 PM</span>
+							</div>
+						</div>
+						<div class="test-contents d-none">
+							<div class="detail-head">
+								<div class="p-v-10 d-inline-block">	
+									<div class="info">
+										<h5 class="test-status text-pass">T2018_GiftLog_GiftApprovalProcess_ApproveGifts_VerifyThePreviousYTDGiftValueAndNewYTDIsVisibleToApprover</h5>
+										<span class='badge badge-success'>8/08/2022 12:12:12 PM</span>
+										<span class='badge badge-danger'>8/08/2022 12:18:29 PM</span>
+										<span class='badge badge-default'>0h:6m:16s+893ms</span>
+									</div>
+																	</div>
+							</div>
+<div class="detail-body mt-4">												
+	
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:12:12</td>
+				<td>
+Login | Salesforce is displayed Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:12:23</td>
+				<td>
+User Sahil Mittal is able to login Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:12:41</td>
+				<td>
+User Giorgia Cardia details are displayed Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:12:53</td>
+				<td>
+Gift Log User: Giorgia Cardia is able to login Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:12:54</td>
+				<td>
+Page Title: Client Gift Pre-approval is diplayed upon click of Gift Request link Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:13:31</td>
+				<td>
+Company Name: StandardTestCompany is listed in Available Recipient(s) table Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:13:34</td>
+				<td>
+Recipient Name: Test External is listed in Available Recipient(s) table Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:13:35</td>
+				<td>
+Recipient Name: Test External in selected recipient(s) table matches with available recipient name listed in Available Recipient(s) table Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:13:58</td>
+				<td>
+Congratulations message: Congratulations in displayed upon successful submission of gift request Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:14:21</td>
+				<td>
+User Julie Carthane details are displayed Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:14:32</td>
+				<td>
+Compliance User: Julie Carthane is able to login Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:14:35</td>
+				<td>
+Approve Selected button is visible on click of approve gifts tab Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:14:38</td>
+				<td>
+Approved Column is displayed with 'Pending' Status as default and upon search gifts list is displayed Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:14:41</td>
+				<td>
+Prev YTD Value : 113 is displayed for current year gift in pending gifts table. Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:14:48</td>
+				<td>
+Gift Value: 1 matches with current gift value in the pending gifts table. Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:14:49</td>
+				<td>
+New YTD: 114 is the sum of Prev YTD: 113 and Gift Value: 1 in pending gifts table. Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:15:03</td>
+				<td>
+Gift is approved successfully Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:15:16</td>
+				<td>
+Prev YTD Value : 114 is displayed for current year approved gift in approved gifts table. Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:15:19</td>
+				<td>
+Gift Value: 1 matches with current gift value in approved gifts table. Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:15:20</td>
+				<td>
+New YTD Value : 114 is equal to Prev YTD Value: 114 in approved gifts table. Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:15:38</td>
+				<td>
+User Giorgia Cardia details are displayed Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:15:52</td>
+				<td>
+Gift Log User: Giorgia Cardia is able to login Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:16:02</td>
+				<td>
+Gift Request page is diplayed upon click of Gift Request link Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:17:02</td>
+				<td>
+Congratulations message: Congratulations in displayed upon successful submission of gift request Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:17:31</td>
+				<td>
+User Julie Carthane details are displayed Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:17:41</td>
+				<td>
+Compliance User: Julie Carthane is able to login Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:17:44</td>
+				<td>
+Approve Selected button is visible on click of approve gifts tab Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:17:47</td>
+				<td>
+Approved Column is displayed with 'Pending' Status as default and upon search gifts list is displayed Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:17:50</td>
+				<td>
+Prev YTD Value : 0 is displayed for next year gift in pending gifts table. Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:17:57</td>
+				<td>
+Gift Value: 1 matches with current gift value in pending gifts table. Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:17:58</td>
+				<td>
+New YTD: 1 is the sum of Prev YTD: 0 and Gift Value: 1 in pending gifts table. Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:18:12</td>
+				<td>
+Gift is approved successfully Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:18:24</td>
+				<td>
+Prev YTD Value : 1 is displayed for approved gift in approved gifts table. Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:18:27</td>
+				<td>
+Gift Value: 1 matches with current gift value in approved gifts table. Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:18:29</td>
+				<td>
+New YTD Value : 1 is equal to Prev YTD Value: 1 in approved gifts table. Pass									</td>
+			</tr>
+	</tbody>
+</table>
+
+</div>    
+						</div>
+					</li>
+					<li class="test-item" status="pass" author="" device="" tag="" test-id="21"> 
+						<div class="status-avatar pass-bg">
+							<i class="fa fa-check text-white"></i>
+						</div>
+						<div class="open-test">
+							<div class="test-detail"> 
+								<p class="name">T2020_GiftLog_GiftApprovalProcess_ApproveGifts_VerifyColumnSortingOfTheGiftDetailsTableOnGiftsApprovedTab</p> 
+								<p class="duration text-sm">0h:6m:57s+771ms</p> 
+								<span class="datetime">12:18:34 PM</span>
+							</div>
+						</div>
+						<div class="test-contents d-none">
+							<div class="detail-head">
+								<div class="p-v-10 d-inline-block">	
+									<div class="info">
+										<h5 class="test-status text-pass">T2020_GiftLog_GiftApprovalProcess_ApproveGifts_VerifyColumnSortingOfTheGiftDetailsTableOnGiftsApprovedTab</h5>
+										<span class='badge badge-success'>8/08/2022 12:18:34 PM</span>
+										<span class='badge badge-danger'>8/08/2022 12:25:32 PM</span>
+										<span class='badge badge-default'>0h:6m:57s+771ms</span>
+									</div>
+																	</div>
+							</div>
+<div class="detail-body mt-4">												
+	
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:18:35</td>
+				<td>
+Login | Salesforce is displayed Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:18:46</td>
+				<td>
+User Sahil Mittal is able to login Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:19:02</td>
+				<td>
+User Giorgia Cardia details are displayed Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:19:15</td>
+				<td>
+Gift Log User: Giorgia Cardia is able to login Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:19:18</td>
+				<td>
+Page Title: Client Gift Pre-approval is diplayed upon click of Gift Request link Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:19:37</td>
+				<td>
+Company Name: StandardTestCompany is listed in Available Recipient(s) table Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:19:46</td>
+				<td>
+Recipient Name: Test External is listed in Available Recipient(s) table Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:19:55</td>
+				<td>
+Recipient Name: Test External in selected recipient(s) table matches with available recipient name listed in Available Recipient(s) table Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:20:18</td>
+				<td>
+Congratulations message: Congratulations in displayed upon successful submission of 1st gift request Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:20:25</td>
+				<td>
+Page Title: Client Gift Pre-approval is diplayed upon click of Gift Request link Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:21:10</td>
+				<td>
+Gift details entered for a new gift request. Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:21:11</td>
+				<td>
+Recipient added. Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:21:20</td>
+				<td>
+Congratulations message: Congratulations in displayed upon successful submission of 2nd gift request. Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:21:23</td>
+				<td>
+Page Title: Client Gift Pre-approval is diplayed upon click of Gift Request link Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:22:08</td>
+				<td>
+Company Name: StandardTestCompany is listed in Available Recipient(s) table Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:22:10</td>
+				<td>
+Recipient Name: Test External is listed in Available Recipient(s) table Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:22:39</td>
+				<td>
+Recipient Name: Test External in selected recipient(s) table matches with available recipient name listed in Available Recipient(s) table Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:23:10</td>
+				<td>
+Congratulations message: Congratulations in displayed upon successful submission of 1st gift request Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:23:15</td>
+				<td>
+Page Title: Client Gift Pre-approval is diplayed upon click of Gift Request link Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:24:02</td>
+				<td>
+Gift details entered for a new gift request. Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:24:04</td>
+				<td>
+Recipient added. Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:24:13</td>
+				<td>
+Congratulations message: Congratulations in displayed upon successful submission of 2nd gift request. Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:24:31</td>
+				<td>
+User Julie Carthane details are displayed Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:24:50</td>
+				<td>
+Compliance User: Julie Carthane is able to login Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:24:53</td>
+				<td>
+Approve Selected button is visible on click of approve gifts tab Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:24:56</td>
+				<td>
+Approved Column is displayed with 'Pending' Status as default and upon search gifts list is displayed Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:25:01</td>
+				<td>
+Gift details table on approve gifts tab is sorted in Ascending order by Gift Description column successfully. Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:25:03</td>
+				<td>
+Gift details table on approve gifts tab is sorted in Descending order by Gift Description column successfully. Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:25:08</td>
+				<td>
+Gift details table on approve gifts tab is sorted in Ascending order by Recipient column successfully. Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:25:10</td>
+				<td>
+Gift details table on approve gifts tab is sorted in Descending order by Recipient column successfully. Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:25:17</td>
+				<td>
+Gift details table on approve gifts tab is sorted in Ascending order by Recipient Company column successfully. Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:25:19</td>
+				<td>
+Gift details table on approve gifts tab is sorted in Descending order by Recipient Company column successfully. Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:25:30</td>
+				<td>
+Gift details table on approve gifts tab is sorted in Ascending order by Submitted For column successfully. Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:25:32</td>
+				<td>
+stale element reference: element is not attached to the page document
+  (Session info: chrome=100.0.4896.75)Pass									</td>
+			</tr>
+	</tbody>
+</table>
+
+</div>    
+						</div>
+					</li>
+					<li class="test-item" status="pass" author="" device="" tag="" test-id="22"> 
+						<div class="status-avatar pass-bg">
+							<i class="fa fa-check text-white"></i>
+						</div>
+						<div class="open-test">
+							<div class="test-detail"> 
+								<p class="name">T2021_GiftLog_GiftApprovalProcess_ApproveGifts_ApproveOrDenyMultipleGiftRequests</p> 
+								<p class="duration text-sm">0h:9m:53s+895ms</p> 
+								<span class="datetime">12:25:36 PM</span>
+							</div>
+						</div>
+						<div class="test-contents d-none">
+							<div class="detail-head">
+								<div class="p-v-10 d-inline-block">	
+									<div class="info">
+										<h5 class="test-status text-pass">T2021_GiftLog_GiftApprovalProcess_ApproveGifts_ApproveOrDenyMultipleGiftRequests</h5>
+										<span class='badge badge-success'>8/08/2022 12:25:36 PM</span>
+										<span class='badge badge-danger'>8/08/2022 12:35:30 PM</span>
+										<span class='badge badge-default'>0h:9m:53s+895ms</span>
+									</div>
+																	</div>
+							</div>
+<div class="detail-body mt-4">												
+	
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:25:37</td>
+				<td>
+Login | Salesforce is displayed Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:25:45</td>
+				<td>
+User Sahil Mittal is able to login Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:26:01</td>
+				<td>
+User Giorgia Cardia details are displayed Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:26:12</td>
+				<td>
+Gift Log User: Giorgia Cardia is able to login Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:26:15</td>
+				<td>
+Page Title: Client Gift Pre-approval is diplayed upon click of Gift Request link Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:26:54</td>
+				<td>
+Company Name: StandardTestCompany is listed in Available Recipient(s) table Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:26:58</td>
+				<td>
+Recipient Name: Test External is listed in Available Recipient(s) table Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:27:08</td>
+				<td>
+Recipient Name: Test External in selected recipient(s) table matches with available recipient name listed in Available Recipient(s) table Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:27:31</td>
+				<td>
+Congratulations message: Congratulations in displayed upon successful submission of 1st gift request Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:27:34</td>
+				<td>
+Page Title: Client Gift Pre-approval is diplayed upon click of Gift Request link Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:28:11</td>
+				<td>
+Gift details entered for a new gift request. Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:28:13</td>
+				<td>
+Recipient added. Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:28:22</td>
+				<td>
+Congratulations message: Congratulations in displayed upon successful submission of 2nd gift request. Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:28:50</td>
+				<td>
+User Julie Carthane details are displayed Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:29:09</td>
+				<td>
+Compliance User: Julie Carthane is able to login Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:29:13</td>
+				<td>
+Approve Selected button is visible on click of approve gifts tab Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:29:16</td>
+				<td>
+Approved Column is displayed with 'Pending' Status as default and upon search gifts list is displayed Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:29:40</td>
+				<td>
+Multiple gifts are approved at once by clicking Approve selected button. Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:29:54</td>
+				<td>
+Approved is displaying in gift status for 1st gift. Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:29:54</td>
+				<td>
+Approved is displaying in gift status for 2nd gift. Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:30:15</td>
+				<td>
+Multiple gifts are denied at once by clicking Deny selected button from approved gifts list. Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:30:29</td>
+				<td>
+Denied is displaying in gift status for 1st gift. Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:30:29</td>
+				<td>
+Denied is displaying in gift status for 2nd gift. Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:30:50</td>
+				<td>
+User Giorgia Cardia details are displayed Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:31:03</td>
+				<td>
+Gift Log User: Giorgia Cardia is able to login Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:31:06</td>
+				<td>
+Page Title: Client Gift Pre-approval is diplayed upon click of Gift Request link Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:31:46</td>
+				<td>
+Company Name: StandardTestCompany is listed in Available Recipient(s) table Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:31:46</td>
+				<td>
+Recipient Name: Test External is listed in Available Recipient(s) table Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:31:48</td>
+				<td>
+Recipient Name: Test External in selected recipient(s) table matches with available recipient name listed in Available Recipient(s) table Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:32:10</td>
+				<td>
+Congratulations message: Congratulations in displayed upon successful submission of 1st gift request Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:32:22</td>
+				<td>
+Page Title: Client Gift Pre-approval is diplayed upon click of Gift Request link Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:33:13</td>
+				<td>
+Gift details entered for a new gift request. Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:33:20</td>
+				<td>
+Recipient added. Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:33:30</td>
+				<td>
+Congratulations message: Congratulations in displayed upon successful submission of 2nd gift request. Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:33:50</td>
+				<td>
+User Julie Carthane details are displayed Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:34:08</td>
+				<td>
+Compliance User: Julie Carthane is able to login Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:34:11</td>
+				<td>
+Approve Selected button is visible on click of approve gifts tab Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:34:15</td>
+				<td>
+Approved Column is displayed with 'Pending' Status as default and upon search gifts list is displayed Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:34:39</td>
+				<td>
+Multiple gifts are denied at once by clicking Deny selected button. Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:34:54</td>
+				<td>
+Denied is displaying in gift status for 1st gift. Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:34:54</td>
+				<td>
+Denied is displaying in gift status for 2nd gift. Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:35:16</td>
+				<td>
+Multiple gifts are approved at once by clicking Approve selected button from denied gifts list. Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:35:30</td>
+				<td>
+Approved is displaying in gift status for 1st gift. Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:35:30</td>
+				<td>
+Approved is displaying in gift status for 2nd gift. Pass									</td>
+			</tr>
+	</tbody>
+</table>
+
+</div>    
+						</div>
+					</li>
+					<li class="test-item" status="pass" author="" device="" tag="" test-id="23"> 
+						<div class="status-avatar pass-bg">
+							<i class="fa fa-check text-white"></i>
+						</div>
+						<div class="open-test">
+							<div class="test-detail"> 
+								<p class="name">T2022_GiftLog_GiftRequestProcess_VerifyTheYearlyGiftAllowanceExceedLimitForTheNewGiftTotalNextYear</p> 
+								<p class="duration text-sm">0h:3m:57s+426ms</p> 
+								<span class="datetime">12:35:36 PM</span>
+							</div>
+						</div>
+						<div class="test-contents d-none">
+							<div class="detail-head">
+								<div class="p-v-10 d-inline-block">	
+									<div class="info">
+										<h5 class="test-status text-pass">T2022_GiftLog_GiftRequestProcess_VerifyTheYearlyGiftAllowanceExceedLimitForTheNewGiftTotalNextYear</h5>
+										<span class='badge badge-success'>8/08/2022 12:35:36 PM</span>
+										<span class='badge badge-danger'>8/08/2022 12:39:34 PM</span>
+										<span class='badge badge-default'>0h:3m:57s+426ms</span>
+									</div>
+																	</div>
+							</div>
+<div class="detail-body mt-4">												
+	
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:35:36</td>
+				<td>
+Login | Salesforce is displayed Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:35:48</td>
+				<td>
+User Sahil Mittal is able to login Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:36:04</td>
+				<td>
+User Giorgia Cardia details are displayed Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:36:17</td>
+				<td>
+Gift Log User: Giorgia Cardia is able to login Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:36:18</td>
+				<td>
+Page Title: Client Gift Pre-approval is diplayed upon click of Gift Request link Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:37:07</td>
+				<td>
+Company Name: StandardTestCompany is listed in Available Recipient(s) table Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:37:08</td>
+				<td>
+Recipient Name: Test External is listed in Available Recipient(s) table Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:37:16</td>
+				<td>
+Recipient Name: Test External in selected recipient(s) table matches with available recipient name listed in Available Recipient(s) table Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:37:23</td>
+				<td>
+Desire Date: 27/03/2023 entered as next year date. Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:37:36</td>
+				<td>
+Congratulations message: Congratulations in displayed upon successful submission of gift request Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:37:53</td>
+				<td>
+User Julie Carthane details are displayed Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:38:02</td>
+				<td>
+Compliance User: Julie Carthane is able to login Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:38:06</td>
+				<td>
+Approve Selected button is visible on click of approve gifts tab Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:38:09</td>
+				<td>
+Approved Column is displayed with 'Pending' Status as default and upon search gifts list is displayed Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:38:20</td>
+				<td>
+Approve selected button is clicked successfully Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:38:36</td>
+				<td>
+User Giorgia Cardia details are displayed Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:38:45</td>
+				<td>
+Gift Log User: Giorgia Cardia is able to login Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:38:45</td>
+				<td>
+Page Title: Client Gift Pre-approval is diplayed upon click of Gift Request link Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:39:10</td>
+				<td>
+Desire Date: 27/03/2023 entered as next year date. Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:39:17</td>
+				<td>
+Gift Label: New Gift Amt YTD is displayed in Selected Recipient(s) table Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:39:22</td>
+				<td>
+Color Of Gift Value: Red is displayed in Selected Recipient(s) table Pass									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>12:39:34</td>
+				<td>
+Warning Message: WARNING:The following gift recipients will exceed their yearly gift maximum if the submitted gifts are approved. This gift request is subject to approval by the Compliance Department. Do you still wish to submit these gifts? is displayed upon submitting a gift request with gift amount exceeding $100 Pass									</td>
+			</tr>
+	</tbody>
+</table>
+
+</div>    
+						</div>
+					</li>
+            </ul>    
+        </div>
+    </div>
+    <div class="test-content scrollable">
+        <div class="test-content-tools">
+            <ul>
+                <li>
+                    <a class="back-to-test" href="javascript:void(0)">
+                        <i class="fa fa-arrow-left"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="test-content-detail">
+            <div class="detail-body"></div>
+        </div>
+    </div>
+</div>
+										<div class="container-fluid p-4 dashboard-view">
+	<div class="row">
+		<div class="col-md-12">
+			<div class="card">
+				<div class="card-header">
+					<h6 class="card-title">Tests</h6>
+				</div>
+				<div class="card-body">
+	                <div class="">
+	                    <canvas id='parent-analysis' width='115' height='90'></canvas>
+	                </div>
+	            </div>
+	            <div class="card-footer">
+	                <div><small data-tooltip='91.304347826087%'>
+	                    <b>21</b> tests passed
+                    </small></div>
+	                <div>
+	                    <small data-tooltip='8.69565217391304%'><b>2</b> tests failed, 
+	                    <b data-tooltip='0%'>0</b> others
+	                    </small>
+                    </div>
+	            </div>
+			</div>
+		</div>
+			</div>
+	<div class="row">
+		<div class="col-md-3">
+			<div class="card">
+				<div class="card-body box-height-150">
+	                <div class="media justify-content-between">
+						<div>
+							<h6 class="card-title">Tests</h6>
+							<h2 class="font-size-28 font-weight-light">23</h2>
+							<span class="text-semibold text-success font-size-15">
+							<i class="ti-arrow-up font-size-11"></i> 
+								<span>91.3%</span>
+							</span>
+						</div>
+						<div class="align-self-end">
+							<i class="fa fa-align-left font-size-70 opacity-01"></i>
+						</div>
+					</div>
+	            </div>
+			</div>
+		</div>
+		<div class="col-md-3">
+			<div class="card">
+				<div class="card-body box-height-150">
+	                <div class="media justify-content-between">
+						<div>
+							<h6 class="card-title">Start</h6>
+							<h6 class="font-weight-light">8/08/2022 11:03:12 AM</h6>
+							<span class="text-semibold text-success font-size-15">
+						</div>
+						<div class="align-self-end">
+							<i class="fa fa-clock-o font-size-70 text-success opacity-01"></i>
+						</div>
+					</div>
+	            </div>
+			</div>
+		</div>
+		<div class="col-md-3">
+			<div class="card">
+				<div class="card-body box-height-150">
+	                <div class="media justify-content-between">
+						<div>
+							<h6 class="card-title">Duration</h6>
+							<h6 class="font-weight-light">01:36:30.4083346</h6>
+							<span class="text-semibold text-danger font-size-15">
+						</div>
+						<div class="align-self-end">
+							<i class="fa fa-clock-o font-size-70 text-danger opacity-01"></i>
+						</div>
+					</div>
+	            </div>
+			</div>
+		</div>
+		<div class="col-md-3">
+			<div class="card">
+				<div class="card-body box-height-150">
+	                <div class="media justify-content-between">
+						<div>
+							<p class="">Duration</p>
+							<h6 class="font-weight-light">01:36:30.4163357</h6>
+							<span class="text-semibold font-size-15">
+						</div>
+						<div class="align-self-end">
+							<i class="fa fa-clock-o font-size-70 text-danger opacity-01"></i>
+						</div>
+					</div>
+	            </div>
+			</div>
+		</div>
+	</div>
+	<div class="row">
+								<div class="col-md-4">
+			<div class="card">
+				<div class="card-header">
+					<h6 class="card-title">Environment</h6>
+				</div>
+				<div class="table-overflow">
+					<table class="table table-sm">
+						<thead>
+							<tr class="bg-gray">
+								<th>Name</th>
+								<th>Value</th>
+							</tr>
+						</thead>
+						<tbody>
+								<tr>
+									<td>Application Under Test</td>
+									<td>Salesforce Application</td>
+								</tr>
+								<tr>
+									<td>Environment</td>
+									<td>Test</td>
+								</tr>
+								<tr>
+									<td>Machine</td>
+									<td>SLV-DEV09</td>
+								</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<script>
+	var statusGroup = {
+    parentCount: 23,
+		passParent: 21,
+		failParent: 2,
+		fatalParent: 0,
+		errorParent: 0,
+		warningParent: 0,
+		skipParent: 0,
+		exceptionsParent: 2,
+		childCount: 0,
+		passChild: 0,
+		failChild: 0,
+		fatalChild: 0,
+		errorChild: 0,
+		warningChild: 0,
+		skipChild: 0,
+		infoChild: 0,
+		debugChild: 0,
+		exceptionsChild: 0,
+		grandChildCount: 0,
+		passGrandChild: 0,
+		failGrandChild: 0,
+		fatalGrandChild: 0,
+		errorGrandChild: 0,
+		warningGrandChild: 0,
+		skipGrandChild: 0,
+		infoGrandChild: 0,
+		debugGrandChild: 0,
+		exceptionsGrandChild: 0,
+	};
+</script>
+
+                </div>
+            </div>
+        </div>
+    </div>
+	<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@cc89904c1a12065be1d08fc4994a258ef01b12bd/spark/js/scripts.js"></script>
+<script type='text/javascript'>
+	
+</script>
+</body>
+
+</html>

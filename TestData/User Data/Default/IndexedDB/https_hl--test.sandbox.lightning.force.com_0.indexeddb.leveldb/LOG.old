@@ -1,0 +1,5 @@
+2022/12/22-17:03:37.454 487c Reusing MANIFEST C:\HL\SalesForce_Project\SalesForce_Project\TestData\User Data\Default\IndexedDB\https_hl--test.sandbox.lightning.force.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/12/22-17:03:37.454 487c Recovering log #52
+2022/12/22-17:03:37.454 487c Reusing old log C:\HL\SalesForce_Project\SalesForce_Project\TestData\User Data\Default\IndexedDB\https_hl--test.sandbox.lightning.force.com_0.indexeddb.leveldb/000052.log 
+2022/12/22-17:03:37.455 487c Delete type=2 #51
+2022/12/22-17:03:37.779 66fc Manual compaction at level-0 from '\x00\x10\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x11\x00\x00\x00' @ 0 : 0; will stop at (end)
