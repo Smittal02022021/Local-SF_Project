@@ -6,7 +6,7 @@ namespace SalesForce_Project.Pages.Common
 {
     class UsersLogin : BaseClass
     {
-    //dummy changes 1
+    //dummy changes 2
         By linkSetUp = By.CssSelector("a[id='setupLink']");
         By linkManageUsers = By.CssSelector("[id='Users_font']");
         By linkUsers = By.Id("ManageUsers_font");
